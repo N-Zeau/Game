@@ -1,7 +1,7 @@
-#include "main.h"
-#include <SDL/SDL.h>
-
+#include <iostream>
+#include<SDL.h>
 
 int main(){
-
+    std::cout << "Hello World" << std::endl;
+    return 0;
 }
