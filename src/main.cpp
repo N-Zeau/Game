@@ -1,7 +1,6 @@
-#include <iostream>
-#include<SDL.h>
+#include "main.h"
+#include "iostream"
 
-int WinMain(int argc, char* args[]) {
-    std::cout << "Hello World" << std::endl;
-    return 0;
+int main(){
+    std::cout << "Hello world" << std::endl;
 }

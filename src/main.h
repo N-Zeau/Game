@@ -3,7 +3,7 @@
 
 
 class main {
-    int WinMain();
+
 };
 
 
