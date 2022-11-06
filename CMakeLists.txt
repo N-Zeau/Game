@@ -1,7 +1,10 @@
-cmake_minimum_required(VERSION 3.23)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 PROJECT(Game)
 
 set(CMAKE_CXX_STANDARD 14)
-set(SOURCE_FILES src/main.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
-add_executable(Game ${SOURCE_FILES})
+LINK_DIRECTORIES(${CMAKE_SOURCE_DIR}/lib)
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/ThirdParty)
+
+add_subdirectory(src/Source)
