@@ -7,9 +7,9 @@
 
 namespace Ge{
 
-    struct SWindowCreateInfo{
+    struct WindowInfo{
         int window_width;
-        int windiw_height;
+        int window_height;
         const char* p_window_title;
     };
 
@@ -17,13 +17,14 @@ namespace Ge{
     public:
 
         virtual ~IWindow() = default;
-        virtual void Initialize(const SWindowCreateInfo window_create_info) = 0;
+        virtual void Initialize(WindowInfo window_create_info) = 0;
         virtual void Release() = 0;
 
         GLFWwindow* GetHandle();
 
     protected:
 
+        bool m_initialized = true;
         GLFWwindow* mp_window = nullptr;
 
     };

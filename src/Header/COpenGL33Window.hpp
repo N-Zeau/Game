@@ -1,7 +1,7 @@
 
 #ifndef ORDINAL_ENGINE_C_OPEN_GL_33_WINDOW_HPP_
 #define ORDINAL_ENGINE_C_OPEN_GL_33_WINDOW_HPP_
-#include "Rendering/Renderer/IWindow.hpp"
+#include "IWindow.hpp"
 
 namespace Ge {
 
@@ -10,7 +10,7 @@ namespace Ge {
     public:
 
         ~COpenGL33Window() override;
-        void Initialize(const SWindowCreateInfo window_create_info) final;
+        void Initialize(WindowInfo window_create_info) final;
         void Release() final;
 
     };

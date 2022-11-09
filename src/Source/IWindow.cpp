@@ -1,4 +1,4 @@
-#include "Rendering/Renderer/IWindow.hpp"
+#include "IWindow.hpp"
 
 namespace Ge{
 
