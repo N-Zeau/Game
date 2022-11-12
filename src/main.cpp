@@ -1,6 +1,6 @@
-#include "SDL2/SDL.h"
+#include <SDL2/SDL.h>
 
-int main(int argc, char *argv[]) {
+int WinMain(int argc, char *argv[]) {
     bool loop = true;
 
     SDL_Window *window;
