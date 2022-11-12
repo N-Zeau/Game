@@ -1,14 +1,14 @@
-#include <SDL2/SDL.h>
-#include <iostream>
+#include "SDL2/SDL.h"
 
-int main() {
+int main(int argc, char *argv[]) {
     bool loop = true;
 
-    SDL_Window *window = SDL_CreateWindow("SDL2 Window",
-                                          SDL_WINDOWPOS_CENTERED,
-                                          SDL_WINDOWPOS_CENTERED,
-                                          680, 480,
-                                          0);
+    SDL_Window *window;
+    window = SDL_CreateWindow("SDL2 Window",
+                              SDL_WINDOWPOS_CENTERED,
+                              SDL_WINDOWPOS_CENTERED,
+                              680, 480,
+                              0);
 
     SDL_Surface *window_surface = SDL_GetWindowSurface(window);
 
@@ -19,8 +19,6 @@ int main() {
         if (SDL_PollEvent(&ev))
             if (ev.type == SDLK_ESCAPE)
                 loop = false;
-
-        return 0;
     }
-
+    return 0;
 }

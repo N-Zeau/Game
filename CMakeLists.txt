@@ -1,9 +1,10 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.10)
 PROJECT(Game)
 
 set(CMAKE_CXX_STANDARD 14)
-find_package(SDL2 REQUIRED)
-include_directories(${SDL2_INCLUDE_DIRS})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/Ressources/Bin)
 
-add_executable(Game src/main.cpp)
-target_link_libraries(Game ${SDL2_LIBRARIES})
+link_directories(${CMAKE_SOURCE_DIR}/Ressources/Lib)
+include_directories(${CMAKE_SOURCE_DIR}/Ressources)
+
+add_subdirectory(src)
