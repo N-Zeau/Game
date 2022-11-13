@@ -77,6 +77,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_AimBoost: phony || src/CMakeFiles/AimBoost.dir
 
+build src/CMakeFiles/AimBoost.dir/game.cpp.obj: CXX_COMPILER__AimBoost_Debug C$:/Users/Peultier$ Enzo/CLionProjects/Game/src/game.cpp || cmake_object_order_depends_target_AimBoost
+  DEP_FILE = src\CMakeFiles\AimBoost.dir\game.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Peultier Enzo/CLionProjects/Game/Ressources" -I"C:/Users/Peultier Enzo/CLionProjects/Game/Game/Ressources"
+  OBJECT_DIR = src\CMakeFiles\AimBoost.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\AimBoost.dir
+
 build src/CMakeFiles/AimBoost.dir/main.cpp.obj: CXX_COMPILER__AimBoost_Debug C$:/Users/Peultier$ Enzo/CLionProjects/Game/src/main.cpp || cmake_object_order_depends_target_AimBoost
   DEP_FILE = src\CMakeFiles\AimBoost.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
@@ -92,7 +99,7 @@ build src/CMakeFiles/AimBoost.dir/main.cpp.obj: CXX_COMPILER__AimBoost_Debug C$:
 #############################################
 # Link the executable ..\Ressources\Bin\AimBoost.exe
 
-build ../Ressources/Bin/AimBoost.exe: CXX_EXECUTABLE_LINKER__AimBoost_Debug src/CMakeFiles/AimBoost.dir/main.cpp.obj
+build ../Ressources/Bin/AimBoost.exe: CXX_EXECUTABLE_LINKER__AimBoost_Debug src/CMakeFiles/AimBoost.dir/game.cpp.obj src/CMakeFiles/AimBoost.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lsdl2  -lflac  -lfreetype  -logg  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/Users/PEULTI~1/CLIONP~1/Game/RESSOU~1/Lib

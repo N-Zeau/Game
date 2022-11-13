@@ -1,52 +1,17 @@
-#include <SDL2/SDL.h>
-#include "iostream"
+#include "game.h"
 
-SDL_Window *window;
+int WinMain() {
+    Game game;
 
+    game.verif();
+    game.create();
 
-void GameLoop() {
-    bool run = true;
-
-    while (run) {
-        SDL_Event event;
-        if (SDL_WaitEvent(&event))
-            switch (event.type) {
-                case SDL_KEYDOWN:
-                    run = event.key.keysym.sym != SDLK_ESCAPE;
-                    break;
-                case SDL_WINDOWEVENT:
-                    run = event.window.event != SDL_WINDOWEVENT_CLOSE;
-                    break;
-                default:
-                    break;
-            }
+    while(game.isRunning()) {
+        game.loop();
+        game.draw();
     }
-}
 
-
-void GameDraw() {
-    SDL_Renderer *renderer;
-}
-
-
-int WinMain(int argc, char *argv[]) {
-    bool running = true;
-
-    const int width = 1280;
-    const int height = 720;
-
-
-    SDL_CreateWindow("AimBoost",
-                     SDL_WINDOWPOS_CENTERED,
-                     SDL_WINDOWPOS_CENTERED,
-                     width,
-                     height,
-                     0);
-
-    GameLoop();
-    GameDraw();
-    SDL_QUIT;
-
+    game.destroy();
     return 0;
 }
 

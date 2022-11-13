@@ -120,17 +120,17 @@ typedef enum
     SDL_JOYDEVICEREMOVED,       /**< An opened joystick has been removed */
     SDL_JOYBATTERYUPDATED,      /**< Joystick battery level change */
 
-    /* Game controller events */
-    SDL_CONTROLLERAXISMOTION  = 0x650, /**< Game controller axis motion */
-    SDL_CONTROLLERBUTTONDOWN,          /**< Game controller button pressed */
-    SDL_CONTROLLERBUTTONUP,            /**< Game controller button released */
-    SDL_CONTROLLERDEVICEADDED,         /**< A new Game controller has been inserted into the system */
-    SDL_CONTROLLERDEVICEREMOVED,       /**< An opened Game controller has been removed */
+    /* game controller events */
+    SDL_CONTROLLERAXISMOTION  = 0x650, /**< game controller axis motion */
+    SDL_CONTROLLERBUTTONDOWN,          /**< game controller button pressed */
+    SDL_CONTROLLERBUTTONUP,            /**< game controller button released */
+    SDL_CONTROLLERDEVICEADDED,         /**< A new game controller has been inserted into the system */
+    SDL_CONTROLLERDEVICEREMOVED,       /**< An opened game controller has been removed */
     SDL_CONTROLLERDEVICEREMAPPED,      /**< The controller mapping was updated */
-    SDL_CONTROLLERTOUCHPADDOWN,        /**< Game controller touchpad was touched */
-    SDL_CONTROLLERTOUCHPADMOTION,      /**< Game controller touchpad finger was moved */
-    SDL_CONTROLLERTOUCHPADUP,          /**< Game controller touchpad finger was lifted */
-    SDL_CONTROLLERSENSORUPDATE,        /**< Game controller sensor was updated */
+    SDL_CONTROLLERTOUCHPADDOWN,        /**< game controller touchpad was touched */
+    SDL_CONTROLLERTOUCHPADMOTION,      /**< game controller touchpad finger was moved */
+    SDL_CONTROLLERTOUCHPADUP,          /**< game controller touchpad finger was lifted */
+    SDL_CONTROLLERSENSORUPDATE,        /**< game controller sensor was updated */
 
     /* Touch events */
     SDL_FINGERDOWN      = 0x700,
@@ -408,7 +408,7 @@ typedef struct SDL_JoyBatteryEvent
 } SDL_JoyBatteryEvent;
 
 /**
- *  \brief Game controller axis motion event structure (event.caxis.*)
+ *  \brief game controller axis motion event structure (event.caxis.*)
  */
 typedef struct SDL_ControllerAxisEvent
 {
@@ -425,7 +425,7 @@ typedef struct SDL_ControllerAxisEvent
 
 
 /**
- *  \brief Game controller button event structure (event.cbutton.*)
+ *  \brief game controller button event structure (event.cbutton.*)
  */
 typedef struct SDL_ControllerButtonEvent
 {
@@ -450,7 +450,7 @@ typedef struct SDL_ControllerDeviceEvent
 } SDL_ControllerDeviceEvent;
 
 /**
- *  \brief Game controller touchpad event structure (event.ctouchpad.*)
+ *  \brief game controller touchpad event structure (event.ctouchpad.*)
  */
 typedef struct SDL_ControllerTouchpadEvent
 {
@@ -465,7 +465,7 @@ typedef struct SDL_ControllerTouchpadEvent
 } SDL_ControllerTouchpadEvent;
 
 /**
- *  \brief Game controller sensor event structure (event.csensor.*)
+ *  \brief game controller sensor event structure (event.csensor.*)
  */
 typedef struct SDL_ControllerSensorEvent
 {
@@ -637,11 +637,11 @@ typedef union SDL_Event
     SDL_JoyButtonEvent jbutton;             /**< Joystick button event data */
     SDL_JoyDeviceEvent jdevice;             /**< Joystick device change event data */
     SDL_JoyBatteryEvent jbattery;           /**< Joystick battery event data */
-    SDL_ControllerAxisEvent caxis;          /**< Game Controller axis event data */
-    SDL_ControllerButtonEvent cbutton;      /**< Game Controller button event data */
-    SDL_ControllerDeviceEvent cdevice;      /**< Game Controller device event data */
-    SDL_ControllerTouchpadEvent ctouchpad;  /**< Game Controller touchpad event data */
-    SDL_ControllerSensorEvent csensor;      /**< Game Controller sensor event data */
+    SDL_ControllerAxisEvent caxis;          /**< game Controller axis event data */
+    SDL_ControllerButtonEvent cbutton;      /**< game Controller button event data */
+    SDL_ControllerDeviceEvent cdevice;      /**< game Controller device event data */
+    SDL_ControllerTouchpadEvent ctouchpad;  /**< game Controller touchpad event data */
+    SDL_ControllerSensorEvent csensor;      /**< game Controller sensor event data */
     SDL_AudioDeviceEvent adevice;           /**< Audio device event data */
     SDL_SensorEvent sensor;                 /**< Sensor event data */
     SDL_QuitEvent quit;                     /**< Quit request event data */
@@ -859,7 +859,7 @@ extern DECLSPEC void SDLCALL SDL_FlushEvents(Uint32 minType, Uint32 maxType);
  *         // decide what to do with this event.
  *     }
  *
- *     // update game state, draw the current frame
+ *     // update game state, create the current frame
  * }
  * ```
  *

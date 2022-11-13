@@ -151,7 +151,7 @@ extern "C" {
  * This hint lets you specify the application name sent to the OS when
  * required. For example, this will often appear in volume control applets for
  * audio streams, and in lists of applications which are inhibiting the
- * screensaver.  You should use a string that describes your program ("My Game
+ * screensaver.  You should use a string that describes your program ("My game
  * 2: The Revenge")
  *
  * Setting this to "" or leaving it unset will have SDL use a reasonable
@@ -216,7 +216,7 @@ extern "C" {
  *
  * This hints lets you transmit that information to the OS. The contents of
  * this hint are used while opening an audio device. You should use a string
- * that describes your program ("My Game 2: The Revenge")
+ * that describes your program ("My game 2: The Revenge")
  *
  * Setting this to "" or leaving it unset will have SDL use a reasonable
  * default: this will be the name set with SDL_HINT_APP_NAME, if that hint is
@@ -258,11 +258,11 @@ extern "C" {
  *
  * This hints lets you transmit that information to the OS. The contents of
  * this hint are used while opening an audio device. You should use a string
- * that describes your what your program is playing (Game, Music, Movie,
+ * that describes your what your program is playing (game, Music, Movie,
  * etc...).
  *
  * Setting this to "" or leaving it unset will have SDL use a reasonable
- * default: "Game" or something similar.
+ * default: "game" or something similar.
  *
  * On targets where this is not supported, this hint does nothing.
  */
@@ -899,9 +899,9 @@ extern "C" {
  *
  * The DRM subsystem has a concept of a "DRM master" which is a DRM client that
  * has the ability to set planes, set cursor, etc. When SDL is DRM master, it
- * can draw to the screen using the SDL rendering APIs. Without DRM master, SDL
+ * can create to the screen using the SDL rendering APIs. Without DRM master, SDL
  * is still able to process input and query attributes of attached displays,
- * but it cannot change display state or draw to the screen directly.
+ * but it cannot change display state or create to the screen directly.
  *
  * In some cases, it can be useful to have the KMSDRM backend even if it cannot
  * be used for rendering. An app may want to use SDL for input processing while
@@ -1218,8 +1218,8 @@ extern "C" {
  *    "0"     - Don't use batching to make rendering more efficient.
  *    "1"     - Use batching, but might cause problems if app makes its own direct OpenGL calls.
  *
- *  Up to SDL 2.0.9, the render API would draw immediately when requested. Now
- *  it batches up draw requests and sends them all to the GPU only when forced
+ *  Up to SDL 2.0.9, the render API would create immediately when requested. Now
+ *  it batches up create requests and sends them all to the GPU only when forced
  *  to (during SDL_RenderPresent, when changing render targets, by updating a
  *  texture that the batch needs, etc). This is significantly more efficient,
  *  but it can cause problems for apps that expect to render on top of the

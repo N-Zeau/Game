@@ -135,7 +135,7 @@ typedef struct SDL_GameControllerButtonBind
  */
 
 /**
- * Load a set of Game Controller mappings from a seekable SDL data stream.
+ * Load a set of game Controller mappings from a seekable SDL data stream.
  *
  * You can call this function several times, if needed, to load different
  * database files.
@@ -236,7 +236,7 @@ extern DECLSPEC char * SDLCALL SDL_GameControllerMappingForIndex(int mapping_ind
 extern DECLSPEC char * SDLCALL SDL_GameControllerMappingForGUID(SDL_JoystickGUID guid);
 
 /**
- * Get the current mapping of a Game Controller.
+ * Get the current mapping of a game Controller.
  *
  * The returned string must be freed with SDL_free().
  *
@@ -539,7 +539,7 @@ extern DECLSPEC const char * SDLCALL SDL_GameControllerGetSerial(SDL_GameControl
 extern DECLSPEC SDL_bool SDLCALL SDL_GameControllerGetAttached(SDL_GameController *gamecontroller);
 
 /**
- * Get the Joystick ID from a Game Controller.
+ * Get the Joystick ID from a game Controller.
  *
  * This function will give you a SDL_Joystick object, which allows you to use
  * the SDL_Joystick functions with a SDL_GameController object. This would be
@@ -560,7 +560,7 @@ extern DECLSPEC SDL_bool SDLCALL SDL_GameControllerGetAttached(SDL_GameControlle
 extern DECLSPEC SDL_Joystick *SDLCALL SDL_GameControllerGetJoystick(SDL_GameController *gamecontroller);
 
 /**
- * Query or change current state of Game Controller events.
+ * Query or change current state of game Controller events.
  *
  * If controller events are disabled, you must call SDL_GameControllerUpdate()
  * yourself and check the state of the controller when you want controller

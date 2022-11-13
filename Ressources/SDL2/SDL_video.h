@@ -2090,7 +2090,7 @@ extern DECLSPEC int SDLCALL SDL_GL_GetSwapInterval(void);
  *
  * This is used with double-buffered OpenGL contexts, which are the default.
  *
- * On macOS, make sure you bind 0 to the draw framebuffer before swapping the
+ * On macOS, make sure you bind 0 to the create framebuffer before swapping the
  * window, otherwise nothing will happen. If you aren't using
  * glBindFramebuffer(), this is the default and you won't have to do anything
  * extra.
