@@ -2,8 +2,8 @@
 #include "iostream"
 #include "SDL2/SDL.h"
 
-SDL_Window *window;
-SDL_Renderer *renderer;
+SDL_Window *window = nullptr;
+SDL_Renderer *renderer = nullptr;
 
 
 const int width = 1280;
@@ -12,10 +12,10 @@ const int height = 720;
 void Game::verif() {
 
     if (SDL_Init(SDL_INIT_EVERYTHING) < 0) {
-        std::cout << "Echec de l'initialisation de SDL2" << std::endl;
+        std::cout << "Echec de l'initialisation de SDL2 " << std::endl;
     }
 
-    if (!window) {
+    if (window) {
         std::cout << "Echec de la creation de la fenetre" << std::endl;
     }
 
@@ -39,25 +39,64 @@ void Game::loop() {
 }
 
 void Game::create() {
-
-
-    //creation de la fenêtre
-    SDL_CreateWindow("AimBoost",
-                     SDL_WINDOWPOS_CENTERED,
-                     SDL_WINDOWPOS_CENTERED,
-                     width,
-                     height,
-                     0);
-
-    //Creation du renderer
-    renderer = SDL_CreateRenderer(window,
-                                  -1,
-                                  SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-
-
+    //Creation de la fenêtre et du renderer
+    SDL_CreateWindowAndRenderer(width,
+                                height,
+                                0,
+                                &window,
+                                &renderer);
 }
 
 void Game::draw() {
+    //Couleur du Background
+    SDL_SetRenderDrawColor(renderer, 20, 20, 20, SDL_ALPHA_OPAQUE);
+
+    //Clear la fenêtre (renderer)
+    SDL_RenderClear(renderer);
+
+    SDL_SetRenderDrawColor(renderer, 100, 100, 100, SDL_ALPHA_OPAQUE);
+
+
+    int radius = 16;
+    int centreX;
+    int centreY;
+    Uint32 mouse = SDL_GetMouseState(&centreX, &centreY);
+    const int32_t diameter = (radius * 2);
+
+    int32_t x = (radius - 1);
+    int32_t y = 0;
+    int32_t tx = 1;
+    int32_t ty = 1;
+    int32_t error = (tx - diameter);
+
+    while (x >= y){
+
+        SDL_RenderDrawPoint(renderer, centreX + x, centreY - y);
+        SDL_RenderDrawPoint(renderer, centreX + x, centreY + y);
+        SDL_RenderDrawPoint(renderer, centreX - x, centreY - y);
+        SDL_RenderDrawPoint(renderer, centreX - x, centreY + y);
+        SDL_RenderDrawPoint(renderer, centreX + y, centreY - x);
+        SDL_RenderDrawPoint(renderer, centreX + y, centreY + x);
+        SDL_RenderDrawPoint(renderer, centreX - y, centreY - x);
+        SDL_RenderDrawPoint(renderer, centreX - y, centreY + x);
+
+        if (error <= 0)
+        {
+            ++y;
+            error += ty;
+            ty += 2;
+        }
+
+        if (error > 0)
+        {
+            --x;
+            tx += 2;
+            error += (tx - diameter);
+        }
+    }
+
+    //Montre tout ce qui a été fait sur la fenêtre (renderer)
+    SDL_RenderPresent(renderer);
 
 }
 

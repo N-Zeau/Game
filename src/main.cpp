@@ -1,6 +1,7 @@
 #include "game.h"
+#include "GL/gl.h"
 
-int WinMain() {
+int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd) {
     Game game;
 
     game.verif();

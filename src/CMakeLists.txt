@@ -5,4 +5,4 @@ file(GLOB_RECURSE ENGINE_HEADERS *.hpp *.h)
 
 add_executable(AimBoost ${ENGINE_SOURCES} ${ENGINE_HEADERS} game.cpp game.h)
 
-target_link_libraries(AimBoost sdl2 flac freetype ogg)
+target_link_libraries(AimBoost sdl2)
