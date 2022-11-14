@@ -45,6 +45,9 @@ void Game::create() {
                                 0,
                                 &window,
                                 &renderer);
+    //Importation de la map
+    Game game;
+    game.importMap();
 }
 
 void Game::draw() {
@@ -54,51 +57,82 @@ void Game::draw() {
     //Clear la fenêtre (renderer)
     SDL_RenderClear(renderer);
 
-    SDL_SetRenderDrawColor(renderer, 100, 100, 100, SDL_ALPHA_OPAQUE);
 
 
-    int radius = 16;
-    int centreX;
-    int centreY;
-    Uint32 mouse = SDL_GetMouseState(&centreX, &centreY);
-    const int32_t diameter = (radius * 2);
-
-    int32_t x = (radius - 1);
-    int32_t y = 0;
-    int32_t tx = 1;
-    int32_t ty = 1;
-    int32_t error = (tx - diameter);
-
-    while (x >= y){
-
-        SDL_RenderDrawPoint(renderer, centreX + x, centreY - y);
-        SDL_RenderDrawPoint(renderer, centreX + x, centreY + y);
-        SDL_RenderDrawPoint(renderer, centreX - x, centreY - y);
-        SDL_RenderDrawPoint(renderer, centreX - x, centreY + y);
-        SDL_RenderDrawPoint(renderer, centreX + y, centreY - x);
-        SDL_RenderDrawPoint(renderer, centreX + y, centreY + x);
-        SDL_RenderDrawPoint(renderer, centreX - y, centreY - x);
-        SDL_RenderDrawPoint(renderer, centreX - y, centreY + x);
-
-        if (error <= 0)
-        {
-            ++y;
-            error += ty;
-            ty += 2;
-        }
-
-        if (error > 0)
-        {
-            --x;
-            tx += 2;
-            error += (tx - diameter);
-        }
-    }
 
     //Montre tout ce qui a été fait sur la fenêtre (renderer)
     SDL_RenderPresent(renderer);
 
 }
+
+char** Game::importMap() {
+    FILE *mapTxt = nullptr;
+    mapTxt = fopen("../../Ressources/Map/map.txt", "r");
+
+    char cara;
+    int nbLigne = 0; //Nombres de Lignes dans le .txt
+    int nbColonneTemp = 0;
+    int nbColonne = 0; //Nombres de Colonnes dans le .txt
+
+    //Recupération du nombre de lignes et de colonnes du fichier .txt
+    if (mapTxt != nullptr){
+        do{
+            cara = (char)fgetc(mapTxt);
+            if (cara == '\n' || cara == '\r' || cara == EOF){
+                if (cara != EOF)
+                    nbLigne++;
+                if (nbColonneTemp > nbColonne)
+                    nbColonne = nbColonneTemp;
+                nbColonneTemp = 0;
+            }else{
+                nbColonneTemp++;
+            }
+        } while (cara != EOF);
+        nbColonneTemp = nbColonne;
+
+    }
+
+    //Allocation de la mémoire de la map
+    char** map = (char**)malloc(sizeof (char*)*nbLigne);
+    for (int i = 0; i < nbLigne; i++) {
+        map[i] = (char*)malloc(sizeof (char) * nbColonne);
+    }
+
+    //Création de la map vide (Tableau de char vide)
+    for (int i = 0; i < nbLigne; i++)
+        for (int j = 0; j < nbColonneTemp; j++)
+            map[i][j] = 'a';
+
+    int ligne;
+    int colonne;
+    char write;
+
+    //Écriture de la map (Tableau rempli à partir du fichier .txt)
+    if (mapTxt != nullptr){
+        do{
+            write = (char)fgetc(mapTxt);
+            if (write == '\n' || write == '\r' || write == EOF){
+                ligne++;
+                colonne = 0;
+            }else{
+                map[ligne][colonne] = write;
+                colonne++;
+            }
+        } while (write != EOF);
+
+    }
+
+    fclose(mapTxt);
+    for (int i = 0; i < nbLigne; ++i) {
+        for (int j = 0; j < nbColonne; ++j) {
+            std::cout << map[i][j] << std::endl;
+        }
+    }
+
+    return map;
+
+}
+
 
 void Game::destroy() {
     SDL_DestroyWindow(window);
@@ -109,5 +143,6 @@ void Game::destroy() {
 bool Game::isRunning() {
     return running;
 }
+
 
 

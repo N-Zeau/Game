@@ -10,6 +10,7 @@ class Game {
         bool isRunning();
         void create();
         void draw();
+        char** importMap();
         void destroy();
 
     private:
