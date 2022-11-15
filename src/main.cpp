@@ -1,9 +1,9 @@
 #include "game.h"
-#include "GL/gl.h"
+#include "iostream"
 
-int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd) {
+int WinMain() {
+
     Game game;
-
     game.verif();
     game.create();
 

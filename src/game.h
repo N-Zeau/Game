@@ -11,6 +11,7 @@ class Game {
         void create();
         void draw();
         char** importMap();
+        void drawMap(char** map);
         void destroy();
 
     private:

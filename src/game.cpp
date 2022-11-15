@@ -45,9 +45,10 @@ void Game::create() {
                                 0,
                                 &window,
                                 &renderer);
-    //Importation de la map
-    Game game;
-    game.importMap();
+
+    //Initialisation du titre de la fenêtre
+    SDL_SetWindowTitle(window, "AimBoost");
+
 }
 
 void Game::draw() {
@@ -57,15 +58,17 @@ void Game::draw() {
     //Clear la fenêtre (renderer)
     SDL_RenderClear(renderer);
 
-
-
+    //Importation de la map + Dessin de la map
+    Game game;
+    char **map = game.importMap();
+    game.drawMap(map);
 
     //Montre tout ce qui a été fait sur la fenêtre (renderer)
     SDL_RenderPresent(renderer);
 
 }
 
-char** Game::importMap() {
+char **Game::importMap() {
     FILE *mapTxt = nullptr;
     mapTxt = fopen("../../Ressources/Map/map.txt", "r");
 
@@ -75,16 +78,16 @@ char** Game::importMap() {
     int nbColonne = 0; //Nombres de Colonnes dans le .txt
 
     //Recupération du nombre de lignes et de colonnes du fichier .txt
-    if (mapTxt != nullptr){
-        do{
-            cara = (char)fgetc(mapTxt);
-            if (cara == '\n' || cara == '\r' || cara == EOF){
+    if (mapTxt != nullptr) {
+        do {
+            cara = (char) fgetc(mapTxt);
+            if (cara == '\n' || cara == '\r' || cara == EOF) {
                 if (cara != EOF)
                     nbLigne++;
                 if (nbColonneTemp > nbColonne)
                     nbColonne = nbColonneTemp;
                 nbColonneTemp = 0;
-            }else{
+            } else {
                 nbColonneTemp++;
             }
         } while (cara != EOF);
@@ -92,29 +95,31 @@ char** Game::importMap() {
 
     }
 
+    fclose(mapTxt);
+
     //Allocation de la mémoire de la map
-    char** map = (char**)malloc(sizeof (char*)*nbLigne);
+    char **map = (char **) malloc(sizeof(char *) * nbLigne);
     for (int i = 0; i < nbLigne; i++) {
-        map[i] = (char*)malloc(sizeof (char) * nbColonne);
+        map[i] = (char *) malloc(sizeof(char) * nbColonne);
     }
 
     //Création de la map vide (Tableau de char vide)
     for (int i = 0; i < nbLigne; i++)
         for (int j = 0; j < nbColonneTemp; j++)
-            map[i][j] = 'a';
+            map[i][j] = ' ';
 
     int ligne;
     int colonne;
     char write;
 
     //Écriture de la map (Tableau rempli à partir du fichier .txt)
-    if (mapTxt != nullptr){
-        do{
-            write = (char)fgetc(mapTxt);
-            if (write == '\n' || write == '\r' || write == EOF){
+    if (mapTxt != nullptr) {
+        do {
+            write = (char) fgetc(mapTxt);
+            if (write == '\n' || write == '\r' || write == EOF) {
                 ligne++;
                 colonne = 0;
-            }else{
+            } else {
                 map[ligne][colonne] = write;
                 colonne++;
             }
@@ -122,14 +127,43 @@ char** Game::importMap() {
 
     }
 
-    fclose(mapTxt);
-    for (int i = 0; i < nbLigne; ++i) {
-        for (int j = 0; j < nbColonne; ++j) {
-            std::cout << map[i][j] << std::endl;
-        }
+    return map;
+
+}
+
+SDL_Texture *chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
+    SDL_Surface *wall = nullptr;
+    wall = SDL_LoadBMP(nomFichier);
+
+    if (wall == nullptr) {
+        std::cout << "Echec du chargement de l'image" << std::endl;
+        return nullptr;
     }
 
-    return map;
+    SDL_Texture *texture = nullptr;
+    texture = SDL_CreateTextureFromSurface(renderer, wall);
+
+    if (texture == nullptr) {
+        std::cout << "Echec du chargement de la texture" << std::endl;
+        return nullptr;
+    }
+
+    SDL_FreeSurface(wall);
+    return texture;
+
+}
+
+void Game::drawMap(char **map) {
+    //Import du fichier Mur dans une texture
+    SDL_Texture *wall = chargerImage("../Ressources/Bin/Mur.bmp", renderer);
+    SDL_Rect srcpave;  //Rectangle correspondant à la source du pavé
+    srcpave.x = 0, srcpave.y = 0, srcpave.w = 16, srcpave.h = 16;
+    SDL_Rect rect; //Rectangle qui va être afficher dans la fenêtre
+    rect.x = 0, rect.y = 0, rect.w = 64, rect.h = 64;
+
+    SDL_RenderClear(renderer);
+    SDL_RenderCopy(renderer, wall, &srcpave, &rect);
+    SDL_RenderPresent(renderer);
 
 }
 
