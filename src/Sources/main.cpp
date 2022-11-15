@@ -1,10 +1,7 @@
-#include "game.h"
-#include "iostream"
+#include "../Headers/game.h"
 
 int WinMain() {
-
     Game game;
-    game.verif();
     game.create();
 
     while(game.isRunning()) {

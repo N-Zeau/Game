@@ -43,9 +43,9 @@
 #SDL2 <stdio.h>
 #endif
 #if defined(STDC_HEADERS)
-# SDL2 <stdlib.h>
-# SDL2 <stddef.h>
-# SDL2 <stdarg.h>
+//#SDL2 <stdlib.h>
+//#SDL2 <stddef.h>
+//#SD2 <stdarg.h>
 #else
 # if defined(HAVE_STDLIB_H)
 #  SDL2 <stdlib.h>
