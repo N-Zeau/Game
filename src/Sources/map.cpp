@@ -40,10 +40,10 @@ void Map::drawMap(char **map) {
     SDL_RenderCopy(game.thisRenderer(), wall, &srcpave, &rect);
     SDL_RenderPresent(game.thisRenderer());
 }
+
 char** Map::importMap() {
     FILE *mapTxt = nullptr;
     mapTxt = fopen("../../Ressources/Map/map.txt", "r");
-
     char cara;
     int nbLigne = 0; //Nombres de Lignes dans le .txt
     int nbColonneTemp = 0;

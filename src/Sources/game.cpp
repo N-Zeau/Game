@@ -8,10 +8,10 @@ const int height = 720;
 
 void Game::verif() {
     if (SDL_Init(SDL_INIT_EVERYTHING) < 0) {
-        std::cout << "Echec de l'initialisation de SDL2 " << std::endl;
+        std::cout << "Echec de l'initialisation de SDL2 : " << SDL_GetError() << std::endl;
     }
     if (window) {
-        std::cout << "Echec de la creation de la fenetre" << std::endl;
+        std::cout << "Echec de la creation de la fenetre : " << SDL_GetError() << std::endl;
     }
 }
 
@@ -32,6 +32,10 @@ void Game::loop() {
 }
 
 void Game::create() {
+
+    Game game;
+    game.verif();
+
     //Creation de la fenêtre et du renderer
     SDL_CreateWindowAndRenderer(width,
                                 height,
@@ -41,12 +45,6 @@ void Game::create() {
 
     //Initialisation du titre de la fenêtre
     SDL_SetWindowTitle(window, "AimBoost");
-
-    Game game;
-    game.verif();
-
-
-
 }
 
 void Game::draw() {
@@ -58,15 +56,12 @@ void Game::draw() {
     SDL_RenderClear(renderer);
 
     //Dessine la Map
-    Map map_;
-    map_.drawMap(map_.importMap());
-
+    Map map;
+    map.drawMap(map.importMap());
 
     //Montre tout ce qui a été fait sur la fenêtre (renderer)
     SDL_RenderPresent(renderer);
-
 }
-
 
 void Game::destroy() {
     SDL_DestroyWindow(window);
@@ -78,12 +73,11 @@ bool Game::isRunning() {
     return running;
 }
 
-
-SDL_Window* Game::thisWindow() {
+SDL_Window *Game::thisWindow() {
     return window;
 }
 
-SDL_Renderer* Game::thisRenderer(){
+SDL_Renderer *Game::thisRenderer() {
     return renderer;
 }
 
