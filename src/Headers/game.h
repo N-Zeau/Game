@@ -4,6 +4,9 @@
 #include "SDL2/SDL.h"
 #include "map.h"
 
+#define WIDTH 1280
+#define HEIGHT 720
+
 class Game {
 public:
 
@@ -15,7 +18,7 @@ public:
 
     void create();
 
-    void draw();
+    void drawMain();
 
     void destroy();
 

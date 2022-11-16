@@ -3,9 +3,6 @@
 SDL_Window *window = nullptr;
 SDL_Renderer *renderer = nullptr;
 
-const int width = 1280;
-const int height = 720;
-
 void Game::verif() {
     if (SDL_Init(SDL_INIT_EVERYTHING) < 0) {
         std::cout << "Echec de l'initialisation de SDL2 : " << SDL_GetError() << std::endl;
@@ -37,30 +34,35 @@ void Game::create() {
     game.verif();
 
     //Creation de la fenêtre et du renderer
-    SDL_CreateWindowAndRenderer(width,
-                                height,
+    SDL_CreateWindowAndRenderer(WIDTH,
+                                HEIGHT,
                                 0,
                                 &window,
                                 &renderer);
 
     //Initialisation du titre de la fenêtre
     SDL_SetWindowTitle(window, "AimBoost");
+
+
 }
 
-void Game::draw() {
+void Game::drawMain() {
+    //Clear la fenêtre (renderer)
+    SDL_RenderClear(renderer);
 
     //Couleur du Background
     SDL_SetRenderDrawColor(renderer, 20, 20, 20, SDL_ALPHA_OPAQUE);
 
-    //Clear la fenêtre (renderer)
-    SDL_RenderClear(renderer);
-
     //Dessine la Map
+    int nbL;
+    int nbC;
     Map map;
-    map.drawMap(map.importMap());
+    map.drawMap(map.importMap(&nbL,&nbC));
 
     //Montre tout ce qui a été fait sur la fenêtre (renderer)
     SDL_RenderPresent(renderer);
+
+
 }
 
 void Game::destroy() {

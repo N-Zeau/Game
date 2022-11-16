@@ -1,7 +1,8 @@
 #include "../Headers/map.h"
 
+#include <vector>
 
-SDL_Texture* Map::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
+SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
     SDL_Surface *wall = nullptr;
     wall = SDL_LoadBMP(nomFichier);
 
@@ -26,22 +27,51 @@ SDL_Texture* Map::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
 void Map::drawMap(char **map) {
     Game game;
 
+    int nbL;
+    int nbC;
+    char **tabMap = importMap(&nbL, &nbC);
+
     int sizeTexture = 32; //Vrai taille de la texture
-    int sizeTextureOnScreen = 64; //Taille de la texture affiché sur la fenêtre
+    int sizeTextureOnScreenWidth = WIDTH / nbC; //Taille de la largeur de la texture affiché sur la fenêtre
+    int sizeTextureOnScreenHeight = HEIGHT / nbL; //Taille de la hauteur de la texture affiché sur la fenêtre
+
     //Import du fichier Mur dans une texture
     SDL_Texture *wall = chargerImage("../Map/Mur.bmp", game.thisRenderer());
 
-    SDL_Rect srcpave;  //Rectangle correspondant à la source du pavé
-    srcpave.x = 0, srcpave.y = 0, srcpave.w = sizeTexture, srcpave.h = sizeTexture;
-    SDL_Rect rect; //Rectangle qui va être afficher dans la fenêtre
-    rect.x = 0, rect.y = 0, rect.w = sizeTextureOnScreen, rect.h = sizeTextureOnScreen;
+    std::vector<SDL_Rect> rectSrc(nbC * nbL);  //Rectangle correspondant à la source du pavé (Celui affiché)
+    SDL_Rect rect[nbC * nbL]; //Position et dimaension du Rectangle qui va être afficher dans la fenêtre
+    int compteur = 0;
+
+
+    for (int i = 0; i < nbC; i++) {
+        for (int j = 0; j < nbL; j++) {
+            rect[compteur].x = i * sizeTextureOnScreenWidth, rect[compteur].y = j * sizeTextureOnScreenHeight;
+            rect[compteur].w = sizeTextureOnScreenWidth, rect[compteur].h = sizeTextureOnScreenHeight;
+
+            switch (tabMap[j][i]) {
+                case '1':
+                    std::cerr << "1" << std::endl;
+                    rectSrc[compteur].x = 0, rectSrc[compteur].y = 0;
+                    rectSrc[compteur].w = sizeTexture, rectSrc[compteur].h = sizeTexture;
+                    break;
+                case ' ':
+                    rectSrc[compteur].x = 0, rectSrc[compteur].y = 0;
+                    rectSrc[compteur].w = 0, rectSrc[compteur].h = 0;
+                    break;
+            }
+            compteur++;
+        }
+    }
 
     SDL_RenderClear(game.thisRenderer());
-    SDL_RenderCopy(game.thisRenderer(), wall, &srcpave, &rect);
+
+    for (int i = 0; i < nbC * nbL; ++i)
+        SDL_RenderCopy(game.thisRenderer(), wall, &rectSrc[i], &rect[i]);
+
     SDL_RenderPresent(game.thisRenderer());
 }
 
-char** Map::importMap() {
+char **Map::importMap(int *nbL, int *nbC) {
     FILE *mapTxt = nullptr;
     mapTxt = fopen("../../Ressources/Map/map.txt", "r");
     char cara;
@@ -66,8 +96,11 @@ char** Map::importMap() {
         nbColonneTemp = nbColonne;
 
     }
+    nbLigne++; // TODO
+    *nbL = nbLigne;
+    *nbC = nbColonneTemp;
 
-    fclose(mapTxt);
+    rewind(mapTxt);
 
     //Allocation de la mémoire de la map
     char **map = (char **) malloc(sizeof(char *) * nbLigne);
@@ -80,8 +113,8 @@ char** Map::importMap() {
         for (int j = 0; j < nbColonneTemp; j++)
             map[i][j] = ' ';
 
-    int ligne;
-    int colonne;
+    int ligne = 0;
+    int colonne = 0;
     char write;
 
     //Écriture de la map (Tableau rempli à partir du fichier .txt)
@@ -98,7 +131,7 @@ char** Map::importMap() {
         } while (write != EOF);
 
     }
-
+    fclose(mapTxt);
     return map;
 
 }

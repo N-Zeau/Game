@@ -6,7 +6,7 @@ int WinMain() {
 
     while(game.isRunning()) {
         game.loop();
-        game.draw();
+        game.drawMain();
     }
 
     game.destroy();
