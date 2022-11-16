@@ -1,20 +1,18 @@
 #ifndef GAME_H
 #define GAME_H
+
 #include "iostream"
-#include "SDL2/SDL.h"
 #include "map.h"
 #include "player.h"
+#include "SDL2/SDL.h"
 
-#define WIDTH 1280
-#define HEIGHT 720
 
-SDL_Window *window = nullptr;
-SDL_Renderer *renderer = nullptr;
 
 class Game {
+
 public:
 
-    static void verif();
+    void verif();
 
     void loop();
 
@@ -26,12 +24,10 @@ public:
 
     void destroy();
 
-    SDL_Window* thisWindow();
-
-    SDL_Renderer* thisRenderer();
-
 private:
     bool running = true;
+     SDL_Window *window = nullptr;
+     SDL_Renderer *renderer = nullptr;
 };
 
 

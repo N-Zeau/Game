@@ -98,6 +98,13 @@ build src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj: CXX_COMPILER__AimBoost_De
   OBJECT_DIR = src\CMakeFiles\AimBoost.dir
   OBJECT_FILE_DIR = src\CMakeFiles\AimBoost.dir\Sources
 
+build src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj: CXX_COMPILER__AimBoost_Debug C$:/Users/Peultier$ Enzo/CLionProjects/Game/src/Sources/player.cpp || cmake_object_order_depends_target_AimBoost
+  DEP_FILE = src\CMakeFiles\AimBoost.dir\Sources\player.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Peultier Enzo/CLionProjects/Game/Ressources" -I"C:/Users/Peultier Enzo/CLionProjects/Game/Game/Ressources"
+  OBJECT_DIR = src\CMakeFiles\AimBoost.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\AimBoost.dir\Sources
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AimBoost
@@ -106,7 +113,7 @@ build src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj: CXX_COMPILER__AimBoost_De
 #############################################
 # Link the executable ..\Ressources\Bin\AimBoost.exe
 
-build ../Ressources/Bin/AimBoost.exe: CXX_EXECUTABLE_LINKER__AimBoost_Debug src/CMakeFiles/AimBoost.dir/Sources/game.cpp.obj src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj
+build ../Ressources/Bin/AimBoost.exe: CXX_EXECUTABLE_LINKER__AimBoost_Debug src/CMakeFiles/AimBoost.dir/Sources/game.cpp.obj src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lsdl2  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/Users/PEULTI~1/CLIONP~1/Game/RESSOU~1/Lib

@@ -26,9 +26,8 @@ void Game::loop() {
 }
 
 void Game::create() {
-
-    Game game;
-    game.verif();
+    //Verifie l'initialisation de SDL2 et de la fenêtre
+    Game::verif();
 
     //Creation de la fenêtre et du renderer
     SDL_CreateWindowAndRenderer(WIDTH,
@@ -39,8 +38,6 @@ void Game::create() {
 
     //Initialisation du titre de la fenêtre
     SDL_SetWindowTitle(window, "AimBoost");
-
-
 }
 
 void Game::drawMain() {
@@ -48,13 +45,18 @@ void Game::drawMain() {
     SDL_RenderClear(renderer);
 
     //Couleur du Background
-    SDL_SetRenderDrawColor(renderer, 20, 20, 20, SDL_ALPHA_OPAQUE);
+    SDL_SetRenderDrawColor(renderer, 50, 50, 50, SDL_ALPHA_OPAQUE);
 
     //Dessine la Map
     int nbL;
     int nbC;
     Map map;
-    map.drawMap(map.importMap(&nbL,&nbC));
+    map.drawMap(renderer, map.importMap(&nbL, &nbC));
+
+    //Dessine le joueur
+    Player player;
+    SDL_Color red = {220, 0, 0, 255};
+    player.createPlayer(renderer, 10, red);
 
     //Montre tout ce qui a été fait sur la fenêtre (renderer)
     SDL_RenderPresent(renderer);
@@ -70,14 +72,3 @@ void Game::destroy() {
 bool Game::isRunning() {
     return running;
 }
-
-SDL_Window *Game::thisWindow() {
-    return window;
-}
-
-SDL_Renderer *Game::thisRenderer() {
-    return renderer;
-}
-
-
-

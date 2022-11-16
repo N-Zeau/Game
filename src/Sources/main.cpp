@@ -1,4 +1,4 @@
-#include "../Headers/game.h"
+#include "../Headers/main.h"
 
 int WinMain() {
     Game game;

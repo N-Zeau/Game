@@ -1,6 +1,6 @@
 #include "../Headers/map.h"
 
-SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
+SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer* renderer) {
     SDL_Surface *wall = nullptr;
     wall = SDL_LoadBMP(nomFichier);
 
@@ -22,9 +22,7 @@ SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
 
 }
 
-void Map::drawMap(char **map) {
-    Game game;
-
+void Map::drawMap(SDL_Renderer* renderer, char **map) {
     int nbL;
     int nbC;
     char **tabMap = importMap(&nbL, &nbC);
@@ -34,7 +32,7 @@ void Map::drawMap(char **map) {
     int sizeTextureOnScreenHeight = HEIGHT / nbL; //Taille de la hauteur de la texture affiché sur la fenêtre
 
     //Import du fichier Mur dans une texture
-    SDL_Texture *wall = chargerImage("../Map/Mur.bmp", game.thisRenderer());
+    SDL_Texture *wall = chargerImage("../Map/Mur.bmp", renderer);
 
     SDL_Rect rectSrc[nbC * nbL];  //Rectangle correspondant à la source du pavé (Celui affiché)
     SDL_Rect rect[nbC * nbL]; //Position et dimaension du Rectangle qui va être afficher dans la fenêtre
@@ -60,12 +58,12 @@ void Map::drawMap(char **map) {
         }
     }
 
-    SDL_RenderClear(game.thisRenderer());
+    SDL_RenderClear(renderer);
 
     for (int i = 0; i < nbC * nbL; ++i)
-        SDL_RenderCopy(game.thisRenderer(), wall, &rectSrc[i], &rect[i]);
+        SDL_RenderCopy(renderer, wall, &rectSrc[i], &rect[i]);
 
-    SDL_RenderPresent(game.thisRenderer());
+    SDL_RenderPresent(renderer);
 }
 
 char **Map::importMap(int *nbL, int *nbC) {
