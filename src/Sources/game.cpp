@@ -1,8 +1,5 @@
 #include "../Headers/game.h"
 
-SDL_Window *window = nullptr;
-SDL_Renderer *renderer = nullptr;
-
 void Game::verif() {
     if (SDL_Init(SDL_INIT_EVERYTHING) < 0) {
         std::cout << "Echec de l'initialisation de SDL2 : " << SDL_GetError() << std::endl;
@@ -61,7 +58,6 @@ void Game::drawMain() {
 
     //Montre tout ce qui a été fait sur la fenêtre (renderer)
     SDL_RenderPresent(renderer);
-
 
 }
 

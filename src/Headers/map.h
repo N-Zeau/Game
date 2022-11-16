@@ -1,13 +1,12 @@
 #ifndef GAME_MAP_H
 #define GAME_MAP_H
 #include "game.h"
+#include "SDL2/SDL.h"
+#include "iostream"
 
 #define NB_CASE_HORI 16
 #define NB_CASE_VERTI 16
 
-#include "SDL2/SDL.h"
-#include "game.h"
-#include "iostream"
 
 class Map {
 public:

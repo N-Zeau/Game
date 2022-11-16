@@ -1,7 +1,5 @@
 #include "../Headers/map.h"
 
-#include <vector>
-
 SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
     SDL_Surface *wall = nullptr;
     wall = SDL_LoadBMP(nomFichier);
@@ -38,7 +36,7 @@ void Map::drawMap(char **map) {
     //Import du fichier Mur dans une texture
     SDL_Texture *wall = chargerImage("../Map/Mur.bmp", game.thisRenderer());
 
-    std::vector<SDL_Rect> rectSrc(nbC * nbL);  //Rectangle correspondant à la source du pavé (Celui affiché)
+    SDL_Rect rectSrc[nbC * nbL];  //Rectangle correspondant à la source du pavé (Celui affiché)
     SDL_Rect rect[nbC * nbL]; //Position et dimaension du Rectangle qui va être afficher dans la fenêtre
     int compteur = 0;
 
@@ -50,7 +48,6 @@ void Map::drawMap(char **map) {
 
             switch (tabMap[j][i]) {
                 case '1':
-                    std::cerr << "1" << std::endl;
                     rectSrc[compteur].x = 0, rectSrc[compteur].y = 0;
                     rectSrc[compteur].w = sizeTexture, rectSrc[compteur].h = sizeTexture;
                     break;
