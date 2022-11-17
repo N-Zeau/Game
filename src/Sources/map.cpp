@@ -27,7 +27,7 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
     int nbC;
     char **tabMap = importMap(&nbL, &nbC);
 
-    int sizeTexture = 32; //Vrai taille de la texture
+    int sizeTexture = 64; //Vrai taille de la texture
     int sizeTextureOnScreenWidth = WIDTH / nbC; //Taille de la largeur de la texture affiché sur la fenêtre
     int sizeTextureOnScreenHeight = HEIGHT / nbL; //Taille de la hauteur de la texture affiché sur la fenêtre
 

@@ -45,7 +45,7 @@ void Game::drawMain() {
     SDL_RenderClear(renderer);
 
     //Couleur du Background
-    SDL_SetRenderDrawColor(renderer, 50, 50, 50, SDL_ALPHA_OPAQUE);
+    SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 
     //Dessine la Map
     int nbL;
@@ -55,8 +55,8 @@ void Game::drawMain() {
 
     //Dessine le joueur
     Player player;
-    SDL_Color red = {220, 0, 0, 255};
-    player.createPlayer(renderer, 10, red);
+    SDL_Color playerColor = {250, 128, 114, 255};
+    player.createPlayer(renderer, 10, playerColor);
 
     //Montre tout ce qui a été fait sur la fenêtre (renderer)
     SDL_RenderPresent(renderer);

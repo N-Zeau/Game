@@ -5,7 +5,7 @@
 class Player {
 
 public:
-    void createPlayer(SDL_Renderer *renderer, int taille, SDL_Color color);
+    void createPlayer(SDL_Renderer *renderer, int taillePlayer, SDL_Color color);
 
     void drawPlayer(SDL_Renderer *renderer, int radius, SDL_Color color);
 };
