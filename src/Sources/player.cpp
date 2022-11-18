@@ -17,8 +17,14 @@ void Player::createPlayer(SDL_Renderer *renderer, int taillePlayer, SDL_Color co
     int mouseX;
     int mouseY;
     SDL_GetMouseState(&mouseX, &mouseY);
+    float a = (mouseY - playerY)/(mouseX - playerX);
+    float b = playerY - a*playerX;
+    if (mouseY < playerY)
     SDL_RenderDrawLine(renderer, playerX + taillePlayer / 2, playerY + taillePlayer / 2,
-                                 mouseX , mouseY);
+                       -b/a, 0);
+    if (mouseY > playerY)
+        SDL_RenderDrawLine(renderer, playerX + taillePlayer / 2, playerY + taillePlayer / 2,
+                           (HEIGHT-b)/a, HEIGHT);
 
 
 }

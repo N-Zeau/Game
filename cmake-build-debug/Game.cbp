@@ -89,6 +89,9 @@
 		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Headers/game.h">
 			<Option target="AimBoost"/>
 		</Unit>
+		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Headers/main.h">
+			<Option target="AimBoost"/>
+		</Unit>
 		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Headers/map.h">
 			<Option target="AimBoost"/>
 		</Unit>

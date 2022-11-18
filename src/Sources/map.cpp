@@ -45,10 +45,15 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
             rect[compteur].w = sizeTextureOnScreenWidth, rect[compteur].h = sizeTextureOnScreenHeight;
 
             switch (tabMap[j][i]) {
+                case '2':
+                    rectSrc[compteur].x = sizeTexture, rectSrc[compteur].y = 0;
+                    rectSrc[compteur].w = sizeTexture, rectSrc[compteur].h = sizeTexture;
+                    break;
                 case '1':
                     rectSrc[compteur].x = 0, rectSrc[compteur].y = 0;
                     rectSrc[compteur].w = sizeTexture, rectSrc[compteur].h = sizeTexture;
                     break;
+                case '0':
                 case ' ':
                     rectSrc[compteur].x = 0, rectSrc[compteur].y = 0;
                     rectSrc[compteur].w = 0, rectSrc[compteur].h = 0;

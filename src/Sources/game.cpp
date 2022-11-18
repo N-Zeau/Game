@@ -55,6 +55,7 @@ void Game::drawMain() {
 
     //Dessine le joueur
     Player player;
+    int* angle;
     SDL_Color playerColor = {250, 128, 114, 255};
     player.createPlayer(renderer, 10, playerColor);
 
