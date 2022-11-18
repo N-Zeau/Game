@@ -38,7 +38,7 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
     SDL_Rect rect[nbC * nbL]; //Position et dimaension du Rectangle qui va être afficher dans la fenêtre
     int compteur = 0;
 
-
+    //Affichage de la map
     for (int i = 0; i < nbC; i++) {
         for (int j = 0; j < nbL; j++) {
             rect[compteur].x = i * sizeTextureOnScreenWidth, rect[compteur].y = j * sizeTextureOnScreenHeight;
@@ -96,11 +96,11 @@ char **Map::importMap(int *nbL, int *nbC) {
         nbColonneTemp = nbColonne;
 
     }
-    nbLigne++; // TODO
+    nbLigne++;
     *nbL = nbLigne;
     *nbC = nbColonneTemp;
 
-    rewind(mapTxt);
+    rewind(mapTxt); //Revenir au début du fichier .txt
 
     //Allocation de la mémoire de la map
     char **map = (char **) malloc(sizeof(char *) * nbLigne);
