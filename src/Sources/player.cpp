@@ -24,35 +24,27 @@ void Player::createPlayer(SDL_Renderer *renderer, int taillePlayer, SDL_Color co
     playerX += taillePlayer / 2;
     playerY += taillePlayer / 2;
     //Calcul de a et b
-    double a = (mouseY - playerY) / (mouseX - playerX);
+    double a = (mouseX != playerX ? ((mouseY - playerY) / (mouseX - playerX)) : 1);
     double b = playerY - a * playerX;
+
+    int x2 = 0, y2 = 0;
+
+    int mouseCompareY = (mouseY > playerY ? 1 : 0); //Variable ternaire
+    int mouseCompareX = (mouseX < playerX ? 1 : 0); //Variable ternaire
 
 //Affichage de la droite directrice
     //Différenciation des cas en fonction de la position de la souris à partir de la formule
-    if (mouseY < playerY) {
+    if (mouseY == playerY)
         SDL_RenderDrawLine(renderer, playerX, playerY,
-                           (-b / a), 0);
-    } else {
-        if (mouseY > playerY) {
-            SDL_RenderDrawLine(renderer, playerX, playerY,
-                               ((HEIGHT - b) / a), HEIGHT);
+                           WIDTH*mouseCompareX, playerY);
 
-        } else { //Cas particulier lorsque mouseY = playerY
-            if (mouseY == playerY && mouseX >= playerX)
-                SDL_RenderDrawLine(renderer, playerX, playerY,
-                                   WIDTH, playerY);
-            if (mouseY == playerY && mouseX < playerX)
-                SDL_RenderDrawLine(renderer, playerX, playerY,
-                                   0, playerY);
-        }
-    }
-    //Cas particulier lorsque mouseX = playerX
-    if (mouseX == playerX && mouseY <= playerY)
+    if(mouseX == playerX) {
         SDL_RenderDrawLine(renderer, playerX, playerY,
-                           playerX, 0);
-    if (mouseX == playerX && mouseY > playerY)
+                           playerX, HEIGHT * mouseCompareY);
+
+    }else
         SDL_RenderDrawLine(renderer, playerX, playerY,
-                           playerX, HEIGHT);
-//Fin de la gestion de l'affichage de la demi-droite directrice
+                       ((HEIGHT * mouseCompareY - b) / a), HEIGHT * mouseCompareY);
+    //Fin de la gestion de l'affichage de la demi-droite directrice
 
 }
