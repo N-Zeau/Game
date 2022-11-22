@@ -64,7 +64,7 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
             compteur++;
             //Trace le cadrillage
             SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
-            SDL_RenderDrawLine(renderer, 0, j*sizeTextureOnScreenHeight,
+            SDL_RenderDrawLine(renderer, 0, j*sizeTextureOnScreenHeight ,
                                WIDTH, j*sizeTextureOnScreenHeight);
             SDL_RenderDrawLine(renderer, i*sizeTextureOnScreenWidth, 0,
                                i*sizeTextureOnScreenWidth, HEIGHT);

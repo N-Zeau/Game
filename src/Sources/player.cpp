@@ -2,8 +2,9 @@
 
 void Player::createPlayer(SDL_Renderer *renderer, Map map, int taillePlayer, SDL_Color color) {
 
-    float playerX = (map.WIDTH / 2) - taillePlayer / 2;
-    float playerY = (map.HEIGHT / 1.4) - taillePlayer / 2;
+    playerX = (map.WIDTH / 2) - taillePlayer / 2;
+    playerY = (map.HEIGHT / 1.4) - taillePlayer / 2;
+
     //LE JOUEUR
     SDL_SetRenderDrawColor(renderer, color.r, color.g, color.b, color.a);
     SDL_Rect player;
@@ -28,19 +29,20 @@ void Player::createPlayer(SDL_Renderer *renderer, Map map, int taillePlayer, SDL
     int mouseCompareX = (mouseX > playerX ? 1 : 0); //Variable ternaire
 
     //Affichage de la droite directrice
-    if (mouseY == playerY)
+    if (mouseY == playerY) {
         SDL_RenderDrawLine(renderer, playerX, playerY,
-                           map.WIDTH*mouseCompareX, playerY);
+                           map.WIDTH * mouseCompareX, playerY);
 
-    if(mouseX == playerX) {
+    } else if (mouseX == playerX) {
         SDL_RenderDrawLine(renderer, playerX, playerY,
                            playerX, map.HEIGHT * mouseCompareY);
 
-    }else{SDL_RenderDrawLine(renderer, playerX, playerY,
-                       ((map.HEIGHT * mouseCompareY - b) / a), map.HEIGHT * mouseCompareY);
+    } else {
+        SDL_RenderDrawLine(renderer, playerX, playerY,
+                           ((map.HEIGHT * mouseCompareY - b) / a), map.HEIGHT * mouseCompareY);
     }
-    
-    //Mouvement du joueur
-    
-    
+
+
+    //MOUVEMENTS JOUEUR
+
 }

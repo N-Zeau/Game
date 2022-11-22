@@ -7,7 +7,6 @@
 #include "SDL2/SDL.h"
 
 
-
 class Game {
     Map mapSrc;
 
@@ -27,8 +26,8 @@ public:
 
 private:
     bool running = true;
-     SDL_Window *window = nullptr;
-     SDL_Renderer *renderer = nullptr;
+    SDL_Window *window = nullptr;
+    SDL_Renderer *renderer = nullptr;
 };
 
 

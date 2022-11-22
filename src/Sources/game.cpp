@@ -31,7 +31,7 @@ void Game::create() {
     int nbL;
     int nbC;
     Game::mapSrc.importMap(&nbL, &nbC);
-    int sizeCarre = 64;
+    int sizeCarre = 70;
     mapSrc.WIDTH = nbC*sizeCarre;
     mapSrc.HEIGHT = nbL*sizeCarre;
 
