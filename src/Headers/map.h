@@ -3,11 +3,11 @@
 #include "SDL2/SDL.h"
 #include "iostream"
 
-#define WIDTH 1280
-#define HEIGHT 720
-
 class Map {
 public:
+    int WIDTH;
+    int HEIGHT;
+
     void drawMap(SDL_Renderer* renderer, char **map);
 
     SDL_Texture *chargerImage(const char *nomFichier, SDL_Renderer* renderer);

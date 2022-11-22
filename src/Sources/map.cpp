@@ -23,6 +23,7 @@ SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer* renderer) {
 }
 
 void Map::drawMap(SDL_Renderer* renderer, char **map) {
+    SDL_RenderClear(renderer);
     int nbL;
     int nbC;
     char **tabMap = importMap(&nbL, &nbC);
@@ -35,12 +36,13 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
     SDL_Texture *wall = chargerImage("../Map/Mur.bmp", renderer);
 
     SDL_Rect rectSrc[nbC * nbL];  //Rectangle correspondant à la source du pavé (Celui affiché)
-    SDL_Rect rect[nbC * nbL]; //Position et dimaension du Rectangle qui va être afficher dans la fenêtre
+    SDL_Rect rect[nbC * nbL]; //Position et dimension du Rectangle qui va être affiché dans la fenêtre
     int compteur = 0;
 
     //Affichage de la map
     for (int i = 0; i < nbC; i++) {
         for (int j = 0; j < nbL; j++) {
+            //Rectangle qui divise la map
             rect[compteur].x = i * sizeTextureOnScreenWidth, rect[compteur].y = j * sizeTextureOnScreenHeight;
             rect[compteur].w = sizeTextureOnScreenWidth, rect[compteur].h = sizeTextureOnScreenHeight;
 
@@ -60,10 +62,14 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
                     break;
             }
             compteur++;
+            //Trace le cadrillage
+            SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
+            SDL_RenderDrawLine(renderer, 0, j*sizeTextureOnScreenHeight,
+                               WIDTH, j*sizeTextureOnScreenHeight);
+            SDL_RenderDrawLine(renderer, i*sizeTextureOnScreenWidth, 0,
+                               i*sizeTextureOnScreenWidth, HEIGHT);
         }
     }
-
-    SDL_RenderClear(renderer);
 
     for (int i = 0; i < nbC * nbL; ++i)
         SDL_RenderCopy(renderer, wall, &rectSrc[i], &rect[i]);

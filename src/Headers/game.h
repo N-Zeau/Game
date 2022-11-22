@@ -9,6 +9,7 @@
 
 
 class Game {
+    Map mapSrc;
 
 public:
 

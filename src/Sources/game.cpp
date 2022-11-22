@@ -28,10 +28,16 @@ void Game::loop() {
 void Game::create() {
     //Verifie l'initialisation de SDL2 et de la fenêtre
     Game::verif();
+    int nbL;
+    int nbC;
+    Game::mapSrc.importMap(&nbL, &nbC);
+    int sizeCarre = 64;
+    mapSrc.WIDTH = nbC*sizeCarre;
+    mapSrc.HEIGHT = nbL*sizeCarre;
 
     //Creation de la fenêtre et du renderer
-    SDL_CreateWindowAndRenderer(WIDTH,
-                                HEIGHT,
+    SDL_CreateWindowAndRenderer(mapSrc.WIDTH,
+                                mapSrc.HEIGHT,
                                 0,
                                 &window,
                                 &renderer);
@@ -48,15 +54,14 @@ void Game::drawMain() {
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 
     //Dessine la Map
-    int nbL;
-    int nbC;
-    Map map;
-    map.drawMap(renderer, map.importMap(&nbL, &nbC));
+    int nbL,nbC;
+    Game::mapSrc.drawMap(renderer, Game::mapSrc.importMap(&nbL,&nbC));
 
     //Dessine le joueur
+    Map map = Game::mapSrc;
     Player player;
     SDL_Color playerColor = {250, 128, 114, 255};
-    player.createPlayer(renderer, 10, playerColor);
+    player.createPlayer(renderer, map, 10, playerColor);
 
     //Montre tout ce qui a été fait sur la fenêtre (renderer)
     SDL_RenderPresent(renderer);
