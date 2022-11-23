@@ -6,9 +6,13 @@
 class Player {
     float playerX;
     float playerY;
+    int playerTaille;
+    SDL_Color playerColor;
 
 public:
-    void createPlayer(SDL_Renderer *renderer, Map map, int taillePlayer, SDL_Color color);
+    void visionPlayer(SDL_Renderer *renderer, Map map, Player player);
+    void initPlayer(SDL_Renderer* renderer, Map map);
+    void moovePlayer(SDL_Renderer* renderer, Map map);
 
 };
 

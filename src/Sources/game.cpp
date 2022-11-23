@@ -27,11 +27,14 @@ void Game::loop() {
 
 void Game::create() {
     //Verifie l'initialisation de SDL2 et de la fenêtre
-    Game::verif();
+    verif();
+
+
     int nbL;
     int nbC;
-    Game::mapSrc.importMap(&nbL, &nbC);
+    mapSrc.importMap(&nbL, &nbC);
     int sizeCarre = 70;
+    //Déclaration de la taille de la map en fonction du nombre de lignes et de colonnes
     mapSrc.WIDTH = nbC*sizeCarre;
     mapSrc.HEIGHT = nbL*sizeCarre;
 
@@ -44,6 +47,10 @@ void Game::create() {
 
     //Initialisation du titre de la fenêtre
     SDL_SetWindowTitle(window, "AimBoost");
+
+    //Initialisation et dessine le Joueur
+    player.initPlayer(renderer, mapSrc);
+
 }
 
 void Game::drawMain() {
@@ -55,13 +62,10 @@ void Game::drawMain() {
 
     //Dessine la Map
     int nbL,nbC;
-    Game::mapSrc.drawMap(renderer, Game::mapSrc.importMap(&nbL,&nbC));
+    mapSrc.drawMap(renderer, mapSrc.importMap(&nbL,&nbC));
 
-    //Dessine le joueur
-    Map map = Game::mapSrc;
-    Player player;
-    SDL_Color playerColor = {250, 128, 114, 255};
-    player.createPlayer(renderer, map, 10, playerColor);
+    //Dessine la vision du joueur
+    player.visionPlayer(renderer, mapSrc, player);
 
     //Montre tout ce qui a été fait sur la fenêtre (renderer)
     SDL_RenderPresent(renderer);

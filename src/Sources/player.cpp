@@ -1,16 +1,6 @@
 #include "../Headers/player.h"
 
-void Player::createPlayer(SDL_Renderer *renderer, Map map, int taillePlayer, SDL_Color color) {
-
-    playerX = (map.WIDTH / 2) - taillePlayer / 2;
-    playerY = (map.HEIGHT / 1.4) - taillePlayer / 2;
-
-    //LE JOUEUR
-    SDL_SetRenderDrawColor(renderer, color.r, color.g, color.b, color.a);
-    SDL_Rect player;
-    player.x = playerX, player.y = playerY;
-    player.w = taillePlayer, player.h = taillePlayer;
-    SDL_RenderDrawRect(renderer, &player);
+void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
 
     //LE CONE DE VISION
     //Récupération des coordonnées de la souris
@@ -19,9 +9,6 @@ void Player::createPlayer(SDL_Renderer *renderer, Map map, int taillePlayer, SDL
     SDL_GetMouseState(&mouseX, &mouseY);
 
     //Demi-Droite d'équation y = a*x + b du centre du joueur passant par les coordonées de la souris
-    //Le point (playerX, playerY) devient le centre du joueur
-    playerX += taillePlayer / 2;
-    playerY += taillePlayer / 2;
     //Calcul de a (Coef directeur) et b
     double a = (mouseX != playerX ? ((mouseY - playerY) / (mouseX - playerX)) : 1);
     double b = playerY - a * playerX;
@@ -41,8 +28,28 @@ void Player::createPlayer(SDL_Renderer *renderer, Map map, int taillePlayer, SDL
         SDL_RenderDrawLine(renderer, playerX, playerY,
                            ((map.HEIGHT * mouseCompareY - b) / a), map.HEIGHT * mouseCompareY);
     }
+}
 
+void Player::initPlayer(SDL_Renderer* renderer, Map map) {
+    //Valeur du joueur par défaut
+    playerColor = {250, 128, 114, 255};
+    playerTaille = 10;
+    playerX = (map.WIDTH / 2) - playerTaille / 2;
+    playerY = (map.HEIGHT / 1.4) - playerTaille / 2;
 
-    //MOUVEMENTS JOUEUR
+    //LE JOUEUR
+    SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
+    SDL_Rect playerRect;
+    playerRect.x = playerX, playerRect.y = playerY;
+    playerRect.w = playerTaille, playerRect.h = playerTaille;
+    SDL_RenderDrawRect(renderer, &playerRect);
 
+    //Le point (playerX, playerY) devient le centre du joueur
+    playerX += playerTaille / 2;
+    playerY += playerTaille / 2;
+
+}
+
+void Player::moovePlayer(SDL_Renderer *renderer, Map map) {
+    //LES MOUVEMENTS DU JOUEUR
 }
