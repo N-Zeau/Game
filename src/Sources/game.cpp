@@ -54,11 +54,6 @@ void Game::create() {
 }
 
 void Game::drawMain() {
-    //Clear la fenêtre (renderer)
-    SDL_RenderClear(renderer);
-
-    //Couleur du Background
-    SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 
     //Dessine la Map
     int nbL,nbC;
@@ -66,9 +61,14 @@ void Game::drawMain() {
 
     //Dessine la vision du joueur
     player.visionPlayer(renderer, mapSrc, player);
+    //Gère les mouvements du joueur
+    player.moovePlayer(renderer, mapSrc);
+    //Affichage du personnage
+    player.updatePlayer(renderer, mapSrc);
 
-    //Montre tout ce qui a été fait sur la fenêtre (renderer)
-    SDL_RenderPresent(renderer);
+    //Couleur du Background
+    SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
+
 
 }
 

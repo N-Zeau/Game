@@ -25,10 +25,11 @@ public:
 
     void destroy();
 
-private:
-    bool running = true;
     SDL_Window *window = nullptr;
     SDL_Renderer *renderer = nullptr;
+
+private:
+    bool running = true;
 };
 
 

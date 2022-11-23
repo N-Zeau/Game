@@ -13,6 +13,7 @@ public:
     void visionPlayer(SDL_Renderer *renderer, Map map, Player player);
     void initPlayer(SDL_Renderer* renderer, Map map);
     void moovePlayer(SDL_Renderer* renderer, Map map);
+    void updatePlayer(SDL_Renderer* renderer, Map map);
 
 };
 

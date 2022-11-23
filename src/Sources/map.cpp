@@ -23,7 +23,7 @@ SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer* renderer) {
 }
 
 void Map::drawMap(SDL_Renderer* renderer, char **map) {
-    SDL_RenderClear(renderer);
+
     int nbL;
     int nbC;
     char **tabMap = importMap(&nbL, &nbC);
@@ -74,7 +74,6 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
     for (int i = 0; i < nbC * nbL; ++i)
         SDL_RenderCopy(renderer, wall, &rectSrc[i], &rect[i]);
 
-    SDL_RenderPresent(renderer);
 }
 
 char **Map::importMap(int *nbL, int *nbC) {
