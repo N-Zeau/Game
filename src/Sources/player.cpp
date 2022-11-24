@@ -8,28 +8,38 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     int mouseY;
     SDL_GetMouseState(&mouseX, &mouseY);
 
+    //Permet de placer le " repère " de la droite au centre du joueur
+    mouseX -= playerSize/2;
+    mouseY -= playerSize/2;
+
     //Demi-Droite d'équation y = a*x + b du centre du joueur passant par les coordonées de la souris
     //Calcul de a (Coef directeur) et b
     double a = (mouseX != playerX ? ((mouseY - playerY) / (mouseX - playerX)) : 1);
     double b = playerY - a * playerX;
-    int mouseCompareY = (mouseY > playerY ? 1 : 0); //Variable ternaire
-    int mouseCompareX = (mouseX > playerX ? 1 : 0); //Variable ternaire
+    int mouseCompareY = (mouseY > playerY ? 1 : 0);
+    int mouseCompareX = (mouseX > playerX ? 1 : 0);
+
+    int repereX = playerX + playerSize/2;
+    int repereY = playerY + playerSize/2;
+
+    //TODO Corriger l'affichage quand mouseX < playerX
 
     //Affichage de la droite directrice
     //Couleur de la droite
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
 
     if (mouseY == playerY) {
-        SDL_RenderDrawLine(renderer, playerX + playerTaille / 2, playerY + playerTaille / 2,
-                           map.WIDTH * mouseCompareX, playerY);
+        SDL_RenderDrawLine(renderer, repereX, repereY,
+                           map.WIDTH * mouseCompareX + playerSize/2, repereY);
 
     } else if (mouseX == playerX) {
-        SDL_RenderDrawLine(renderer, playerX + playerTaille / 2, playerY + playerTaille / 2,
-                           playerX, map.HEIGHT * mouseCompareY);
+        SDL_RenderDrawLine(renderer, repereX, repereY,
+                           repereX, map.HEIGHT * mouseCompareY + playerSize/2);
 
     } else {
-        SDL_RenderDrawLine(renderer, playerX + playerTaille / 2, playerY + playerTaille / 2,
-                           ((map.HEIGHT * mouseCompareY - b) / a), map.HEIGHT * mouseCompareY);
+        SDL_RenderDrawLine(renderer, repereX, repereY,
+                           ((map.HEIGHT * mouseCompareY - b) / a) + playerSize/2,
+                           ((map.HEIGHT * mouseCompareY) + playerSize/2));
     }
 
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
@@ -39,17 +49,16 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
 void Player::initPlayer(SDL_Renderer *renderer, Map map) {
     //Valeur du joueur par défaut
     playerColor = {250, 128, 114, 255};
-    playerTaille = 10;
-    playerX = (map.WIDTH / 2) - playerTaille / 2;
-    playerY = (map.HEIGHT / 1.4) - playerTaille / 2;
+    playerSize = 10;
+    playerX = (map.WIDTH / 2) - playerSize / 2;
+    playerY = (map.HEIGHT / 2) - playerSize / 2;
 
     //LE JOUEUR
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
     SDL_Rect playerRect;
     playerRect.x = playerX, playerRect.y = playerY;
-    playerRect.w = playerTaille, playerRect.h = playerTaille;
+    playerRect.w = playerSize, playerRect.h = playerSize;
     SDL_RenderDrawRect(renderer, &playerRect);
-
 }
 
 void Player::updatePlayer(SDL_Renderer *renderer, Map map) {
@@ -58,13 +67,13 @@ void Player::updatePlayer(SDL_Renderer *renderer, Map map) {
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
     SDL_Rect playerRect;
     playerRect.x = playerX, playerRect.y = playerY;
-    playerRect.w = playerTaille, playerRect.h = playerTaille;
+    playerRect.w = playerSize, playerRect.h = playerSize;
     SDL_RenderDrawRect(renderer, &playerRect);
 }
 
 
-void Player::moovePlayer(SDL_Renderer *renderer, Map map) {
-    float speed = 8;
+void Player::movePlayer(SDL_Renderer *renderer, Map map) {
+    float speed = 4;
 
     //LES MOUVEMENTS DU JOUEUR
     SDL_Event keyboard;

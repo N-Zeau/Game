@@ -51,6 +51,8 @@ void Game::create() {
     //Initialisation et dessine le Joueur
     player.initPlayer(renderer, mapSrc);
 
+    SDL_Delay(60);
+
 }
 
 void Game::drawMain() {
@@ -59,16 +61,16 @@ void Game::drawMain() {
     int nbL,nbC;
     mapSrc.drawMap(renderer, mapSrc.importMap(&nbL,&nbC));
 
+
+    //Gère les mouvements du joueur
+    player.movePlayer(renderer, mapSrc);
     //Dessine la vision du joueur
     player.visionPlayer(renderer, mapSrc, player);
-    //Gère les mouvements du joueur
-    player.moovePlayer(renderer, mapSrc);
     //Affichage du personnage
     player.updatePlayer(renderer, mapSrc);
 
     //Couleur du Background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
-
 
 }
 
