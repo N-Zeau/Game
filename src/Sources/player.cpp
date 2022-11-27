@@ -22,7 +22,7 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     int repereX = playerX + playerSize/2;
     int repereY = playerY + playerSize/2;
 
-    //TODO Corriger l'affichage quand mouseX < playerX
+
 
     //Affichage de la droite directrice
     //Couleur de la droite
@@ -72,6 +72,9 @@ void Player::updatePlayer(SDL_Renderer *renderer, Map map) {
 }
 
 
+
+
+
 void Player::movePlayer(SDL_Renderer *renderer, Map map) {
     float speed = 4;
 
@@ -95,6 +98,21 @@ void Player::movePlayer(SDL_Renderer *renderer, Map map) {
             }
         }
     }
+}
+
+rectangle *Player::rectHere(SDL_Renderer *renderer, int x, int y, Map map) {
+    rectangle* mapCoord = new rectangle[4];
+
+    for (int i = 0; i < sizeof(&map.mapCoordinate); ++i) {
+        if (map.mapCoordinate->type == 1){
+            if (x >= map.mapCoordinate->xMin &&
+                y >= map.mapCoordinate->yMin &&
+                x <= map.mapCoordinate->xMax &&
+                y <= map.mapCoordinate->yMax)
+                continue;
+        }
+    }
+
 }
 
 

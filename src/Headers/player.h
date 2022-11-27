@@ -12,6 +12,7 @@ class Player {
 public:
     void visionPlayer(SDL_Renderer *renderer, Map map, Player player);
     void initPlayer(SDL_Renderer* renderer, Map map);
+    rectangle* rectHere(SDL_Renderer* renderer, int x, int y, Map map);
     void movePlayer(SDL_Renderer* renderer, Map map);
     void updatePlayer(SDL_Renderer* renderer, Map map);
 

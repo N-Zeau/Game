@@ -38,30 +38,53 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
     SDL_Rect rectSrc[nbC * nbL];  //Rectangle correspondant à la source du pavé (Celui affiché)
     SDL_Rect rect[nbC * nbL]; //Position et dimension du Rectangle qui va être affiché dans la fenêtre
     int compteur = 0;
+    mapCoordinate = new rectangle[nbC*nbL];
 
     //Affichage de la map
     for (int i = 0; i < nbC; i++) {
         for (int j = 0; j < nbL; j++) {
+            int type;
             //Rectangle qui divise la map
-            rect[compteur].x = i * sizeTextureOnScreenWidth, rect[compteur].y = j * sizeTextureOnScreenHeight;
-            rect[compteur].w = sizeTextureOnScreenWidth, rect[compteur].h = sizeTextureOnScreenHeight;
+            int x = rect[compteur].x = i * sizeTextureOnScreenWidth;
+            int y = rect[compteur].y = j * sizeTextureOnScreenHeight;
+            int w = rect[compteur].w = sizeTextureOnScreenWidth;
+            int h = rect[compteur].h = sizeTextureOnScreenHeight;
 
             switch (tabMap[j][i]) {
                 case '2':
-                    rectSrc[compteur].x = sizeTexture, rectSrc[compteur].y = 0;
-                    rectSrc[compteur].w = sizeTexture, rectSrc[compteur].h = sizeTexture;
+                    rectSrc[compteur].x = sizeTexture;
+                    rectSrc[compteur].y = 0;
+                    rectSrc[compteur].w = sizeTexture;
+                    rectSrc[compteur].h = sizeTexture;
                     break;
                 case '1':
-                    rectSrc[compteur].x = 0, rectSrc[compteur].y = 0;
-                    rectSrc[compteur].w = sizeTexture, rectSrc[compteur].h = sizeTexture;
+                    rectSrc[compteur].x = 0;
+                    rectSrc[compteur].y = 0;
+                    rectSrc[compteur].w = sizeTexture;
+                    rectSrc[compteur].h = sizeTexture;
+                    type = 1;
+
                     break;
                 case '0':
                 case ' ':
-                    rectSrc[compteur].x = 0, rectSrc[compteur].y = 0;
-                    rectSrc[compteur].w = 0, rectSrc[compteur].h = 0;
+                    rectSrc[compteur].x = 0;
+                    rectSrc[compteur].y = 0;
+                    rectSrc[compteur].w = 0;
+                    rectSrc[compteur].h = 0;
+                    type = 0;
                     break;
             }
+
+            mapCoordinate[compteur] = rectangle{
+                    x,
+                    y,
+                    x + w,
+                    y + h,
+                    type
+            };
+
             compteur++;
+
             //Trace le cadrillage
             SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
             SDL_RenderDrawLine(renderer, 0, j*sizeTextureOnScreenHeight ,
@@ -70,6 +93,7 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
                                i*sizeTextureOnScreenWidth, HEIGHT);
         }
     }
+
 
     for (int i = 0; i < nbC * nbL; ++i)
         SDL_RenderCopy(renderer, wall, &rectSrc[i], &rect[i]);

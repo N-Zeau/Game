@@ -3,10 +3,19 @@
 #include "SDL2/SDL.h"
 #include "iostream"
 
+struct rectangle {
+    int xMin;
+    int yMin;
+    int xMax;
+    int yMax;
+    int type;
+};
+
 class Map {
 public:
     int WIDTH;
     int HEIGHT;
+    struct rectangle* mapCoordinate;
 
     void drawMap(SDL_Renderer* renderer, char **map);
 
