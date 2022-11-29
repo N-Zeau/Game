@@ -15,6 +15,8 @@ class Map {
 public:
     int WIDTH;
     int HEIGHT;
+    int nbCase;
+
     struct rectangle* mapCoordinate;
 
     void drawMap(SDL_Renderer* renderer, char **map);

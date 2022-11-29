@@ -80,8 +80,7 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
                     y,
                     x + w,
                     y + h,
-                    type
-            };
+                    type };
 
             compteur++;
 
@@ -94,6 +93,7 @@ void Map::drawMap(SDL_Renderer* renderer, char **map) {
         }
     }
 
+    nbCase = compteur;
 
     for (int i = 0; i < nbC * nbL; ++i)
         SDL_RenderCopy(renderer, wall, &rectSrc[i], &rect[i]);

@@ -9,8 +9,8 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     SDL_GetMouseState(&mouseX, &mouseY);
 
     //Permet de placer le " repère " de la droite au centre du joueur
-    mouseX -= playerSize/2;
-    mouseY -= playerSize/2;
+    mouseX -= playerSize / 2;
+    mouseY -= playerSize / 2;
 
     //Demi-Droite d'équation y = a*x + b du centre du joueur passant par les coordonées de la souris
     //Calcul de a (Coef directeur) et b
@@ -19,8 +19,8 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     int mouseCompareY = (mouseY > playerY ? 1 : 0);
     int mouseCompareX = (mouseX > playerX ? 1 : 0);
 
-    int repereX = playerX + playerSize/2;
-    int repereY = playerY + playerSize/2;
+    int repereX = playerX + playerSize / 2;
+    int repereY = playerY + playerSize / 2;
 
 
 
@@ -30,16 +30,16 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
 
     if (mouseY == playerY) {
         SDL_RenderDrawLine(renderer, repereX, repereY,
-                           map.WIDTH * mouseCompareX + playerSize/2, repereY);
+                           map.WIDTH * mouseCompareX + playerSize / 2, repereY);
 
     } else if (mouseX == playerX) {
         SDL_RenderDrawLine(renderer, repereX, repereY,
-                           repereX, map.HEIGHT * mouseCompareY + playerSize/2);
+                           repereX, map.HEIGHT * mouseCompareY + playerSize / 2);
 
     } else {
         SDL_RenderDrawLine(renderer, repereX, repereY,
-                           ((map.HEIGHT * mouseCompareY - b) / a) + playerSize/2,
-                           ((map.HEIGHT * mouseCompareY) + playerSize/2));
+                           ((map.HEIGHT * mouseCompareY - b) / a) + playerSize / 2,
+                           ((map.HEIGHT * mouseCompareY) + playerSize / 2));
     }
 
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
@@ -72,11 +72,8 @@ void Player::updatePlayer(SDL_Renderer *renderer, Map map) {
 }
 
 
-
-
-
 void Player::movePlayer(SDL_Renderer *renderer, Map map) {
-    float speed = 4;
+    float speed = 8;
 
     //LES MOUVEMENTS DU JOUEUR
     SDL_Event keyboard;
@@ -100,19 +97,66 @@ void Player::movePlayer(SDL_Renderer *renderer, Map map) {
     }
 }
 
-rectangle *Player::rectHere(SDL_Renderer *renderer, int x, int y, Map map) {
-    rectangle* mapCoord = new rectangle[4];
+rectangle *Player::rectHere(SDL_Renderer *renderer, Map map, int x, int y) {
+    rectangle *mapCoord = new rectangle[5]; // rectangle joueur, haut, droite, bas, gauche
 
-    for (int i = 0; i < sizeof(&map.mapCoordinate); ++i) {
-        if (map.mapCoordinate->type == 1){
-            if (x >= map.mapCoordinate->xMin &&
-                y >= map.mapCoordinate->yMin &&
-                x <= map.mapCoordinate->xMax &&
-                y <= map.mapCoordinate->yMax)
-                continue;
+    int wRect = map.mapCoordinate[0].xMax - map.mapCoordinate[0].xMin;
+    int hRect = map.mapCoordinate[0].yMax - map.mapCoordinate[0].yMin;
+
+    for (int i = 0; i < map.nbCase; ++i) {
+        if (x >= map.mapCoordinate[i].xMin && x <= map.mapCoordinate[i].xMax &&
+            y >= map.mapCoordinate[i].yMin && y <= map.mapCoordinate[i].yMax) {
+
+            //Rectangle où se situe le joueur
+            mapCoord[0] = map.mapCoordinate[i];
+
+            //Rectangle au dessus de joueur
+            mapCoord[1] = rectangle{
+                map.mapCoordinate[i].xMin,
+                map.mapCoordinate[i].yMin - hRect,
+                map.mapCoordinate[i].xMax,
+                map.mapCoordinate[i].yMax - hRect,
+                map.mapCoordinate[i].type,
+            };
+
+            //Rectangle à droite du joueur
+            mapCoord[2] = rectangle{
+                    map.mapCoordinate[i].xMin + wRect,
+                    map.mapCoordinate[i].yMin,
+                    map.mapCoordinate[i].xMax + wRect,
+                    map.mapCoordinate[i].yMax,
+                    map.mapCoordinate[i].type,
+            };
+
+            //Rectangle en bas du joueur
+            mapCoord[3] = rectangle{
+                    map.mapCoordinate[i].xMin,
+                    map.mapCoordinate[i].yMin + hRect,
+                    map.mapCoordinate[i].xMax,
+                    map.mapCoordinate[i].yMax + hRect,
+                    map.mapCoordinate[i].type,
+            };
+
+            //Rectangle à gauche du joueur
+            mapCoord[4] = rectangle{
+                    map.mapCoordinate[i].xMin - wRect,
+                    map.mapCoordinate[i].yMin,
+                    map.mapCoordinate[i].xMax - wRect,
+                    map.mapCoordinate[i].yMax,
+                    map.mapCoordinate[i].type,
+            };
+
+            //TODO tester qu'il s'agit bien des rectangles autour du rect du joueur
+
+            /*
+            // Affiche la case où le joueur se situe
+            std::cerr << "Le joueur est dans le rectangle : {(xMin) " << map.mapCoordinate[i].xMin
+            << ", (yMin) " << map.mapCoordinate[i].yMin
+            << ", (xMax) " << map.mapCoordinate[i].xMax
+            << ", (yMax) " << map.mapCoordinate[i].yMax
+            << "}" << std::endl;
+             */
         }
     }
-
+    return mapCoord;
 }
-
-

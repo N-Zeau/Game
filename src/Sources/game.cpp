@@ -11,7 +11,6 @@ void Game::verif() {
 
 void Game::loop() {
     //Le jeu tourne tant que Echap ou le bouton fermer n'est pas pressé
-    SDL_Event event;
     if (SDL_WaitEvent(&event))
         switch (event.type) {
             case SDL_KEYDOWN:
@@ -33,7 +32,7 @@ void Game::create() {
     int nbL;
     int nbC;
     mapSrc.importMap(&nbL, &nbC);
-    int sizeCarre = 70;
+    int sizeCarre = 64;
     //Déclaration de la taille de la map en fonction du nombre de lignes et de colonnes
     mapSrc.WIDTH = nbC*sizeCarre;
     mapSrc.HEIGHT = nbL*sizeCarre;
@@ -51,8 +50,6 @@ void Game::create() {
     //Initialisation et dessine le Joueur
     player.initPlayer(renderer, mapSrc);
 
-    SDL_Delay(60);
-
 }
 
 void Game::drawMain() {
@@ -61,13 +58,15 @@ void Game::drawMain() {
     int nbL,nbC;
     mapSrc.drawMap(renderer, mapSrc.importMap(&nbL,&nbC));
 
-
     //Gère les mouvements du joueur
     player.movePlayer(renderer, mapSrc);
     //Dessine la vision du joueur
     player.visionPlayer(renderer, mapSrc, player);
     //Affichage du personnage
     player.updatePlayer(renderer, mapSrc);
+
+    //test
+    player.rectHere(renderer, mapSrc, player.playerX, player.playerY);
 
     //Couleur du Background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
