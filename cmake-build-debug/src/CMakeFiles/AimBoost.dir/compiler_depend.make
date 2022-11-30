@@ -3,138 +3,138 @@
 
 src/CMakeFiles/AimBoost.dir/Sources/game.cpp.obj: ../src/Sources/game.cpp \
   ../src/Headers/game.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   ../src/Headers/map.h \
   ../Ressources/SDL2/SDL.h \
   ../Ressources/SDL2/SDL_main.h \
@@ -144,9 +144,9 @@ src/CMakeFiles/AimBoost.dir/Sources/game.cpp.obj: ../src/Sources/game.cpp \
   ../Ressources/SDL2/begin_code.h \
   ../Ressources/SDL2/close_code.h \
   ../Ressources/SDL2/SDL_config_windows.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
   ../Ressources/SDL2/SDL_assert.h \
   ../Ressources/SDL2/SDL_atomic.h \
   ../Ressources/SDL2/SDL_audio.h \
@@ -157,96 +157,96 @@ src/CMakeFiles/AimBoost.dir/Sources/game.cpp.obj: ../src/Sources/game.cpp \
   ../Ressources/SDL2/SDL_rwops.h \
   ../Ressources/SDL2/SDL_clipboard.h \
   ../Ressources/SDL2/SDL_cpuinfo.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h \
   ../Ressources/SDL2/SDL_events.h \
   ../Ressources/SDL2/SDL_video.h \
   ../Ressources/SDL2/SDL_pixels.h \
@@ -286,138 +286,138 @@ src/CMakeFiles/AimBoost.dir/Sources/game.cpp.obj: ../src/Sources/game.cpp \
 src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj: ../src/Sources/main.cpp \
   ../src/Headers/main.h \
   ../src/Headers/game.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   ../src/Headers/map.h \
   ../Ressources/SDL2/SDL.h \
   ../Ressources/SDL2/SDL_main.h \
@@ -427,9 +427,9 @@ src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj: ../src/Sources/main.cpp \
   ../Ressources/SDL2/begin_code.h \
   ../Ressources/SDL2/close_code.h \
   ../Ressources/SDL2/SDL_config_windows.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
   ../Ressources/SDL2/SDL_assert.h \
   ../Ressources/SDL2/SDL_atomic.h \
   ../Ressources/SDL2/SDL_audio.h \
@@ -440,96 +440,96 @@ src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj: ../src/Sources/main.cpp \
   ../Ressources/SDL2/SDL_rwops.h \
   ../Ressources/SDL2/SDL_clipboard.h \
   ../Ressources/SDL2/SDL_cpuinfo.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h \
   ../Ressources/SDL2/SDL_events.h \
   ../Ressources/SDL2/SDL_video.h \
   ../Ressources/SDL2/SDL_pixels.h \
@@ -576,23 +576,23 @@ src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj: ../src/Sources/map.cpp \
   ../Ressources/SDL2/begin_code.h \
   ../Ressources/SDL2/close_code.h \
   ../Ressources/SDL2/SDL_config_windows.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
   ../Ressources/SDL2/SDL_assert.h \
   ../Ressources/SDL2/SDL_atomic.h \
   ../Ressources/SDL2/SDL_audio.h \
@@ -600,118 +600,118 @@ src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj: ../src/Sources/map.cpp \
   ../Ressources/SDL2/SDL_endian.h \
   ../Ressources/SDL2/SDL_mutex.h \
   ../Ressources/SDL2/SDL_thread.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
   ../Ressources/SDL2/SDL_rwops.h \
   ../Ressources/SDL2/SDL_clipboard.h \
   ../Ressources/SDL2/SDL_cpuinfo.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h \
   ../Ressources/SDL2/SDL_events.h \
   ../Ressources/SDL2/SDL_video.h \
   ../Ressources/SDL2/SDL_pixels.h \
@@ -745,108 +745,108 @@ src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj: ../src/Sources/map.cpp \
   ../Ressources/SDL2/SDL_version.h \
   ../Ressources/SDL2/SDL_locale.h \
   ../Ressources/SDL2/SDL_misc.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
 
 src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj: ../src/Sources/player.cpp \
   ../src/Headers/player.h \
@@ -858,23 +858,23 @@ src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj: ../src/Sources/player.cpp \
   ../Ressources/SDL2/begin_code.h \
   ../Ressources/SDL2/close_code.h \
   ../Ressources/SDL2/SDL_config_windows.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
   ../Ressources/SDL2/SDL_assert.h \
   ../Ressources/SDL2/SDL_atomic.h \
   ../Ressources/SDL2/SDL_audio.h \
@@ -882,118 +882,118 @@ src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj: ../src/Sources/player.cpp \
   ../Ressources/SDL2/SDL_endian.h \
   ../Ressources/SDL2/SDL_mutex.h \
   ../Ressources/SDL2/SDL_thread.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
   ../Ressources/SDL2/SDL_rwops.h \
   ../Ressources/SDL2/SDL_clipboard.h \
   ../Ressources/SDL2/SDL_cpuinfo.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h \
   ../Ressources/SDL2/SDL_events.h \
   ../Ressources/SDL2/SDL_video.h \
   ../Ressources/SDL2/SDL_pixels.h \
@@ -1028,658 +1028,662 @@ src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj: ../src/Sources/player.cpp \
   ../Ressources/SDL2/SDL_locale.h \
   ../Ressources/SDL2/SDL_misc.h \
   ../src/Headers/map.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   ../src/Headers/event.h \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
-  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/math.h
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
+  C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/math.h
 
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
-
-../Ressources/SDL2/SDL_scancode.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h:
 
 ../src/Sources/game.cpp:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h:
 
 ../src/Headers/game.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/uintrintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmi2intrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h:
+
+../Ressources/SDL2/SDL_atomic.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
 ../Ressources/SDL2/close_code.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wchar.h:
+../Ressources/SDL2/SDL_main.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
 
-../Ressources/SDL2/SDL_joystick.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stddef.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h:
+../src/Sources/main.cpp:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
-
-../src/Headers/event.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h:
-
-../Ressources/SDL2/SDL_platform.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h:
-
-../Ressources/SDL2/SDL_hints.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h:
-
-../Ressources/SDL2/SDL_pixels.h:
-
-../Ressources/SDL2/SDL_events.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint:
-
-../Ressources/SDL2/SDL_clipboard.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
-
-../Ressources/SDL2/SDL_misc.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/time.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h:
-
-../Ressources/SDL2/SDL_sensor.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h:
-
-../Ressources/SDL2/SDL_config.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h:
-
-../Ressources/SDL2/SDL_assert.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vaesintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new:
 
 ../src/Headers/player.h:
 
 ../Ressources/SDL2/SDL_gamecontroller.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdio.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectvlintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h:
+../Ressources/SDL2/SDL_quit.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/locale.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error:
+../Ressources/SDL2/SDL_mutex.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdint.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h:
 
-../Ressources/SDL2/SDL_keyboard.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h:
+../Ressources/SDL2/SDL_joystick.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/ctype.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/errno.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdarg.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/types.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/process.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/limits.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/signal.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_timeval.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/adxintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h:
+
+../Ressources/SDL2/begin_code.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h:
+
+../src/Headers/event.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h:
+
+../Ressources/SDL2/SDL_render.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib:
+
+../Ressources/SDL2/SDL_filesystem.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/wctype.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc:
 
 ../src/Headers/map.h:
 
 ../Ressources/SDL2/SDL.h:
 
-../Ressources/SDL2/SDL_main.h:
-
 ../Ressources/SDL2/SDL_stdinc.h:
 
-../Ressources/SDL2/begin_code.h:
+../Ressources/SDL2/SDL_config.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h:
+
+../Ressources/SDL2/SDL_platform.h:
 
 ../Ressources/SDL2/SDL_config_windows.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h:
-
-../Ressources/SDL2/SDL_atomic.h:
+../Ressources/SDL2/SDL_assert.h:
 
 ../Ressources/SDL2/SDL_audio.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h:
 
 ../Ressources/SDL2/SDL_error.h:
 
 ../Ressources/SDL2/SDL_endian.h:
 
-../Ressources/SDL2/SDL_mutex.h:
-
 ../Ressources/SDL2/SDL_thread.h:
 
 ../Ressources/SDL2/SDL_rwops.h:
 
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h:
+
+../Ressources/SDL2/SDL_clipboard.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h:
+
 ../Ressources/SDL2/SDL_cpuinfo.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/intrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/setjmp.h:
 
-../src/Headers/main.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86intrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/x86gprintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h:
+../Ressources/SDL2/SDL_system.h:
 
-../Ressources/SDL2/SDL_rect.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cldemoteintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clzerointrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/enqcmdintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/movdirintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fxsrintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmavlintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tbmintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/math.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rdseedintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/serializeintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/sgxintrin.h:
 
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveoptintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h:
-
-../Ressources/SDL2/SDL_render.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512erintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bitalgintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/f16cintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/math.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ammintrin.h:
-
-../Ressources/SDL2/SDL_video.h:
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tsxldtrkintrin.h:
 
 ../Ressources/SDL2/SDL_surface.h:
 
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsaveintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h:
+
+../Ressources/SDL2/SDL_hints.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vp2intersectintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/hresetintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/smmintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wmmintrin.h:
+
+../Ressources/SDL2/SDL_pixels.h:
+
+../Ressources/SDL2/SDL_events.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avxvnniintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx2intrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512cdintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bwintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512ifmaintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124fmapsintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnniintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vnnivlintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vpopcntdqvlintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/shaintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fmaintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/gfniintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/vpclmulqdqintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16vlintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512bf16intrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxtileintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxint8intrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/amxbf16intrin.h:
+
+../Ressources/SDL2/SDL_rect.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/fma4intrin.h:
+
+../Ressources/SDL2/SDL_shape.h:
+
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xopintrin.h:
+
+../Ressources/SDL2/SDL_video.h:
+
 ../Ressources/SDL2/SDL_blendmode.h:
 
+../Ressources/SDL2/SDL_keyboard.h:
+
 ../Ressources/SDL2/SDL_keycode.h:
+
+../Ressources/SDL2/SDL_scancode.h:
 
 ../Ressources/SDL2/SDL_mouse.h:
 
 ../Ressources/SDL2/SDL_guid.h:
 
-../Ressources/SDL2/SDL_quit.h:
+../Ressources/SDL2/SDL_sensor.h:
 
 ../Ressources/SDL2/SDL_gesture.h:
 
 ../Ressources/SDL2/SDL_touch.h:
-
-../Ressources/SDL2/SDL_filesystem.h:
 
 ../Ressources/SDL2/SDL_haptic.h:
 
@@ -1693,11 +1697,9 @@ C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/m
 
 ../Ressources/SDL2/SDL_metal.h:
 
+C:/Users/Peultier\ Enzo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h:
+
 ../Ressources/SDL2/SDL_power.h:
-
-../Ressources/SDL2/SDL_shape.h:
-
-../Ressources/SDL2/SDL_system.h:
 
 ../Ressources/SDL2/SDL_timer.h:
 
@@ -1705,12 +1707,10 @@ C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/m
 
 ../Ressources/SDL2/SDL_locale.h:
 
-../src/Sources/main.cpp:
+../Ressources/SDL2/SDL_misc.h:
+
+../src/Headers/main.h:
 
 ../src/Sources/map.cpp:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h:
-
-C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/stdarg.h:
 
 ../src/Sources/player.cpp:

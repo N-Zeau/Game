@@ -9,67 +9,48 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     int mouseY;
     SDL_GetMouseState(&mouseX, &mouseY);
 
-    //Permet de placer le " repère " de la droite au centre du joueur
-    mouseX -= playerSize / 2;
-    mouseY -= playerSize / 2;
-
-    //Demi-Droite d'équation y = a*x + b du centre du joueur passant par les coordonées de la souris
-    //Calcul de a (Coef directeur) et b
-    double a = (mouseX != playerX ? ((mouseY - playerY) / (mouseX - playerX)) : 1);
-    double b = playerY - a * playerX;
-    int mouseCompareY = (mouseY > playerY ? 1 : 0);
-    int mouseCompareX = (mouseX > playerX ? 1 : 0);
-
+    // Le point (repereX, repereY) est le point au milieu de joueur
     int repereX = playerX + playerSize / 2;
     int repereY = playerY + playerSize / 2;
 
-    //Affichage de la droite directrice
-    //Couleur de la droite
+    //Couleur du cône
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
 
     //Récupère le carré où est le joueur et ceux adjacents
     rectangle *playerRect = player.rectHere(renderer, map, playerX, playerY);
 
-    //Affiche la droite si le joueur n'est pas dans un mur
+    //Affiche le cône si le joueur n'est pas dans un mur
     if (playerRect[0].type == 0) {
-        /*
-        if (mouseY == playerY) {
-            SDL_RenderDrawLine(renderer, repereX, repereY,
-                               map.WIDTH * mouseCompareX + playerSize / 2, repereY);
-
-        } else if (mouseX == playerX) {
-            SDL_RenderDrawLine(renderer, repereX, repereY,
-                               repereX, map.HEIGHT * mouseCompareY + playerSize / 2);
-
-        } else {
-            SDL_RenderDrawLine(renderer, repereX, repereY,
-                               ((map.HEIGHT * mouseCompareY - b) / a) + playerSize / 2,
-                               ((map.HEIGHT * mouseCompareY) + playerSize / 2));
-        }
-        */
         float dx = mouseX - repereX;
         float dy = mouseY - repereY;
         float len = std::sqrt(dx * dx + dy * dy);
         dx /= len;
         dy /= len;
         float alpha = std::atan2(dy, dx);
-        const float fov = 1.7530987;
+        const float fov = 1.39626; //Champ de vision du joueur en Radians
+        float sizeRender = 200;  //Largeur de fentre de rendu
 
-        for (int i = 0; i < 100; i++) { // largeur de fentre de rendu
-            float beta = alpha - fov / 2. + i / 100. * fov;
-            for (float t = 0; t < 1000; t += 5) {
-                float x = repereX + std::cos(beta) * t;
-                float y = repereY + std::sin(beta) * t;
-                rectangle *pointRect = player.rectHere(renderer, map, x, y);
-                if (pointRect[0].type == 0) {
-                    SDL_RenderDrawPoint(renderer, x, y);
-                }
+        //Affiche chaques lignes qui compose le cône
+        for (int i = 0; i < (int) sizeRender; i++) {
+            float beta = alpha - fov / 2. + i / sizeRender * fov;
+            int t = 0;
+            float x = repereX + std::cos(beta) * t;
+            float y = repereY + std::sin(beta) * t;
+            rectangle *pointRect = player.rectHere(renderer, map, x, y);
+
+            //Afficher le cone avec la colision contre le mur
+            while (pointRect[0].type == 0 && t < map.WIDTH) {
+                x = repereX + std::cos(beta) * t;
+                y = repereY + std::sin(beta) * t;
+                SDL_RenderDrawPoint(renderer, x, y);
+                t += 2;
+                pointRect = player.rectHere(renderer, map, x, y);
             }
         }
-
-        //Remet la couleur du background
-        SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
     }
+
+    //Remet la couleur du background
+    SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 
 }
 
