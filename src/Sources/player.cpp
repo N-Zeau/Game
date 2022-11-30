@@ -1,4 +1,5 @@
 #include "../Headers/player.h"
+#include <cmath>
 
 void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
 
@@ -33,6 +34,7 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
 
     //Affiche la droite si le joueur n'est pas dans un mur
     if (playerRect[0].type == 0) {
+        /*
         if (mouseY == playerY) {
             SDL_RenderDrawLine(renderer, repereX, repereY,
                                map.WIDTH * mouseCompareX + playerSize / 2, repereY);
@@ -45,6 +47,24 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
             SDL_RenderDrawLine(renderer, repereX, repereY,
                                ((map.HEIGHT * mouseCompareY - b) / a) + playerSize / 2,
                                ((map.HEIGHT * mouseCompareY) + playerSize / 2));
+        }
+        */
+        float dx = mouseX - repereX;
+        float dy = mouseY - repereY;
+        float len = std::sqrt(dx*dx + dy*dy);
+        dx /= len;
+        dy /= len;
+        float alpha = std::atan2(dy, dx);
+        const float fov = 1.7530987;
+
+        for (int i=0; i<512; i++) { // largeur de fentre de rendu
+            float beta = alpha - fov/2. + i/512.*fov;
+            for (float t = 0; t < 1000; t += 3) {
+                float x = repereX + std::cos(beta) * t;
+                float y = repereY + std::sin(beta) * t;
+                SDL_RenderDrawPoint(renderer, x, y);
+                //si pas libre break;
+            }
         }
     }
 
