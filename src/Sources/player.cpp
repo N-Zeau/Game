@@ -76,10 +76,10 @@ void Player::movePlayer(SDL_Renderer *renderer, Map map) {
     float speed = 8;
 
     //LES MOUVEMENTS DU JOUEUR
-    SDL_Event keyboard;
-    if (SDL_WaitEvent(&keyboard)) {
-        if (keyboard.type == SDL_KEYDOWN) {
-            switch (keyboard.key.keysym.sym) {
+    Event move{};
+    if (SDL_WaitEvent(&move.event)) {
+        if (move.event.type == SDL_KEYDOWN) {
+            switch (move.event.key.keysym.sym) {
                 case SDLK_UP:
                     playerY -= speed;
                     break;

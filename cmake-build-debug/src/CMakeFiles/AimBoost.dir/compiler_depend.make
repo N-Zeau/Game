@@ -281,7 +281,7 @@ src/CMakeFiles/AimBoost.dir/Sources/game.cpp.obj: ../src/Sources/game.cpp \
   ../Ressources/SDL2/SDL_locale.h \
   ../Ressources/SDL2/SDL_misc.h \
   ../src/Headers/player.h \
-  ../src/Headers/game.h
+  ../src/Headers/event.h
 
 src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj: ../src/Sources/main.cpp \
   ../src/Headers/main.h \
@@ -563,7 +563,8 @@ src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj: ../src/Sources/main.cpp \
   ../Ressources/SDL2/SDL_version.h \
   ../Ressources/SDL2/SDL_locale.h \
   ../Ressources/SDL2/SDL_misc.h \
-  ../src/Headers/player.h
+  ../src/Headers/player.h \
+  ../src/Headers/event.h
 
 src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj: ../src/Sources/map.cpp \
   ../src/Headers/map.h \
@@ -1129,8 +1130,7 @@ src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj: ../src/Sources/player.cpp \
   C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  ../src/Headers/game.h \
-  ../src/Headers/player.h
+  ../src/Headers/event.h
 
 
 C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
@@ -1232,6 +1232,8 @@ C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/m
 C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512pfintrin.h:
 
 C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
+
+../src/Headers/event.h:
 
 C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h:
 

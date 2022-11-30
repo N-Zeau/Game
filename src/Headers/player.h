@@ -2,6 +2,7 @@
 #define GAME_PLAYER_H
 #include <SDL2/SDL.h>
 #include "map.h"
+#include "event.h"
 
 class Player {
 

@@ -279,4 +279,5 @@ src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj: \
  C:/Users/enzop/CLionProjects/Game/Ressources/SDL2/SDL_version.h \
  C:/Users/enzop/CLionProjects/Game/Ressources/SDL2/SDL_locale.h \
  C:/Users/enzop/CLionProjects/Game/Ressources/SDL2/SDL_misc.h \
- C:/Users/enzop/CLionProjects/Game/src/Headers/player.h
+ C:/Users/enzop/CLionProjects/Game/src/Headers/player.h \
+ C:/Users/enzop/CLionProjects/Game/src/Headers/event.h

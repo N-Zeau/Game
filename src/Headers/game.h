@@ -4,13 +4,13 @@
 #include <iostream>
 #include "map.h"
 #include "player.h"
+#include "event.h"
 #include <SDL2/SDL.h>
 
 
 class Game {
     Map mapSrc;
     Player player;
-    SDL_Event event;
 
 public:
 

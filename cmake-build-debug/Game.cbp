@@ -86,6 +86,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Headers/event.h">
+			<Option target="AimBoost"/>
+		</Unit>
 		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Headers/game.h">
 			<Option target="AimBoost"/>
 		</Unit>

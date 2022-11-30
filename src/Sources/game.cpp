@@ -10,14 +10,15 @@ void Game::verif() {
 }
 
 void Game::loop() {
+    Event quit{};
     //Le jeu tourne tant que Echap ou le bouton fermer n'est pas pressé
-    if (SDL_WaitEvent(&event))
-        switch (event.type) {
+    if (SDL_WaitEvent(&quit.event))
+        switch (quit.event.type) {
             case SDL_KEYDOWN:
-                running = event.key.keysym.sym != SDLK_ESCAPE; //verifie si la touche Echap est pressé
+                running = quit.event.key.keysym.sym != SDLK_ESCAPE; //verifie si la touche Echap est pressé
                 break;
             case SDL_WINDOWEVENT:
-                running = event.window.event != SDL_WINDOWEVENT_CLOSE; //verifie si le bouton fermer est pressé
+                running = quit.event.window.event != SDL_WINDOWEVENT_CLOSE; //verifie si le bouton fermer est pressé
                 break;
             default:
                 break;
@@ -64,8 +65,7 @@ void Game::drawMain() {
     player.visionPlayer(renderer, mapSrc, player);
     //Affichage du personnage
     player.updatePlayer(renderer, mapSrc);
-
-    //test
+    //Récupère le carré où est le joueur
     player.rectHere(renderer, mapSrc, player.playerX, player.playerY);
 
     //Couleur du Background
