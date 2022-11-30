@@ -27,8 +27,6 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     //Couleur de la droite
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
 
-
-    //TODO : ARRÊTER LA DROITE SUR LA MAP ET FAIRE UN CÔNE DE VISION
     //Récupère le carré où est le joueur et ceux adjacents
     rectangle *playerRect = player.rectHere(renderer, map, playerX, playerY);
 
@@ -51,27 +49,29 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
         */
         float dx = mouseX - repereX;
         float dy = mouseY - repereY;
-        float len = std::sqrt(dx*dx + dy*dy);
+        float len = std::sqrt(dx * dx + dy * dy);
         dx /= len;
         dy /= len;
         float alpha = std::atan2(dy, dx);
         const float fov = 1.7530987;
 
-        for (int i=0; i<512; i++) { // largeur de fentre de rendu
-            float beta = alpha - fov/2. + i/512.*fov;
-            for (float t = 0; t < 1000; t += 3) {
+        for (int i = 0; i < 100; i++) { // largeur de fentre de rendu
+            float beta = alpha - fov / 2. + i / 100. * fov;
+            for (float t = 0; t < 1000; t += 5) {
                 float x = repereX + std::cos(beta) * t;
                 float y = repereY + std::sin(beta) * t;
-                SDL_RenderDrawPoint(renderer, x, y);
-                //si pas libre break;
+                rectangle *pointRect = player.rectHere(renderer, map, x, y);
+                if (pointRect[0].type == 0) {
+                    SDL_RenderDrawPoint(renderer, x, y);
+                }
             }
         }
+
+        //Remet la couleur du background
+        SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
     }
 
-    //Remet la couleur du background
-    SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 }
-
 
 void Player::initPlayer(SDL_Renderer *renderer, Map map) {
     //Valeur du joueur par défaut
@@ -172,14 +172,14 @@ rectangle *Player::rectHere(SDL_Renderer *renderer, Map map, int x, int y) {
                     map.mapCoordinate[i].type,
             };
 
-
+            /*
             // Affiche la case où le joueur se situe
             std::cerr << "Le joueur est dans le rectangle : {(xMin) " << map.mapCoordinate[i].xMin
                       << ", (yMin) " << map.mapCoordinate[i].yMin
                       << ", (xMax) " << map.mapCoordinate[i].xMax
                       << ", (yMax) " << map.mapCoordinate[i].yMax
                       << "}" << std::endl;
-
+            */
         }
     }
     return mapCoord;
