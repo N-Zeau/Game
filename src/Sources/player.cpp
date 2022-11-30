@@ -22,29 +22,36 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     int repereX = playerX + playerSize / 2;
     int repereY = playerY + playerSize / 2;
 
-
-
     //Affichage de la droite directrice
     //Couleur de la droite
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
 
-    if (mouseY == playerY) {
-        SDL_RenderDrawLine(renderer, repereX, repereY,
-                           map.WIDTH * mouseCompareX + playerSize / 2, repereY);
 
-    } else if (mouseX == playerX) {
-        SDL_RenderDrawLine(renderer, repereX, repereY,
-                           repereX, map.HEIGHT * mouseCompareY + playerSize / 2);
+    //TODO : ARRÊTER LA DROITE SUR LA MAP ET FAIRE UN CÔNE DE VISION
+    //Récupère le carré où est le joueur et ceux adjacents
+    rectangle *playerRect = player.rectHere(renderer, map, playerX, playerY);
 
-    } else {
-        SDL_RenderDrawLine(renderer, repereX, repereY,
-                           ((map.HEIGHT * mouseCompareY - b) / a) + playerSize / 2,
-                           ((map.HEIGHT * mouseCompareY) + playerSize / 2));
+    //Affiche la droite si le joueur n'est pas dans un mur
+    if (playerRect[0].type == 0) {
+        if (mouseY == playerY) {
+            SDL_RenderDrawLine(renderer, repereX, repereY,
+                               map.WIDTH * mouseCompareX + playerSize / 2, repereY);
+
+        } else if (mouseX == playerX) {
+            SDL_RenderDrawLine(renderer, repereX, repereY,
+                               repereX, map.HEIGHT * mouseCompareY + playerSize / 2);
+
+        } else {
+            SDL_RenderDrawLine(renderer, repereX, repereY,
+                               ((map.HEIGHT * mouseCompareY - b) / a) + playerSize / 2,
+                               ((map.HEIGHT * mouseCompareY) + playerSize / 2));
+        }
     }
 
+    //Remet la couleur du background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
-
 }
+
 
 void Player::initPlayer(SDL_Renderer *renderer, Map map) {
     //Valeur du joueur par défaut
@@ -62,7 +69,6 @@ void Player::initPlayer(SDL_Renderer *renderer, Map map) {
 }
 
 void Player::updatePlayer(SDL_Renderer *renderer, Map map) {
-
     //LE JOUEUR
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
     SDL_Rect playerRect;
@@ -112,11 +118,11 @@ rectangle *Player::rectHere(SDL_Renderer *renderer, Map map, int x, int y) {
 
             //Rectangle au dessus de joueur
             mapCoord[1] = rectangle{
-                map.mapCoordinate[i].xMin,
-                map.mapCoordinate[i].yMin - hRect,
-                map.mapCoordinate[i].xMax,
-                map.mapCoordinate[i].yMax - hRect,
-                map.mapCoordinate[i].type,
+                    map.mapCoordinate[i].xMin,
+                    map.mapCoordinate[i].yMin - hRect,
+                    map.mapCoordinate[i].xMax,
+                    map.mapCoordinate[i].yMax - hRect,
+                    map.mapCoordinate[i].type,
             };
 
             //Rectangle à droite du joueur
@@ -146,16 +152,14 @@ rectangle *Player::rectHere(SDL_Renderer *renderer, Map map, int x, int y) {
                     map.mapCoordinate[i].type,
             };
 
-            //TODO tester qu'il s'agit bien des rectangles autour du rect du joueur
 
-            /*
             // Affiche la case où le joueur se situe
             std::cerr << "Le joueur est dans le rectangle : {(xMin) " << map.mapCoordinate[i].xMin
-            << ", (yMin) " << map.mapCoordinate[i].yMin
-            << ", (xMax) " << map.mapCoordinate[i].xMax
-            << ", (yMax) " << map.mapCoordinate[i].yMax
-            << "}" << std::endl;
-             */
+                      << ", (yMin) " << map.mapCoordinate[i].yMin
+                      << ", (xMax) " << map.mapCoordinate[i].xMax
+                      << ", (yMax) " << map.mapCoordinate[i].yMax
+                      << "}" << std::endl;
+
         }
     }
     return mapCoord;

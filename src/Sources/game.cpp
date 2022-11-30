@@ -65,8 +65,6 @@ void Game::drawMain() {
     player.visionPlayer(renderer, mapSrc, player);
     //Affichage du personnage
     player.updatePlayer(renderer, mapSrc);
-    //Récupère le carré où est le joueur
-    player.rectHere(renderer, mapSrc, player.playerX, player.playerY);
 
     //Couleur du Background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
