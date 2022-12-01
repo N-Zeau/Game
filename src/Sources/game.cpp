@@ -60,7 +60,7 @@ void Game::drawMain() {
 
 }
 
-void Game::destroy(){
+void Game::destroy() {
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
     SDL_Quit();
@@ -82,6 +82,7 @@ void Game::handleEvents() {
     }
 }
 
-bool Game::isRunning(){
+bool Game::isRunning() {
     return running;
+
 }
