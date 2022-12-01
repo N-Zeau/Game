@@ -21,7 +21,9 @@ public:
 
     void drawMain();
 
-    void destroy() const;
+    void destroy();
+
+    void handleEvents();
 
     SDL_Window *window = nullptr;
     SDL_Renderer *renderer = nullptr;

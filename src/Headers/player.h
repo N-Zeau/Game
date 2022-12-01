@@ -11,9 +11,8 @@ public:
     float playerY{};
     int playerSize{};
     SDL_Color playerColor{};
-    bool quit = true;
 
-    int* visionPlayer(SDL_Renderer *renderer, Map map, Player player);
+    int *visionPlayer(SDL_Renderer *renderer, Map map, Player player);
 
     void initPlayer(SDL_Renderer *renderer, Map map);
 
@@ -23,9 +22,7 @@ public:
 
     void updatePlayer(SDL_Renderer *renderer);
 
-    void vision3DPlayer(SDL_Renderer *renderer, Map map, Player player, int* collisionPoint);
-
-    void handleEvents();
+    void vision3DPlayer(SDL_Renderer *renderer, Map map, Player player, int *collisionPoint);
 };
 
 #endif //GAME_PLAYER_H

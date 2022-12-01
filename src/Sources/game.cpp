@@ -9,10 +9,6 @@ void Game::verif() {
     }
 }
 
-bool Game::isRunning() {
-    return running;
-}
-
 void Game::create() {
     //Verifie l'initialisation de SDL2 et de la fenêtre
     verif();
@@ -56,10 +52,6 @@ void Game::drawMain() {
     //Dessine la vision du joueur
     player.visionPlayer(renderer, mapSrc, player);
 
-
-    //Mouvement du joueur
-    player.movePlayer(player);
-
     //Affichage du personnage
     player.updatePlayer(renderer);
 
@@ -68,8 +60,28 @@ void Game::drawMain() {
 
 }
 
-void Game::destroy() const {
+void Game::destroy(){
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
     SDL_Quit();
+}
+
+void Game::handleEvents() {
+    SDL_Event event;
+    if (SDL_PollEvent(&event)) {
+        switch (event.type) {
+            case SDL_KEYDOWN:
+                running = event.key.keysym.sym != SDLK_ESCAPE; //verifie si la touche Echap est pressé
+                break;
+            case SDL_WINDOWEVENT:
+                running = event.window.event != SDL_WINDOWEVENT_CLOSE; //verifie si le bouton fermer est pressé
+                break;
+            default:
+                break;
+        }
+    }
+}
+
+bool Game::isRunning(){
+    return running;
 }

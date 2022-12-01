@@ -121,19 +121,4 @@ void Player::vision3DPlayer(SDL_Renderer *renderer, Map map, Player player, int 
     //
 }
 
-void Player::handleEvents() {
-    float speed = 8;
-    SDL_Event event;
-    if (SDL_PollEvent(&event)) {
-        switch (event.type) {
-            case SDL_KEYDOWN:
-                quit = event.key.keysym.sym != SDLK_ESCAPE; //verifie si la touche Echap est pressé
-                break;
-            case SDL_WINDOWEVENT:
-                quit = event.window.event != SDL_WINDOWEVENT_CLOSE; //verifie si le bouton fermer est pressé
-                break;
-            default:
-                break;
-        }
-    }
-}
+
