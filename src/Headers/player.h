@@ -3,28 +3,29 @@
 
 #include <SDL2/SDL.h>
 #include "map.h"
-#include "event.h"
 
 class Player {
 
 public:
-    float playerX;
-    float playerY;
-    int playerSize;
-    SDL_Color playerColor;
+    float playerX{};
+    float playerY{};
+    int playerSize{};
+    SDL_Color playerColor{};
+    bool quit = true;
 
     int* visionPlayer(SDL_Renderer *renderer, Map map, Player player);
 
     void initPlayer(SDL_Renderer *renderer, Map map);
 
-    rectangle *rectHere(SDL_Renderer *renderer, Map map, int x, int y);
+    rectangle *rectHere(Map map, float x, float y);
 
-    void movePlayer(SDL_Renderer *renderer, Map map);
+    void movePlayer(Player player);
 
-    void updatePlayer(SDL_Renderer *renderer, Map map);
+    void updatePlayer(SDL_Renderer *renderer);
 
     void vision3DPlayer(SDL_Renderer *renderer, Map map, Player player, int* collisionPoint);
 
+    void handleEvents();
 };
 
 #endif //GAME_PLAYER_H

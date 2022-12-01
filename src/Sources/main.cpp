@@ -5,7 +5,6 @@ int WinMain() {
     game.create();
 
     while(game.isRunning()) {
-        game.loop();
         //Clear la fenêtre (renderer)
         SDL_RenderClear(game.renderer);
         game.drawMain();

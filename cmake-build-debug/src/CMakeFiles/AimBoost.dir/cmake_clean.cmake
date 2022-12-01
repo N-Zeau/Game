@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "../../Ressources/Bin/AimBoost.exe"
-  "../../Ressources/Bin/AimBoost.exe.manifest"
-  "../../Ressources/Bin/AimBoost.pdb"
+  "C:/Users/Peultier Enzo/CLionProjects/Game/Ressources/Bin/AimBoost.exe"
+  "C:/Users/Peultier Enzo/CLionProjects/Game/Ressources/Bin/AimBoost.exe.manifest"
+  "C:/Users/Peultier Enzo/CLionProjects/Game/Ressources/Bin/AimBoost.pdb"
   "CMakeFiles/AimBoost.dir/Sources/game.cpp.obj"
   "CMakeFiles/AimBoost.dir/Sources/game.cpp.obj.d"
   "CMakeFiles/AimBoost.dir/Sources/main.cpp.obj"

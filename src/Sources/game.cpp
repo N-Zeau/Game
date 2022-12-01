@@ -9,20 +9,8 @@ void Game::verif() {
     }
 }
 
-void Game::loop() {
-    Event quit{};
-    //Le jeu tourne tant que Echap ou le bouton fermer n'est pas pressé
-    if (SDL_WaitEvent(&quit.event))
-        switch (quit.event.type) {
-            case SDL_KEYDOWN:
-                running = quit.event.key.keysym.sym != SDLK_ESCAPE; //verifie si la touche Echap est pressé
-                break;
-            case SDL_WINDOWEVENT:
-                running = quit.event.window.event != SDL_WINDOWEVENT_CLOSE; //verifie si le bouton fermer est pressé
-                break;
-            default:
-                break;
-        }
+bool Game::isRunning() {
+    return running;
 }
 
 void Game::create() {
@@ -39,15 +27,13 @@ void Game::create() {
     int heightWindow = 720;
 
     //Taille de la miniMap en fonction de la taille de la window
-    int coefMapW = widthWindow/3;
-    int coefMapH = heightWindow/3;
-    mapSrc.WIDTH = (nbC * sizeCarre)*coefMapW;
-    mapSrc.HEIGHT = (nbL * sizeCarre)*coefMapH;
+    mapSrc.WIDTH = (nbC * sizeCarre);
+    mapSrc.HEIGHT = (nbL * sizeCarre);
 
 
     //Creation de la fenêtre et du renderer
-    SDL_CreateWindowAndRenderer(widthWindow,
-                                heightWindow,
+    SDL_CreateWindowAndRenderer(mapSrc.WIDTH,
+                                mapSrc.HEIGHT,
                                 0,
                                 &window,
                                 &renderer);
@@ -63,29 +49,27 @@ void Game::create() {
 }
 
 void Game::drawMain() {
-
     //Dessine la Map
     int nbL, nbC;
     mapSrc.drawMap(renderer, mapSrc.importMap(&nbL, &nbC));
 
-    //Gère les mouvements du joueur
-    player.movePlayer(renderer, mapSrc);
     //Dessine la vision du joueur
     player.visionPlayer(renderer, mapSrc, player);
+
+
+    //Mouvement du joueur
+    player.movePlayer(player);
+
     //Affichage du personnage
-    player.updatePlayer(renderer, mapSrc);
+    player.updatePlayer(renderer);
 
     //Couleur du Background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 
 }
 
-void Game::destroy() {
+void Game::destroy() const {
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
     SDL_Quit();
-}
-
-bool Game::isRunning() {
-    return running;
 }

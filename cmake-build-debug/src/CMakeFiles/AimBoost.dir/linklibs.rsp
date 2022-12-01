@@ -1,1 +1,1 @@
-  -LC:/Users/enzop/CLionProjects/Game/Ressources/Lib  -lsdl2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -LC:/Users/PEULTI~1/CLIONP~1/Game/RESSOU~1/Lib  -lsdl2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

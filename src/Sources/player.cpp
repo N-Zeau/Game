@@ -3,10 +3,6 @@
 
 int *Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     //LE CONE DE VISION
-    //Récupération des coordonnées de la souris
-    int mouseX;
-    int mouseY;
-    SDL_GetMouseState(&mouseX, &mouseY);
 
     // Le point (repereX, repereY) est le point au milieu de joueur (Centre du joueur)
     int repereX = playerX + playerSize / 2;
@@ -16,20 +12,26 @@ int *Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
 
     //Récupère le carré où est le joueur et ceux adjacents
-    rectangle *playerRect = player.rectHere(renderer, map, playerX, playerY);
+    rectangle *playerRect = player.rectHere(map, playerX, playerY);
+
+
+    float sizeRender = 100;  //Largeur de fentre de rendu
+    int *collision = (int *) malloc(
+            sizeRender * sizeof(int)); //Tableau des Points qui va créer la vision 3D du jouer
 
     //Affiche le cône si le joueur n'est pas dans un mur
     if (playerRect[0].type == 0) {
-        float angleView = map.WIDTH/mouseX;
+        //Récupération des coordonnées de la souris
+        int mouseX;
+        int mouseY;
+        SDL_GetMouseState(&mouseX, &mouseY);
         float dx = mouseX - repereX;
         float dy = mouseY - repereY;
         float len = std::sqrt(dx * dx + dy * dy);
         dx /= len;
         dy /= len;
         float alpha = std::atan2(dy, dx);
-        const float fov = M_PI/2.5; //Champ de vision du joueur en Radians
-        float sizeRender = 100;  //Largeur de fentre de rendu
-        int *collision = (int *) malloc(sizeRender * sizeof(int)); //Tableau des Points qui va créer la vision 3D du jouer
+        const float fov = M_PI / 2.5; //Champ de vision du joueur en Radians
 
         //Affiche chaques lignes qui compose le cône
         for (int i = 0; i < (int) sizeRender; i++) {
@@ -37,7 +39,7 @@ int *Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
             int t = 0;
             float x = repereX + std::cos(beta) * t;
             float y = repereY + std::sin(beta) * t;
-            rectangle *pointRect = player.rectHere(renderer, map, x, y);
+            rectangle *pointRect = player.rectHere(map, x, y);
 
             //Afficher le cone avec la colision contre le mur
             while (pointRect[0].type == 0 && t < map.WIDTH) {
@@ -45,7 +47,7 @@ int *Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
                 y = repereY + std::sin(beta) * t;
                 SDL_RenderDrawPoint(renderer, x, y);
                 t += 2;
-                pointRect = player.rectHere(renderer, map, x, y);
+                pointRect = player.rectHere(map, x, y);
             }
             SDL_Point pointCol;
             pointCol.x = x;
@@ -57,11 +59,11 @@ int *Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
             int distVision = std::abs(std::sqrt(AB2 + BC2));
             collision[i] = distVision;
         }
-        //Remet la couleur du background
-        SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 
-        return collision;
     }
+    //Remet la couleur du background
+    SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
+    return collision;
 }
 
 void Player::initPlayer(SDL_Renderer *renderer, Map map) {
@@ -79,7 +81,7 @@ void Player::initPlayer(SDL_Renderer *renderer, Map map) {
     SDL_RenderDrawRect(renderer, &playerRect);
 }
 
-void Player::updatePlayer(SDL_Renderer *renderer, Map map) {
+void Player::updatePlayer(SDL_Renderer *renderer) {
     //LE JOUEUR
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
     SDL_Rect playerRect;
@@ -88,32 +90,13 @@ void Player::updatePlayer(SDL_Renderer *renderer, Map map) {
     SDL_RenderDrawRect(renderer, &playerRect);
 }
 
-void Player::movePlayer(SDL_Renderer *renderer, Map map) {
+void Player::movePlayer(Player player) {
     float speed = 5;
 
     //LES MOUVEMENTS DU JOUEUR
-    Event move{};
-    if (SDL_WaitEvent(&move.event)) {
-        if (move.event.type == SDL_KEYDOWN) {
-            switch (move.event.key.keysym.sym) {
-                case SDLK_z:
-                    playerY -= speed;
-                    break;
-                case SDLK_s:
-                    playerY += speed;
-                    break;
-                case SDLK_q:
-                    playerX -= speed;
-                    break;
-                case SDLK_d:
-                    playerX += speed;
-                    break;
-            }
-        }
-    }
 }
 
-rectangle *Player::rectHere(SDL_Renderer *renderer, Map map, int x, int y) {
+rectangle *Player::rectHere(Map map, float x, float y) {
     rectangle *mapCoord = new rectangle[1]; // rectangle joueur, haut, droite, bas, gauche
 
     for (int i = 0; i < map.nbCase; ++i) {
@@ -136,4 +119,21 @@ rectangle *Player::rectHere(SDL_Renderer *renderer, Map map, int x, int y) {
 
 void Player::vision3DPlayer(SDL_Renderer *renderer, Map map, Player player, int *collisionPoint) {
     //
+}
+
+void Player::handleEvents() {
+    float speed = 8;
+    SDL_Event event;
+    if (SDL_PollEvent(&event)) {
+        switch (event.type) {
+            case SDL_KEYDOWN:
+                quit = event.key.keysym.sym != SDLK_ESCAPE; //verifie si la touche Echap est pressé
+                break;
+            case SDL_WINDOWEVENT:
+                quit = event.window.event != SDL_WINDOWEVENT_CLOSE; //verifie si le bouton fermer est pressé
+                break;
+            default:
+                break;
+        }
+    }
 }
