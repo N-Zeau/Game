@@ -35,8 +35,8 @@ void Game::create() {
     mapSrc.importMap(&nbL, &nbC);
     int sizeCarre = 64;
     //Déclaration de la taille de la map en fonction du nombre de lignes et de colonnes
-    mapSrc.WIDTH = nbC*sizeCarre;
-    mapSrc.HEIGHT = nbL*sizeCarre;
+    mapSrc.WIDTH = nbC * sizeCarre;
+    mapSrc.HEIGHT = nbL * sizeCarre;
 
     //Creation de la fenêtre et du renderer
     SDL_CreateWindowAndRenderer(mapSrc.WIDTH,
@@ -56,8 +56,8 @@ void Game::create() {
 void Game::drawMain() {
 
     //Dessine la Map
-    int nbL,nbC;
-    mapSrc.drawMap(renderer, mapSrc.importMap(&nbL,&nbC));
+    int nbL, nbC;
+    mapSrc.drawMap(renderer, mapSrc.importMap(&nbL, &nbC));
 
     //Gère les mouvements du joueur
     player.movePlayer(renderer, mapSrc);

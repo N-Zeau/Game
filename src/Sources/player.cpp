@@ -1,15 +1,14 @@
 #include "../Headers/player.h"
 #include <cmath>
 
-void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
-
+int *Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
     //LE CONE DE VISION
     //Récupération des coordonnées de la souris
     int mouseX;
     int mouseY;
     SDL_GetMouseState(&mouseX, &mouseY);
 
-    // Le point (repereX, repereY) est le point au milieu de joueur
+    // Le point (repereX, repereY) est le point au milieu de joueur (Centre du joueur)
     int repereX = playerX + playerSize / 2;
     int repereY = playerY + playerSize / 2;
 
@@ -27,8 +26,9 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
         dx /= len;
         dy /= len;
         float alpha = std::atan2(dy, dx);
-        const float fov = 1.39626; //Champ de vision du joueur en Radians
-        float sizeRender = 200;  //Largeur de fentre de rendu
+        const float fov = M_PI/2.5; //Champ de vision du joueur en Radians
+        float sizeRender = 100;  //Largeur de fentre de rendu
+        int *collision = (int *) malloc(sizeRender * sizeof(int)); //Tableau des Points qui va créer la vision 3D du jouer
 
         //Affiche chaques lignes qui compose le cône
         for (int i = 0; i < (int) sizeRender; i++) {
@@ -46,12 +46,21 @@ void Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
                 t += 2;
                 pointRect = player.rectHere(renderer, map, x, y);
             }
+            SDL_Point pointCol;
+            pointCol.x = x;
+            pointCol.y = y; //Point de collision en la vision est le mur
+            //Calcul distance entre le joueur la droite i qui s'arrête contre le mur
+            //Pythagore :  AB² + BC² = AC²,  AC : Distance recherché
+            int AB2 = x - repereX;
+            int BC2 = y - repereY;
+            int distVision = std::abs(std::sqrt(AB2 + BC2));
+            collision[i] = distVision;
         }
+        //Remet la couleur du background
+        SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
+
+        return collision;
     }
-
-    //Remet la couleur du background
-    SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
-
 }
 
 void Player::initPlayer(SDL_Renderer *renderer, Map map) {
@@ -122,4 +131,8 @@ rectangle *Player::rectHere(SDL_Renderer *renderer, Map map, int x, int y) {
         }
     }
     return mapCoord;
+}
+
+void Player::vision3DPlayer(SDL_Renderer *renderer, Map map, Player player, int *collisionPoint) {
+    //
 }
