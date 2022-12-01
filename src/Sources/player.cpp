@@ -20,6 +20,7 @@ int *Player::visionPlayer(SDL_Renderer *renderer, Map map, Player player) {
 
     //Affiche le cône si le joueur n'est pas dans un mur
     if (playerRect[0].type == 0) {
+        float angleView = map.WIDTH/mouseX;
         float dx = mouseX - repereX;
         float dy = mouseY - repereY;
         float len = std::sqrt(dx * dx + dy * dy);

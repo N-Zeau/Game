@@ -29,21 +29,30 @@ void Game::create() {
     //Verifie l'initialisation de SDL2 et de la fenêtre
     verif();
 
-
     int nbL;
     int nbC;
     mapSrc.importMap(&nbL, &nbC);
     int sizeCarre = 64;
-    //Déclaration de la taille de la map en fonction du nombre de lignes et de colonnes
-    mapSrc.WIDTH = nbC * sizeCarre;
-    mapSrc.HEIGHT = nbL * sizeCarre;
+
+    //Taille de la fenêtre
+    int widthWindow = 1280;
+    int heightWindow = 720;
+
+    //Taille de la miniMap en fonction de la taille de la window
+    int coefMapW = widthWindow/3;
+    int coefMapH = heightWindow/3;
+    mapSrc.WIDTH = (nbC * sizeCarre)*coefMapW;
+    mapSrc.HEIGHT = (nbL * sizeCarre)*coefMapH;
+
 
     //Creation de la fenêtre et du renderer
-    SDL_CreateWindowAndRenderer(mapSrc.WIDTH,
-                                mapSrc.HEIGHT,
+    SDL_CreateWindowAndRenderer(widthWindow,
+                                heightWindow,
                                 0,
                                 &window,
                                 &renderer);
+
+
 
     //Initialisation du titre de la fenêtre
     SDL_SetWindowTitle(window, "AimBoost");

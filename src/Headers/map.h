@@ -15,6 +15,7 @@ class Map {
 public:
     int WIDTH;
     int HEIGHT;
+    float coefMap;
     int nbCase;
 
     struct rectangle* mapCoordinate;
