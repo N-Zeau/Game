@@ -8,7 +8,7 @@
 
 
 class Game {
-    Map mapSrc;
+    Map mapSrc{};
     Player player;
 
 public:

@@ -53,7 +53,7 @@ void Game::drawMain() {
     player.visionPlayer(renderer, mapSrc, player);
 
     //Affichage du personnage
-    player.updatePlayer(renderer);
+    player.updatePlayer(renderer, player);
 
     //Couleur du Background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
@@ -67,16 +67,29 @@ void Game::destroy() {
 }
 
 void Game::handleEvents() {
+    float speed = 8;
     SDL_Event event;
     if (SDL_PollEvent(&event)) {
         switch (event.type) {
             case SDL_KEYDOWN:
-                running = event.key.keysym.sym != SDLK_ESCAPE; //verifie si la touche Echap est pressé
+                running = event.key.keysym.sym != SDLK_ESCAPE;
+                switch (event.key.keysym.sym) {
+                    case SDLK_z:
+                        player.playerY -= speed;
+                        break;
+                    case SDLK_s:
+                        player.playerY += speed;
+                        break;
+                    case SDLK_q:
+                        player.playerX -= speed;
+                        break;
+                    case SDLK_d:
+                        player.playerX += speed;
+                        break;
+                }
                 break;
             case SDL_WINDOWEVENT:
-                running = event.window.event != SDL_WINDOWEVENT_CLOSE; //verifie si le bouton fermer est pressé
-                break;
-            default:
+                running = event.window.event != SDL_WINDOWEVENT_CLOSE;
                 break;
         }
     }

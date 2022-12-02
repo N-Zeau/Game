@@ -18,9 +18,7 @@ public:
 
     rectangle *rectHere(Map map, float x, float y);
 
-    void movePlayer(Player player);
-
-    void updatePlayer(SDL_Renderer *renderer);
+    void updatePlayer(SDL_Renderer *renderer, Player player);
 
     void vision3DPlayer(SDL_Renderer *renderer, Map map, Player player, int *collisionPoint);
 };

@@ -81,19 +81,13 @@ void Player::initPlayer(SDL_Renderer *renderer, Map map) {
     SDL_RenderDrawRect(renderer, &playerRect);
 }
 
-void Player::updatePlayer(SDL_Renderer *renderer) {
+void Player::updatePlayer(SDL_Renderer *renderer, Player player) {
     //LE JOUEUR
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
     SDL_Rect playerRect;
     playerRect.x = playerX, playerRect.y = playerY;
     playerRect.w = playerSize, playerRect.h = playerSize;
     SDL_RenderDrawRect(renderer, &playerRect);
-}
-
-void Player::movePlayer(Player player) {
-    float speed = 5;
-
-    //LES MOUVEMENTS DU JOUEUR
 }
 
 rectangle *Player::rectHere(Map map, float x, float y) {

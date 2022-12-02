@@ -7,6 +7,7 @@ int WinMain() {
     while(game.isRunning()) {
         //Clear la fenêtre (renderer)
         SDL_RenderClear(game.renderer);
+        game.handleEvents();
         game.drawMain();
         //Montre tout ce qui a été fait sur la fenêtre (renderer)
         SDL_RenderPresent(game.renderer);
