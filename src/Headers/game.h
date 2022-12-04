@@ -12,6 +12,9 @@ class Game {
     Player player;
 
 public:
+    SDL_Window *window = nullptr;
+    SDL_Renderer *renderer = nullptr;
+    bool running = true;
 
     void verif();
 
@@ -25,9 +28,7 @@ public:
 
     void handleEvents();
 
-    SDL_Window *window = nullptr;
-    SDL_Renderer *renderer = nullptr;
-    bool running = true;
+
 
 };
 

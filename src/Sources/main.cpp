@@ -2,6 +2,16 @@
 
 int WinMain() {
     Game game;
+    Menu menu;
+
+
+
+    while(menu.isRunning()){
+        //Clear la fenêtre (renderer)
+        SDL_RenderClear(menu.renderer);
+        menu.drawMenu(menu.renderer);
+    }
+
     game.create();
 
     while(game.isRunning()) {

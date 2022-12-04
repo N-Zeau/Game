@@ -81,7 +81,7 @@ void Player::initPlayer(SDL_Renderer *renderer, Map map) {
     SDL_RenderDrawRect(renderer, &playerRect);
 }
 
-void Player::updatePlayer(SDL_Renderer *renderer, Player player) {
+void Player::updatePlayer(SDL_Renderer *renderer) {
     //LE JOUEUR
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);
     SDL_Rect playerRect;
