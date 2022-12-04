@@ -34,8 +34,6 @@ void Game::create() {
                                 &window,
                                 &renderer);
 
-
-
     //Initialisation du titre de la fenêtre
     SDL_SetWindowTitle(window, "AimBoost");
 
