@@ -10,6 +10,8 @@
 class Game {
     Map mapSrc{};
     Player player;
+    int gameWIDTH = 1280;
+    int gameHEIGHT = 720;
 
 public:
     SDL_Window *window = nullptr;
@@ -17,8 +19,6 @@ public:
     bool running = true;
 
     void verif();
-
-    bool isRunning();
 
     void create();
 

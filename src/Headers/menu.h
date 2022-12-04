@@ -5,15 +5,21 @@
 class Menu {
 
 public:
-        SDL_Renderer *renderer = nullptr;
-        bool running = false;
+    int menuWIDTH = 700;
+    int menuHEIGHT = 700;
+    SDL_Renderer *renderer = nullptr;
+    SDL_Window *window = nullptr;
+    SDL_Rect* button = new SDL_Rect[2];
+    bool running = true;
+    bool switchGame = false;
 
-        bool isRunning();
+    void loop();
 
-        void create();
+    void create();
 
-        void drawMenu(SDL_Renderer* renderer);
+    void drawMenu();
 
+    void destroy();
 };
 
 

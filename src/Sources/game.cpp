@@ -18,17 +18,13 @@ void Game::create() {
     mapSrc.importMap(&nbL, &nbC);
     int sizeCarre = 64;
 
-    //Taille de la fenêtre
-    int widthWindow = 1280;
-    int heightWindow = 720;
-
     //Taille de la miniMap en fonction de la taille de la window
     mapSrc.WIDTH = (nbC * sizeCarre) / 3;
     mapSrc.HEIGHT = (nbL * sizeCarre) / 3;
 
     //Creation de la fenêtre et du renderer
-    SDL_CreateWindowAndRenderer(widthWindow,
-                                heightWindow,
+    SDL_CreateWindowAndRenderer(gameWIDTH,
+                                gameHEIGHT,
                                 0,
                                 &window,
                                 &renderer);
@@ -51,7 +47,6 @@ void Game::drawMain() {
 
     //Affichage du personnage
     player.updatePlayer(renderer);
-
     //Couleur du Background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 
@@ -90,8 +85,4 @@ void Game::handleEvents() {
                 break;
         }
     }
-}
-
-bool Game::isRunning() {
-    return running;
 }

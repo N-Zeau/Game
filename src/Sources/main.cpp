@@ -4,26 +4,31 @@ int WinMain() {
     Game game;
     Menu menu;
 
-
-
-    while(menu.isRunning()){
+    menu.create();
+    while (menu.running && !menu.switchGame) {
         //Clear la fenêtre (renderer)
         SDL_RenderClear(menu.renderer);
-        menu.drawMenu(menu.renderer);
-    }
-
-    game.create();
-
-    while(game.isRunning()) {
-        //Clear la fenêtre (renderer)
-        SDL_RenderClear(game.renderer);
-        game.handleEvents();
-        game.drawMain();
+        menu.loop();
+        menu.drawMenu();
         //Montre tout ce qui a été fait sur la fenêtre (renderer)
-        SDL_RenderPresent(game.renderer);
+        SDL_RenderPresent(menu.renderer);
+    }
+    menu.destroy();
+
+    if(menu.switchGame){
+        game.create();
+        while (game.running) {
+            //Clear la fenêtre (renderer)
+            SDL_RenderClear(game.renderer);
+            game.handleEvents();
+            game.drawMain();
+            //Montre tout ce qui a été fait sur la fenêtre (renderer)
+            SDL_RenderPresent(game.renderer);
+        }
+        game.destroy();
     }
 
-    game.destroy();
+
     return 0;
 }
 

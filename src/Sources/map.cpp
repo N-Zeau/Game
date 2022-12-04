@@ -22,7 +22,7 @@ SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer* renderer) {
 
 }
 
-void Map::drawMap(SDL_Renderer* renderer, char **map) {
+void Map:: drawMap(SDL_Renderer* renderer, char **map) {
 
     int nbL;
     int nbC;

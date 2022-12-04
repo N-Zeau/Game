@@ -1,6 +1,7 @@
 #ifndef GAME_MAP_H
 #define GAME_MAP_H
 #include "SDL2/SDL.h"
+#include "map.h"
 #include "iostream"
 
 struct rectangle {
