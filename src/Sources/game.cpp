@@ -38,15 +38,15 @@ void Game::create() {
 }
 
 void Game::drawMain() {
+    //Dessine la vision du joueur
+    int *view3D = player.visionPlayer(renderer, mapSrc);
+    //Vision3D
+    player.vision3DPlayer(renderer, mapSrc, view3D);
+    //Affichage du personnage
+    player.updatePlayer(renderer);
     //Dessine la Map
     int nbL, nbC;
     mapSrc.drawMap(renderer, mapSrc.importMap(&nbL, &nbC));
-
-    //Dessine la vision du joueur
-    player.visionPlayer(renderer, mapSrc, player);
-
-    //Affichage du personnage
-    player.updatePlayer(renderer);
     //Couleur du Background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 
@@ -59,7 +59,7 @@ void Game::destroy() {
 }
 
 void Game::handleEvents() {
-    float speed = 8;
+    float speed = 1;
     SDL_Event event;
     if (SDL_PollEvent(&event)) {
         switch (event.type) {
@@ -67,16 +67,32 @@ void Game::handleEvents() {
                 running = event.key.keysym.sym != SDLK_ESCAPE;
                 switch (event.key.keysym.sym) {
                     case SDLK_z:
-                        player.playerY -= speed;
+                        if (player.rectHere(mapSrc, player.playerX, player.playerY - speed)->type != 1
+                            &&
+                            player.rectHere(mapSrc, player.playerX + player.playerSize, player.playerY - speed)->type !=
+                            1)
+                            player.playerY -= speed;
                         break;
                     case SDLK_s:
-                        player.playerY += speed;
+                        if (player.rectHere(mapSrc, player.playerX, player.playerY + player.playerSize + speed)->type !=
+                            1
+                            && player.rectHere(mapSrc, player.playerX + player.playerSize,
+                                               player.playerY + player.playerSize + speed)->type != 1)
+                            player.playerY += speed;
                         break;
                     case SDLK_q:
-                        player.playerX -= speed;
+                        if (player.rectHere(mapSrc, player.playerX - speed, player.playerY)->type != 1
+                            &&
+                            player.rectHere(mapSrc, player.playerX - speed, player.playerY + player.playerSize)->type !=
+                            1)
+                            player.playerX -= speed;
                         break;
                     case SDLK_d:
-                        player.playerX += speed;
+                        if (player.rectHere(mapSrc, player.playerX + speed + player.playerSize, player.playerY)->type !=
+                            1
+                            && player.rectHere(mapSrc, player.playerX + speed + player.playerSize,
+                                               player.playerY + player.playerSize)->type != 1)
+                            player.playerX += speed;
                         break;
                 }
                 break;

@@ -10,9 +10,10 @@ public:
     float playerX{};
     float playerY{};
     int playerSize{};
+    float Render3DSize;
     SDL_Color playerColor{};
 
-    int *visionPlayer(SDL_Renderer *renderer, Map map, Player player);
+    int *visionPlayer(SDL_Renderer *renderer, Map map);
 
     void initPlayer(SDL_Renderer *renderer, Map map);
 
@@ -20,7 +21,8 @@ public:
 
     void updatePlayer(SDL_Renderer *renderer);
 
-    void vision3DPlayer(SDL_Renderer *renderer, Map map, Player player, int *collisionPoint);
+    void vision3DPlayer(SDL_Renderer *renderer, Map map, int *view3D);
+
 };
 
 #endif //GAME_PLAYER_H
