@@ -124,10 +124,14 @@ void Player::vision3DPlayer(SDL_Renderer *renderer, Map map, int *view3D) {
         }
 
         //Trace les lignes verticales de la vision 3D
-        SDL_SetRenderDrawColor(renderer, 255 - view3D[i]*1.2, 0, 0, 255);
+        SDL_SetRenderDrawColor(renderer, 255 - view3D[i]*1.1, 255- view3D[i]*1.1, 255- view3D[i]*1.1, 255);
         SDL_RenderDrawLine(renderer, i, 360 + wallSize,
                            i, 360 - wallSize);
     }
+
+    //Crosshair
+
+
 }
 
 

@@ -1,7 +1,6 @@
 #ifndef GAME_MAP_H
 #define GAME_MAP_H
 #include "SDL2/SDL.h"
-#include "map.h"
 #include "iostream"
 
 struct rectangle {
@@ -17,6 +16,7 @@ public:
     int WIDTH;
     int HEIGHT;
     int nbCase;
+    SDL_Renderer* rendererMap = nullptr;
 
     struct rectangle* mapCoordinate;
 

@@ -39,7 +39,7 @@ void Game::create() {
 
 void Game::drawMain() {
     //Dessine la vision du joueur
-    int *view3D = player.visionPlayer(renderer, mapSrc);
+    int* view3D = player.visionPlayer(renderer, mapSrc);
     //Vision3D
     player.vision3DPlayer(renderer, mapSrc, view3D);
     //Affichage du personnage
