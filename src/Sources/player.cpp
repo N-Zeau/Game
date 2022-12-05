@@ -46,7 +46,7 @@ int *Player::visionPlayer(SDL_Renderer *renderer, Map map) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
                 SDL_RenderDrawPoint(renderer, x, y);
-                t += 5;
+                t += 2;
                 pointRect = rectHere(map, x, y);
             }
             SDL_Point pointCol;
@@ -114,9 +114,18 @@ rectangle *Player::rectHere(Map map, float x, float y) {
 void Player::vision3DPlayer(SDL_Renderer *renderer, Map map, int *view3D) {
     //Rendu 3D
     for (int i = 0; i < (int) Render3DSize; i++) {
-        double wallSize = ((map.WIDTH / 1.2 - view3D[i]+300) / 2);
-        SDL_SetRenderDrawColor(renderer, 255, 20, 0, 255);
-        SDL_RenderDrawLine(renderer, i,  360 + wallSize,
+        double wallSize = ((map.WIDTH / 1.2 - view3D[i] + 300) / 2);
+
+        //trace le contour en haut et en bas du mur en noir
+        for (int j = 0; j <3; ++j) {
+            SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+            SDL_RenderDrawPoint(renderer, i, 360 + wallSize + j);
+            SDL_RenderDrawPoint(renderer, i, 360 - wallSize - j);
+        }
+
+        //Trace les lignes verticales de la vision 3D
+        SDL_SetRenderDrawColor(renderer, 255 - view3D[i]*1.2, 0, 0, 255);
+        SDL_RenderDrawLine(renderer, i, 360 + wallSize,
                            i, 360 - wallSize);
     }
 }
