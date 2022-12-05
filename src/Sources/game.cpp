@@ -59,7 +59,7 @@ void Game::destroy() {
 }
 
 void Game::handleEvents() {
-    float speed = 1;
+    float speed = 4;
     SDL_Event event;
     if (SDL_PollEvent(&event)) {
         switch (event.type) {
