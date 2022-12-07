@@ -39,7 +39,7 @@ void Game::create() {
 
 void Game::drawMain() {
     //Dessine la vision du joueur
-    int* view3D = player.visionPlayer(renderer, mapSrc);
+    auto view3D = player.visionPlayer(renderer, mapSrc);
     //Vision3D
     player.vision3DPlayer(renderer, mapSrc, view3D);
     //Affichage du personnage
@@ -59,7 +59,7 @@ void Game::destroy() {
 }
 
 void Game::handleEvents() {
-    float speed = 1;
+    float speed = 5;
     SDL_Event event;
     if (SDL_PollEvent(&event)) {
         switch (event.type) {

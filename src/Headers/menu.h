@@ -7,9 +7,14 @@ class Menu {
 public:
     int menuWIDTH = 700;
     int menuHEIGHT = 700;
+
     SDL_Renderer *renderer = nullptr;
     SDL_Window *window = nullptr;
-    SDL_Rect* button = new SDL_Rect[2];
+    SDL_Rect* buttonTab = new SDL_Rect[2];
+
+    SDL_Color black = {0,0,0,255};
+    SDL_Color grey = {100,100,100,255};
+
     bool running = true;
     bool switchGame = false;
 
@@ -20,6 +25,8 @@ public:
     void drawMenu();
 
     void destroy();
+
+    bool mouseInButton();
 };
 
 

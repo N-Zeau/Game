@@ -1,7 +1,8 @@
 #include "../Headers/player.h"
 #include <cmath>
+#include <vector>
 
-int *Player::visionPlayer(SDL_Renderer *renderer, Map map) {
+std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
     //LE CONE DE VISION
 
     // Le point (repereX, repereY) est le point au milieu de joueur (Centre du joueur)
@@ -16,9 +17,8 @@ int *Player::visionPlayer(SDL_Renderer *renderer, Map map) {
 
 
     Render3DSize = 1280;  //Largeur de fentre de rendu
-    int *collision = (int *) malloc(
-            Render3DSize * sizeof(int)); //Tableau des Points qui va créer la vision 3D du jouer
-
+//    int *collision = (int *) malloc(Render3DSize * sizeof(int)); //Tableau des Points qui va créer la vision 3D du jouer
+    std::vector<double> collision(Render3DSize);
     //Affiche le cône si le joueur n'est pas dans un mur
     if (playerRect[0].type == 0) {
         //Récupération des coordonnées de la souris
@@ -45,19 +45,21 @@ int *Player::visionPlayer(SDL_Renderer *renderer, Map map) {
             while (pointRect[0].type == 0 && t < map.WIDTH) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
-                SDL_RenderDrawPoint(renderer, x, y);
-                t += 2;
+                t += 1;
                 pointRect = rectHere(map, x, y);
+                //SDL_DrawPoint(renderer, x, y);
             }
             SDL_Point pointCol;
             pointCol.x = x;
             pointCol.y = y; //Point de collision en la vision est le mur
+
+
             //Calcul distance entre le joueur la droite i qui s'arrête contre le mur
             //Pythagore :  AB² + BC² = AC²,  AC : Distance recherché
-            int AB2 = pow(x - repereX, 2);
-            int BC2 = pow(y - repereY, 2);
-            int distVision = std::abs(std::sqrt(AB2 + BC2));
-            collision[i] = distVision;
+            double AB2 = pow(std::abs(x - repereX), 2);
+            double BC2 = pow(std::abs(y - repereY), 2);
+            double distVision = std::sqrt(AB2 + BC2);
+            collision[i] = distVision * std::cos(alpha - beta);
         }
 
     }
@@ -111,26 +113,30 @@ rectangle *Player::rectHere(Map map, float x, float y) {
     return mapCoord;
 }
 
-void Player::vision3DPlayer(SDL_Renderer *renderer, Map map, int *view3D) {
+void Player::vision3DPlayer(SDL_Renderer *renderer, Map map, std::vector<double> &view3D) {
     //Rendu 3D
+    constexpr double wall_max = 720;
     for (int i = 0; i < (int) Render3DSize; i++) {
-        double wallSize = ((map.WIDTH / 1.2 - view3D[i] + 300) / 2);
+        double wallSize = std::round(wall_max / (1 + view3D[i] / 100.) / 2);
 
         //trace le contour en haut et en bas du mur en noir
-        for (int j = 0; j <3; ++j) {
+        for (int j = 0; j < 3; ++j) {
             SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
             SDL_RenderDrawPoint(renderer, i, 360 + wallSize + j);
             SDL_RenderDrawPoint(renderer, i, 360 - wallSize - j);
         }
-
         //Trace les lignes verticales de la vision 3D
-        SDL_SetRenderDrawColor(renderer, 255 - view3D[i]*1.1, 255- view3D[i]*1.1, 255- view3D[i]*1.1, 255);
-        SDL_RenderDrawLine(renderer, i, 360 + wallSize,
-                           i, 360 - wallSize);
+        SDL_SetRenderDrawColor(renderer, 255 - view3D[i] * 0.7, 255 - view3D[i] * 0.7, 255 - view3D[i] * 0.7, 255);
+        SDL_RenderDrawLine(renderer, i, 360 + wallSize, i, 360 - wallSize);
     }
 
     //Crosshair
-
+    int xCross = Render3DSize/2;
+    int yCross = 720/2;
+    int sizeCross = 10;
+    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+    SDL_RenderDrawLine(renderer, xCross, yCross + sizeCross, xCross, yCross - sizeCross);
+    SDL_RenderDrawLine(renderer, xCross - sizeCross, yCross, xCross + sizeCross, yCross);
 
 }
 

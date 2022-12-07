@@ -3,6 +3,7 @@
 
 #include <SDL2/SDL.h>
 #include "map.h"
+#include <vector>
 
 class Player {
 
@@ -13,7 +14,7 @@ public:
     float Render3DSize;
     SDL_Color playerColor{};
 
-    int *visionPlayer(SDL_Renderer *renderer, Map map);
+    std::vector<double> visionPlayer(SDL_Renderer *renderer, Map map);
 
     void initPlayer(SDL_Renderer *renderer, Map map);
 
@@ -21,7 +22,7 @@ public:
 
     void updatePlayer(SDL_Renderer *renderer);
 
-    void vision3DPlayer(SDL_Renderer *renderer, Map map, int *view3D);
+    void vision3DPlayer(SDL_Renderer *renderer, Map map, std::vector<double> &view3D);
 
 };
 
