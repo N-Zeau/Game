@@ -22,7 +22,7 @@ public:
 
     void updatePlayer(SDL_Renderer *renderer);
 
-    void vision3DPlayer(SDL_Renderer *renderer, Map map, std::vector<double> &view3D);
+    void vision3DPlayer(SDL_Renderer *renderer, Map map);
 
 };
 

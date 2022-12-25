@@ -17,8 +17,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
 
 
     Render3DSize = 1280;  //Largeur de fentre de rendu
-//    int *collision = (int *) malloc(Render3DSize * sizeof(int)); //Tableau des Points qui va créer la vision 3D du jouer
-    std::vector<double> collision(Render3DSize);
+    std::vector<double> collision(Render3DSize);//Tableau des Points qui va créer la vision 3D du jouer
     //Affiche le cône si le joueur n'est pas dans un mur
     if (playerRect[0].type == 0) {
         //Récupération des coordonnées de la souris
@@ -45,15 +44,10 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
             while (pointRect[0].type == 0 && t < map.WIDTH) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
-                t += 1;
+                t += 5;
                 pointRect = rectHere(map, x, y);
-                //SDL_DrawPoint(renderer, x, y);
+                SDL_RenderDrawPoint(renderer, x, y);
             }
-            SDL_Point pointCol;
-            pointCol.x = x;
-            pointCol.y = y; //Point de collision en la vision est le mur
-
-
             //Calcul distance entre le joueur la droite i qui s'arrête contre le mur
             //Pythagore :  AB² + BC² = AC²,  AC : Distance recherché
             double AB2 = pow(std::abs(x - repereX), 2);
@@ -113,11 +107,13 @@ rectangle *Player::rectHere(Map map, float x, float y) {
     return mapCoord;
 }
 
-void Player::vision3DPlayer(SDL_Renderer *renderer, Map map, std::vector<double> &view3D) {
+void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
     //Rendu 3D
+    auto view3D = visionPlayer(renderer, map);
+
     constexpr double wall_max = 720;
     for (int i = 0; i < (int) Render3DSize; i++) {
-        double wallSize = std::round(wall_max / (1 + view3D[i] / 100.) / 2);
+        double wallSize = round(wall_max / (1 + view3D[i] / 100.) / 2);
 
         //trace le contour en haut et en bas du mur en noir
         for (int j = 0; j < 3; ++j) {

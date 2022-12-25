@@ -38,10 +38,12 @@ void Game::create() {
 }
 
 void Game::drawMain() {
-    //Dessine la vision du joueur
-    auto view3D = player.visionPlayer(renderer, mapSrc);
     //Vision3D
-    player.vision3DPlayer(renderer, mapSrc, view3D);
+    player.vision3DPlayer(renderer, mapSrc);
+
+    //Dessine la vision du joueur sur la minimap
+    player.visionPlayer(renderer, mapSrc);
+
     //Affichage du personnage
     player.updatePlayer(renderer);
     //Dessine la Map
