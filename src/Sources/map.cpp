@@ -51,19 +51,12 @@ void Map:: drawMap(SDL_Renderer* renderer, char **map) {
             int h = rect[compteur].h = sizeTextureOnScreenHeight;
 
             switch (tabMap[j][i]) {
-                case '2':
-                    rectSrc[compteur].x = sizeTexture;
-                    rectSrc[compteur].y = 0;
-                    rectSrc[compteur].w = sizeTexture;
-                    rectSrc[compteur].h = sizeTexture;
-                    break;
                 case '1':
                     rectSrc[compteur].x = 0;
                     rectSrc[compteur].y = 0;
                     rectSrc[compteur].w = sizeTexture;
                     rectSrc[compteur].h = sizeTexture;
                     type = 1;
-
                     break;
                 case '0':
                 case ' ':
@@ -95,7 +88,7 @@ void Map:: drawMap(SDL_Renderer* renderer, char **map) {
 
 char **Map::importMap(int *nbL, int *nbC) {
     FILE *mapTxt = nullptr;
-    mapTxt = fopen("../../Ressources/Map/map.txt", "r");
+    mapTxt = fopen("../../Ressources/Map/map2.txt", "r");
     char cara;
     int nbLigne = 0; //Nombres de Lignes dans le .txt
     int nbColonneTemp = 0;

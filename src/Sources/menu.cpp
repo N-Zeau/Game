@@ -1,27 +1,31 @@
 #include <iostream>
 #include "../Headers/menu.h"
 
+
+//TODO : Faire des images pour gérer le Menu
 void Menu::drawMenu() {
+    SDL_Rect rectMenu = {0, 0, menuWIDTH, menuHEIGHT};
 
-    //Bouton Play
-    buttonTab[0] = {menuWIDTH / 2 - 100, menuHEIGHT / 2 - 25, 200, 50};
-    if (mouseInButton()){
-        SDL_SetRenderDrawColor(renderer, grey.r, grey.g, grey.b, grey.a);
-        SDL_RenderDrawRect(renderer, &buttonTab[0]);
-    }else{
-        SDL_SetRenderDrawColor(renderer, black.r, black.g, black.b, black.a);
-        SDL_RenderDrawRect(renderer, &buttonTab[0]);
+    SDL_Texture *menuEmpty = chargerImage("../Menu/1.bmp", renderer);
+    SDL_Texture *menuPlay = chargerImage("../Menu/2.bmp", renderer);
+    SDL_Texture *menuSettings = chargerImage("../Menu/3.bmp", renderer);
+
+
+    if (mouseInButton(buttonPlay)) {
+        SDL_RenderCopy(renderer, menuPlay, &rectMenu, &rectMenu);
+    } else if (mouseInButton(buttonSettings)) {
+        SDL_RenderCopy(renderer, menuSettings, &rectMenu, &rectMenu);
+    } else {
+        SDL_RenderCopy(renderer, menuEmpty, &rectMenu, &rectMenu);
     }
-
-
 
     //Couleur du Background du Menu
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 
 }
 
-void Menu::create() {
 
+void Menu::create() {
     //Creation de la fenêtre et du renderer
     SDL_CreateWindowAndRenderer(menuWIDTH,
                                 menuHEIGHT,
@@ -45,7 +49,7 @@ void Menu::loop() {
                 running = event.window.event != SDL_WINDOWEVENT_CLOSE;
                 break;
             case SDL_MOUSEBUTTONDOWN:
-                if(mouseInButton())
+                if (mouseInButton(buttonPlay))
                     switchGame = true;
                 break;
         }
@@ -58,17 +62,40 @@ void Menu::destroy() {
     SDL_Quit();
 }
 
-bool Menu::mouseInButton(){
+bool Menu::mouseInButton(SDL_Rect button) {
     int mouseX, mouseY;
     SDL_GetMouseState(&mouseX, &mouseY);
-    //Coordonnée bouton play
-    int xMin = buttonTab[0].x, xMax = buttonTab[0].x + buttonTab[0].w;
-    int yMin = buttonTab[0].y, yMax = buttonTab[0].y + buttonTab[0].h;
+    //Coordonnée bouton
+    int xMin = button.x, xMax = button.x + button.w;
+    int yMin = button.y, yMax = button.y + button.h;
+
     if (mouseX >= xMin && mouseY >= yMin && mouseX <= xMax && mouseY <= yMax) {
         return true;
-    }else{
+    } else {
         return false;
     }
+}
+
+SDL_Texture *Menu::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
+    SDL_Surface *menu = nullptr;
+    menu = SDL_LoadBMP(nomFichier);
+
+    if (menu == nullptr) {
+        std::cout << "Echec du chargement du menu : " << SDL_GetError() << std::endl;
+        return nullptr;
+    }
+
+    SDL_Texture *texture = nullptr;
+    texture = SDL_CreateTextureFromSurface(renderer, menu);
+
+    if (texture == nullptr) {
+        std::cout << "Echec du chargement de la texture : " << SDL_GetError() << std::endl;
+        return nullptr;
+    }
+
+    SDL_FreeSurface(menu);
+    return texture;
+
 }
 
 

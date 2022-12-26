@@ -10,10 +10,8 @@ public:
 
     SDL_Renderer *renderer = nullptr;
     SDL_Window *window = nullptr;
-    SDL_Rect* buttonTab = new SDL_Rect[2];
-
-    SDL_Color black = {0,0,0,255};
-    SDL_Color grey = {100,100,100,255};
+    SDL_Rect buttonPlay = {217,370,265,68};
+    SDL_Rect buttonSettings = {217,479,265,68};
 
     bool running = true;
     bool switchGame = false;
@@ -26,7 +24,9 @@ public:
 
     void destroy();
 
-    bool mouseInButton();
+    bool mouseInButton(SDL_Rect button);
+
+    SDL_Texture *chargerImage(const char *nomFichier, SDL_Renderer *renderer);
 };
 
 

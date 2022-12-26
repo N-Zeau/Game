@@ -2,9 +2,9 @@
 #include <cmath>
 #include <vector>
 
+//TODO : Faire la vision uniquement en fonction de MouseX
 std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
     //LE CONE DE VISION
-
     // Le point (repereX, repereY) est le point au milieu de joueur (Centre du joueur)
     int repereX = playerX + playerSize / 2;
     int repereY = playerY + playerSize / 2;
@@ -41,18 +41,19 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
             rectangle *pointRect = rectHere(map, x, y);
 
             //Afficher le cone avec la colision contre le mur
-            while (pointRect[0].type == 0 && t < map.WIDTH) {
+            float visionMax = std::sqrt(pow(map.WIDTH,2) + pow(map.HEIGHT, 2)); //Diagonale de la map
+            while (pointRect[0].type == 0 && t < visionMax) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
-                t += 5;
+                t += 3;
                 pointRect = rectHere(map, x, y);
                 SDL_RenderDrawPoint(renderer, x, y);
             }
             //Calcul distance entre le joueur la droite i qui s'arrête contre le mur
             //Pythagore :  AB² + BC² = AC²,  AC : Distance recherché
-            double AB2 = pow(std::abs(x - repereX), 2);
-            double BC2 = pow(std::abs(y - repereY), 2);
-            double distVision = std::sqrt(AB2 + BC2);
+            double ABsquare = pow(std::abs(x - repereX), 2);
+            double BCsquare = pow(std::abs(y - repereY), 2);
+            double distVision = std::sqrt(ABsquare + BCsquare);
             collision[i] = distVision * std::cos(alpha - beta);
         }
 
@@ -107,6 +108,7 @@ rectangle *Player::rectHere(Map map, float x, float y) {
     return mapCoord;
 }
 
+
 void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
     //Rendu 3D
     auto view3D = visionPlayer(renderer, map);
@@ -127,8 +129,8 @@ void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
     }
 
     //Crosshair
-    int xCross = Render3DSize/2;
-    int yCross = 720/2;
+    int xCross = Render3DSize / 2;
+    int yCross = 720 / 2;
     int sizeCross = 10;
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderDrawLine(renderer, xCross, yCross + sizeCross, xCross, yCross - sizeCross);
