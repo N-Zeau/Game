@@ -29,7 +29,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
         float len = std::sqrt(dx * dx + dy * dy);
         dx /= len;
         dy /= len;
-        float alpha = 0;//std::atan2(dy, dx);
+        float alpha = std::atan2(dy, dx);
         const float fov = 68 * M_PI / 180; //Champ de vision du joueur en Radians
 
         //Affiche chaques lignes qui compose le cône
@@ -58,8 +58,6 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
         }
 
     }
-    //Remet la couleur du background
-    SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
     return collision;
 }
 
@@ -88,6 +86,10 @@ void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderDrawLine(renderer, xCross, yCross + sizeCross, xCross, yCross - sizeCross);
     SDL_RenderDrawLine(renderer, xCross - sizeCross, yCross, xCross + sizeCross, yCross);
+
+    //Arme du joueur
+    SDL_Texture *gun = chargerImage("../GamePlay/GunFPS.bmp", renderer);
+    SDL_RenderCopy(renderer, gun, &rectGunFPS, &rectGunScreen);
 
 }
 
@@ -134,6 +136,28 @@ rectangle *Player::rectHere(Map map, float x, float y) {
         }
     }
     return mapCoord;
+}
+
+SDL_Texture *Player::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
+    SDL_Surface *menu = nullptr;
+    menu = SDL_LoadBMP(nomFichier);
+
+    if (menu == nullptr) {
+        std::cout << "Echec du chargement du menu : " << SDL_GetError() << std::endl;
+        return nullptr;
+    }
+
+    SDL_Texture *texture = nullptr;
+    texture = SDL_CreateTextureFromSurface(renderer, menu);
+
+    if (texture == nullptr) {
+        std::cout << "Echec du chargement de la texture : " << SDL_GetError() << std::endl;
+        return nullptr;
+    }
+
+    SDL_FreeSurface(menu);
+    return texture;
+
 }
 
 

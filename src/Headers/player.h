@@ -13,6 +13,9 @@ public:
     int playerSize{};
     float Render3DSize;
     SDL_Color playerColor{};
+    //900-511
+    SDL_Rect rectGunFPS = {0,0,733,526};
+    SDL_Rect rectGunScreen = {645,420,418,300};
 
     std::vector<double> visionPlayer(SDL_Renderer *renderer, Map map);
 
@@ -23,6 +26,9 @@ public:
     void updatePlayer(SDL_Renderer *renderer);
 
     void vision3DPlayer(SDL_Renderer *renderer, Map map);
+
+    SDL_Texture *chargerImage(const char *nomFichier, SDL_Renderer *renderer);
+
 
 };
 
