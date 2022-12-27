@@ -47,6 +47,7 @@ void Game::drawMain() {
     //Dessine la Map
     int nbL, nbC;
     mapSrc.drawMap(renderer, mapSrc.importMap(&nbL, &nbC));
+
     //Couleur du Background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
 

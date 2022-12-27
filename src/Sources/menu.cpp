@@ -1,8 +1,6 @@
 #include <iostream>
 #include "../Headers/menu.h"
 
-
-//TODO : Faire des images pour gérer le Menu
 void Menu::drawMenu() {
     SDL_Rect rectMenu = {0, 0, menuWIDTH, menuHEIGHT};
 

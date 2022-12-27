@@ -29,23 +29,23 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
         float len = std::sqrt(dx * dx + dy * dy);
         dx /= len;
         dy /= len;
-        float alpha = std::atan2(dy, dx);
+        float alpha = 0;//std::atan2(dy, dx);
         const float fov = 68 * M_PI / 180; //Champ de vision du joueur en Radians
 
         //Affiche chaques lignes qui compose le cône
-        for (int i = 0; i < (int) Render3DSize; i++) {
+        for (int i = 0; i < (int) Render3DSize; i+=3) {
             float beta = alpha - fov / 2. + i / Render3DSize * fov;
             int t = 0;
             float x = repereX + std::cos(beta) * t;
             float y = repereY + std::sin(beta) * t;
             rectangle *pointRect = rectHere(map, x, y);
 
-            //Afficher le cone avec la colision contre le mur
-            float visionMax = std::sqrt(pow(map.WIDTH,2) + pow(map.HEIGHT, 2)); //Diagonale de la map
+            //Affiche le cone de vison
+            float visionMax = std::sqrt(pow(map.WIDTH,2) + pow(map.HEIGHT, 2)); //Longueur de la diagonale de la map
             while (pointRect[0].type == 0 && t < visionMax) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
-                t += 3;
+                t += 2;
                 pointRect = rectHere(map, x, y);
                 SDL_RenderDrawPoint(renderer, x, y);
             }
@@ -61,6 +61,34 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
     //Remet la couleur du background
     SDL_SetRenderDrawColor(renderer, 40, 55, 71, SDL_ALPHA_OPAQUE);
     return collision;
+}
+
+void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
+    //Rendu 3D
+    auto view3D = visionPlayer(renderer, map);
+
+    constexpr double wall_max = 720;
+    for (int i = 0; i < (int) Render3DSize; i+=3) {
+        double wallSize = round(wall_max / (1 + view3D[i] / 100.) / 2);
+        //trace le contour en haut et en bas du mur en noir
+        for (int j = 0; j < 3; ++j) {
+            SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+            SDL_RenderDrawPoint(renderer, i, 360 + wallSize + j);
+            SDL_RenderDrawPoint(renderer, i, 360 - wallSize - j);
+        }
+        //Trace les lignes verticales de la vision 3D
+        SDL_SetRenderDrawColor(renderer, 255 - view3D[i] * 0.7, 255 - view3D[i] * 0.7, 255 - view3D[i] * 0.7, 255);
+        SDL_RenderDrawLine(renderer, i, 360 + wallSize, i, 360 - wallSize);
+    }
+
+    //Crosshair
+    int xCross = Render3DSize / 2;
+    int yCross = 720 / 2;
+    int sizeCross = 10;
+    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+    SDL_RenderDrawLine(renderer, xCross, yCross + sizeCross, xCross, yCross - sizeCross);
+    SDL_RenderDrawLine(renderer, xCross - sizeCross, yCross, xCross + sizeCross, yCross);
+
 }
 
 void Player::initPlayer(SDL_Renderer *renderer, Map map) {
@@ -106,36 +134,6 @@ rectangle *Player::rectHere(Map map, float x, float y) {
         }
     }
     return mapCoord;
-}
-
-
-void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
-    //Rendu 3D
-    auto view3D = visionPlayer(renderer, map);
-
-    constexpr double wall_max = 720;
-    for (int i = 0; i < (int) Render3DSize; i++) {
-        double wallSize = round(wall_max / (1 + view3D[i] / 100.) / 2);
-
-        //trace le contour en haut et en bas du mur en noir
-        for (int j = 0; j < 3; ++j) {
-            SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
-            SDL_RenderDrawPoint(renderer, i, 360 + wallSize + j);
-            SDL_RenderDrawPoint(renderer, i, 360 - wallSize - j);
-        }
-        //Trace les lignes verticales de la vision 3D
-        SDL_SetRenderDrawColor(renderer, 255 - view3D[i] * 0.7, 255 - view3D[i] * 0.7, 255 - view3D[i] * 0.7, 255);
-        SDL_RenderDrawLine(renderer, i, 360 + wallSize, i, 360 - wallSize);
-    }
-
-    //Crosshair
-    int xCross = Render3DSize / 2;
-    int yCross = 720 / 2;
-    int sizeCross = 10;
-    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
-    SDL_RenderDrawLine(renderer, xCross, yCross + sizeCross, xCross, yCross - sizeCross);
-    SDL_RenderDrawLine(renderer, xCross - sizeCross, yCross, xCross + sizeCross, yCross);
-
 }
 
 
