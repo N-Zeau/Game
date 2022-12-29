@@ -101,6 +101,9 @@
 		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Headers/player.h">
 			<Option target="AimBoost"/>
 		</Unit>
+		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Headers/settings.h">
+			<Option target="AimBoost"/>
+		</Unit>
 		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Sources/game.cpp">
 			<Option target="AimBoost"/>
 		</Unit>
@@ -114,6 +117,9 @@
 			<Option target="AimBoost"/>
 		</Unit>
 		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Sources/player.cpp">
+			<Option target="AimBoost"/>
+		</Unit>
+		<Unit filename="C:/Users/enzop/CLionProjects/Game/src/Sources/settings.cpp">
 			<Option target="AimBoost"/>
 		</Unit>
 		<Unit filename="C:/Users/enzop/CLionProjects/Game/CMakeLists.txt">

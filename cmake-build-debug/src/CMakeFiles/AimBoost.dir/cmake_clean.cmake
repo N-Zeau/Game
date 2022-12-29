@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AimBoost.dir/Sources/menu.cpp.obj.d"
   "CMakeFiles/AimBoost.dir/Sources/player.cpp.obj"
   "CMakeFiles/AimBoost.dir/Sources/player.cpp.obj.d"
+  "CMakeFiles/AimBoost.dir/Sources/settings.cpp.obj"
+  "CMakeFiles/AimBoost.dir/Sources/settings.cpp.obj.d"
   "libAimBoost.dll.a"
 )
 

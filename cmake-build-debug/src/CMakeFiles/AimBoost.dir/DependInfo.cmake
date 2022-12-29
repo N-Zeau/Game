@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/enzop/CLionProjects/Game/src/Sources/map.cpp" "src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj.d"
   "C:/Users/enzop/CLionProjects/Game/src/Sources/menu.cpp" "src/CMakeFiles/AimBoost.dir/Sources/menu.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/menu.cpp.obj.d"
   "C:/Users/enzop/CLionProjects/Game/src/Sources/player.cpp" "src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj.d"
+  "C:/Users/enzop/CLionProjects/Game/src/Sources/settings.cpp" "src/CMakeFiles/AimBoost.dir/Sources/settings.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/settings.cpp.obj.d"
   )
 
 # Targets to which this target links.

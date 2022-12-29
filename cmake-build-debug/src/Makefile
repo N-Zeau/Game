@@ -249,6 +249,30 @@ Sources/player.cpp.s:
 	cd /d C:\Users\enzop\CLionProjects\Game\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\AimBoost.dir\build.make src/CMakeFiles/AimBoost.dir/Sources/player.cpp.s
 .PHONY : Sources/player.cpp.s
 
+Sources/settings.obj: Sources/settings.cpp.obj
+.PHONY : Sources/settings.obj
+
+# target to build an object file
+Sources/settings.cpp.obj:
+	cd /d C:\Users\enzop\CLionProjects\Game\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\AimBoost.dir\build.make src/CMakeFiles/AimBoost.dir/Sources/settings.cpp.obj
+.PHONY : Sources/settings.cpp.obj
+
+Sources/settings.i: Sources/settings.cpp.i
+.PHONY : Sources/settings.i
+
+# target to preprocess a source file
+Sources/settings.cpp.i:
+	cd /d C:\Users\enzop\CLionProjects\Game\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\AimBoost.dir\build.make src/CMakeFiles/AimBoost.dir/Sources/settings.cpp.i
+.PHONY : Sources/settings.cpp.i
+
+Sources/settings.s: Sources/settings.cpp.s
+.PHONY : Sources/settings.s
+
+# target to generate assembly for a file
+Sources/settings.cpp.s:
+	cd /d C:\Users\enzop\CLionProjects\Game\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\AimBoost.dir\build.make src/CMakeFiles/AimBoost.dir/Sources/settings.cpp.s
+.PHONY : Sources/settings.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -273,6 +297,9 @@ help:
 	@echo ... Sources/player.obj
 	@echo ... Sources/player.i
 	@echo ... Sources/player.s
+	@echo ... Sources/settings.obj
+	@echo ... Sources/settings.i
+	@echo ... Sources/settings.s
 .PHONY : help
 
 

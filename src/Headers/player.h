@@ -10,10 +10,10 @@ class Player {
 public:
     float playerX{};
     float playerY{};
+    float angle = 0;
     int playerSize{};
     float Render3DSize;
     SDL_Color playerColor{};
-    //900-511
     SDL_Rect rectGunFPS = {0,0,733,526};
     SDL_Rect rectGunScreen = {645,420,418,300};
 

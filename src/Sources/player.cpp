@@ -29,7 +29,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
         float len = std::sqrt(dx * dx + dy * dy);
         dx /= len;
         dy /= len;
-        float alpha = std::atan2(dy, dx);
+        float alpha = angle;//std::atan2(dy, dx);
         const float fov = 68 * M_PI / 180; //Champ de vision du joueur en Radians
 
         //Affiche chaques lignes qui compose le cône
@@ -42,7 +42,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
 
             //Affiche le cone de vison
             float visionMax = std::sqrt(pow(map.WIDTH,2) + pow(map.HEIGHT, 2)); //Longueur de la diagonale de la map
-            while (pointRect[0].type == 0 && t < visionMax) {
+            while (pointRect[0].type == 0) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
                 t += 2;

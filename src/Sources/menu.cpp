@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../Headers/menu.h"
 
 void Menu::drawMenu() {
@@ -47,8 +46,11 @@ void Menu::loop() {
                 running = event.window.event != SDL_WINDOWEVENT_CLOSE;
                 break;
             case SDL_MOUSEBUTTONDOWN:
-                if (mouseInButton(buttonPlay))
+                if (mouseInButton(buttonPlay)) {
                     switchGame = true;
+                } else if(mouseInButton(buttonSettings)){
+                    switchSettings = true;
+                }
                 break;
         }
     }

@@ -5,5 +5,6 @@
 #include "menu.h"
 #include "map.h"
 #include "player.h"
+#include "settings.h"
 
 #endif //GAME_MAIN_H

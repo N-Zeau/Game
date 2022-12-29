@@ -2,10 +2,11 @@
 
 int WinMain() {
     Game game;
+    Settings settings;
     Menu menu;
 
     menu.create();
-    while (menu.running && !menu.switchGame) {
+    while (menu.running && !menu.switchGame && !menu.switchSettings) {
         //Clear la fenêtre (renderer)
         SDL_RenderClear(menu.renderer);
         menu.loop();
@@ -15,7 +16,7 @@ int WinMain() {
     }
     menu.destroy();
 
-    if(menu.switchGame){
+    if (menu.switchGame) {
         game.create();
         while (game.running) {
             //Clear la fenêtre (renderer)
@@ -26,6 +27,18 @@ int WinMain() {
             SDL_RenderPresent(game.renderer);
         }
         game.destroy();
+
+    } else if (menu.switchSettings) {
+        settings.create();
+        while (settings.running) {
+            //Clear la fenêtre (renderer)
+            SDL_RenderClear(settings.renderer);
+            settings.loop();
+            //Montre tout ce qui a été fait sur la fenêtre (renderer)
+            SDL_RenderPresent(settings.renderer);
+        }
+        settings.destroy();
+
     }
 
 

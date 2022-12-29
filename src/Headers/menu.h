@@ -1,6 +1,7 @@
 #ifndef GAME_MENU_H
 #define GAME_MENU_H
 #include "SDL2/SDL.h"
+#include <iostream>
 
 class Menu {
 
@@ -15,6 +16,7 @@ public:
 
     bool running = true;
     bool switchGame = false;
+    bool switchSettings = false;
 
     void loop();
 

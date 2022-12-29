@@ -285,4 +285,5 @@ src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj: \
  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/Users/enzop/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- C:/Users/enzop/CLionProjects/Game/src/Headers/menu.h
+ C:/Users/enzop/CLionProjects/Game/src/Headers/menu.h \
+ C:/Users/enzop/CLionProjects/Game/src/Headers/settings.h
