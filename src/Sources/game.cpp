@@ -95,6 +95,12 @@ void Game::handleEvents() {
                                                player.playerY + player.playerSize)->type != 1)
                             player.playerX += speed;
                         break;
+                    case SDLK_LEFT:
+                        player.angle -= 0.2;
+                        break;
+                    case SDLK_RIGHT:
+                        player.angle += 0.2;
+                        break;
                 }
                 break;
             case SDL_WINDOWEVENT:

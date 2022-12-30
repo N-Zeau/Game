@@ -45,7 +45,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
             while (pointRect[0].type == 0) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
-                t += 2;
+                t += 5;
                 pointRect = rectHere(map, x, y);
                 SDL_RenderDrawPoint(renderer, x, y);
             }
@@ -139,23 +139,23 @@ rectangle *Player::rectHere(Map map, float x, float y) {
 }
 
 SDL_Texture *Player::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
-    SDL_Surface *menu = nullptr;
-    menu = SDL_LoadBMP(nomFichier);
+    SDL_Surface *player = nullptr;
+    player = SDL_LoadBMP(nomFichier);
 
-    if (menu == nullptr) {
-        std::cout << "Echec du chargement du menu : " << SDL_GetError() << std::endl;
+    if (player == nullptr) {
+        std::cout << "Echec du chargement du player : " << SDL_GetError() << std::endl;
         return nullptr;
     }
 
     SDL_Texture *texture = nullptr;
-    texture = SDL_CreateTextureFromSurface(renderer, menu);
+    texture = SDL_CreateTextureFromSurface(renderer, player);
 
     if (texture == nullptr) {
         std::cout << "Echec du chargement de la texture : " << SDL_GetError() << std::endl;
         return nullptr;
     }
 
-    SDL_FreeSurface(menu);
+    SDL_FreeSurface(player);
     return texture;
 
 }
