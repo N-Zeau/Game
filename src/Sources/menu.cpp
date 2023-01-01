@@ -3,9 +3,9 @@
 void Menu::drawMenu() {
     SDL_Rect rectMenu = {0, 0, menuWIDTH, menuHEIGHT};
 
-    SDL_Texture *menuEmpty = chargerImage("../Menu/1.bmp", renderer);
-    SDL_Texture *menuPlay = chargerImage("../Menu/2.bmp", renderer);
-    SDL_Texture *menuSettings = chargerImage("../Menu/3.bmp", renderer);
+    SDL_Texture *menuEmpty = chargerImage("../Ressources/Menu/1.bmp", renderer);
+    SDL_Texture *menuPlay = chargerImage("../Ressources/Menu/2.bmp", renderer);
+    SDL_Texture *menuSettings = chargerImage("../Ressources/Menu/3.bmp", renderer);
 
 
     if (mouseInButton(buttonPlay)) {

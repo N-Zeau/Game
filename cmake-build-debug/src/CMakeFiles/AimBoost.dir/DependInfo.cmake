@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Peultier Enzo/CLionProjects/Game/src/Sources/game.cpp" "src/CMakeFiles/AimBoost.dir/Sources/game.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/game.cpp.obj.d"
-  "C:/Users/Peultier Enzo/CLionProjects/Game/src/Sources/main.cpp" "src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/main.cpp.obj.d"
-  "C:/Users/Peultier Enzo/CLionProjects/Game/src/Sources/map.cpp" "src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/map.cpp.obj.d"
-  "C:/Users/Peultier Enzo/CLionProjects/Game/src/Sources/menu.cpp" "src/CMakeFiles/AimBoost.dir/Sources/menu.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/menu.cpp.obj.d"
-  "C:/Users/Peultier Enzo/CLionProjects/Game/src/Sources/player.cpp" "src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/player.cpp.obj.d"
-  "C:/Users/Peultier Enzo/CLionProjects/Game/src/Sources/settings.cpp" "src/CMakeFiles/AimBoost.dir/Sources/settings.cpp.obj" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/settings.cpp.obj.d"
+  "/home/peultier/CLionProjects/Game/src/Sources/game.cpp" "src/CMakeFiles/AimBoost.dir/Sources/game.cpp.o" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/game.cpp.o.d"
+  "/home/peultier/CLionProjects/Game/src/Sources/main.cpp" "src/CMakeFiles/AimBoost.dir/Sources/main.cpp.o" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/main.cpp.o.d"
+  "/home/peultier/CLionProjects/Game/src/Sources/map.cpp" "src/CMakeFiles/AimBoost.dir/Sources/map.cpp.o" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/map.cpp.o.d"
+  "/home/peultier/CLionProjects/Game/src/Sources/menu.cpp" "src/CMakeFiles/AimBoost.dir/Sources/menu.cpp.o" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/menu.cpp.o.d"
+  "/home/peultier/CLionProjects/Game/src/Sources/player.cpp" "src/CMakeFiles/AimBoost.dir/Sources/player.cpp.o" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/player.cpp.o.d"
+  "/home/peultier/CLionProjects/Game/src/Sources/settings.cpp" "src/CMakeFiles/AimBoost.dir/Sources/settings.cpp.o" "gcc" "src/CMakeFiles/AimBoost.dir/Sources/settings.cpp.o.d"
   )
 
 # Targets to which this target links.

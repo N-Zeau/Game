@@ -1,6 +1,6 @@
 #include "../Headers/main.h"
 
-int WinMain() {
+int main() {
     Game game;
     Settings settings;
     Menu menu;

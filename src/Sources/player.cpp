@@ -44,7 +44,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
             while (pointRect[0].type == 0) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
-                t += 3; // Plus le chiffre est bas, plus la qualité du Rendu augmente.
+                t += 5; // Plus le chiffre est bas, plus la qualité du Rendu augmente.
                 pointRect = rectHere(map, x, y);
                 SDL_RenderDrawPoint(renderer, x, y);
             }
@@ -87,7 +87,7 @@ void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
     SDL_RenderDrawLine(renderer, xCross - sizeCross, yCross, xCross + sizeCross, yCross);
 
     //Arme du joueur
-    SDL_Texture *gun = chargerImage("../GamePlay/GunFPS.bmp", renderer);
+    SDL_Texture *gun = chargerImage("../Ressources/GamePlay/GunFPS.bmp", renderer);
     SDL_RenderCopy(renderer, gun, &rectGunFPS, &rectGunScreen);
 
 }
