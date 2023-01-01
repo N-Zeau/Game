@@ -16,6 +16,7 @@ public:
     SDL_Color playerColor{};
     SDL_Rect rectGunFPS = {0,0,733,526};
     SDL_Rect rectGunScreen = {645,420,418,300};
+    SDL_Texture *gun;
 
     std::vector<double> visionPlayer(SDL_Renderer *renderer, Map map);
 

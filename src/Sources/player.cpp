@@ -20,21 +20,11 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
     std::vector<double> collision(Render3DSize);//Tableau des Points qui va créer la vision 3D du jouer
     //Affiche le cône si le joueur n'est pas dans un mur
     if (playerRect[0].type == 0) {
-        //Récupération des coordonnées de la souris
-        int mouseX;
-        int mouseY;
-        SDL_GetMouseState(&mouseX, &mouseY);
-        float dx = mouseX - repereX;
-        float dy = mouseY - repereY;
-        float len = std::sqrt(dx * dx + dy * dy);
-        dx /= len;
-        dy /= len;
-        float alpha = angle;//std::atan2(dy, dx);
         const float fov = 68 * M_PI / 180; //Champ de vision du joueur en Radians
 
         //Affiche chaques lignes qui compose le cône
-        for (int i = 0; i < (int) Render3DSize; i++) {
-            float beta = alpha - fov / 2. + i / Render3DSize * fov;
+        for (int i = 0; i < (int) Render3DSize; i+=3) {
+            float beta = angle - fov / 2. + i / Render3DSize * fov;
             int t = 0;
             float x = repereX + std::cos(beta) * t;
             float y = repereY + std::sin(beta) * t;
@@ -53,7 +43,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
             double ABsquare = pow(std::abs(x - repereX), 2);
             double BCsquare = pow(std::abs(y - repereY), 2);
             double distVision = std::sqrt(ABsquare + BCsquare);
-            collision[i] = distVision * std::cos(alpha - beta);
+            collision[i] = distVision * std::cos(angle - beta);
         }
 
     }
@@ -65,7 +55,7 @@ void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
     auto view3D = visionPlayer(renderer, map);
 
     constexpr double wall_max = 720;
-    for (int i = 0; i < (int) Render3DSize; i++) {
+    for (int i = 0; i < (int) Render3DSize; i+=3) {
         double wallSize = round(wall_max / (1 + view3D[i] / 100.) / 2);
         //trace le contour en haut et en bas du mur en noir
         for (int j = 0; j < 3; ++j) {
@@ -87,7 +77,6 @@ void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
     SDL_RenderDrawLine(renderer, xCross - sizeCross, yCross, xCross + sizeCross, yCross);
 
     //Arme du joueur
-    SDL_Texture *gun = chargerImage("../Ressources/GamePlay/GunFPS.bmp", renderer);
     SDL_RenderCopy(renderer, gun, &rectGunFPS, &rectGunScreen);
 
 }
@@ -105,6 +94,10 @@ void Player::initPlayer(SDL_Renderer *renderer, Map map) {
     playerRect.x = playerX, playerRect.y = playerY;
     playerRect.w = playerSize, playerRect.h = playerSize;
     SDL_RenderDrawRect(renderer, &playerRect);
+
+    //Charge l'image de l'arme du joueur
+    gun = chargerImage("../Ressources/GamePlay/GunFPS.bmp", renderer);
+
 }
 
 void Player::updatePlayer(SDL_Renderer *renderer) {

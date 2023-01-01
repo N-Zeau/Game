@@ -1,13 +1,7 @@
 #include "../Headers/menu.h"
 
 void Menu::drawMenu() {
-    SDL_Rect rectMenu = {0, 0, menuWIDTH, menuHEIGHT};
-
-    SDL_Texture *menuEmpty = chargerImage("../Ressources/Menu/1.bmp", renderer);
-    SDL_Texture *menuPlay = chargerImage("../Ressources/Menu/2.bmp", renderer);
-    SDL_Texture *menuSettings = chargerImage("../Ressources/Menu/3.bmp", renderer);
-
-
+    //Affiche l'image du Menu en fonction de la position de la souris
     if (mouseInButton(buttonPlay)) {
         SDL_RenderCopy(renderer, menuPlay, &rectMenu, &rectMenu);
     } else if (mouseInButton(buttonSettings)) {
@@ -33,6 +27,10 @@ void Menu::create() {
     //Initialisation du titre de la fenêtre
     SDL_SetWindowTitle(window, "AimBoost");
 
+    menuEmpty = chargerImage("../Ressources/Menu/1.bmp", renderer);
+    menuPlay = chargerImage("../Ressources/Menu/2.bmp", renderer);
+    menuSettings = chargerImage("../Ressources/Menu/3.bmp", renderer);
+
 }
 
 void Menu::loop() {
@@ -48,7 +46,7 @@ void Menu::loop() {
             case SDL_MOUSEBUTTONDOWN:
                 if (mouseInButton(buttonPlay)) {
                     switchGame = true;
-                } else if(mouseInButton(buttonSettings)){
+                } else if (mouseInButton(buttonSettings)) {
                     switchSettings = true;
                 }
                 break;

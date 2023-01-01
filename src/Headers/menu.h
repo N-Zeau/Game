@@ -1,5 +1,6 @@
 #ifndef GAME_MENU_H
 #define GAME_MENU_H
+
 #include "SDL2/SDL.h"
 #include <iostream>
 
@@ -11,8 +12,13 @@ public:
 
     SDL_Renderer *renderer = nullptr;
     SDL_Window *window = nullptr;
-    SDL_Rect buttonPlay = {217,370,265,68};
-    SDL_Rect buttonSettings = {217,479,265,68};
+    SDL_Rect buttonPlay = {217, 370, 265, 68};
+    SDL_Rect buttonSettings = {217, 479, 265, 68};
+    SDL_Rect rectMenu = {0, 0, menuWIDTH, menuHEIGHT};
+
+    SDL_Texture *menuEmpty;
+    SDL_Texture *menuPlay;
+    SDL_Texture *menuSettings;
 
     bool running = true;
     bool switchGame = false;

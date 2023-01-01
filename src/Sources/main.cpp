@@ -25,6 +25,8 @@ int main() {
             game.drawMain();
             //Montre tout ce qui a été fait sur la fenêtre (renderer)
             SDL_RenderPresent(game.renderer);
+            //Delay
+            SDL_Delay(10);
         }
         game.destroy();
 

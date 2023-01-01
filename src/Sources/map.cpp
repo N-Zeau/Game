@@ -51,6 +51,9 @@ void Map:: drawMap(SDL_Renderer* renderer) {
             int h = rect[compteur].h = sizeTextureOnScreenHeight;
 
             switch (tabMap[j][i]) {
+                case'2':
+                    
+                    break;
                 case '1':
                     rectSrc[compteur].x = 0;
                     rectSrc[compteur].y = 0;

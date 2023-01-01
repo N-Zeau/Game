@@ -11,6 +11,18 @@ struct rectangle {
     int type;
 };
 
+struct s_piece{
+    SDL_Rect * piece;
+};
+typedef s_piece * piece_t;
+
+struct s_liste{
+    piece_t ele;
+    s_liste * next;
+};
+typedef s_liste * liste_t;
+
+
 class Map {
 public:
     int WIDTH;
@@ -18,6 +30,7 @@ public:
     int nbCase;
 
     struct rectangle* mapCoordinate;
+    liste_t pieces;
 
     void drawMap(SDL_Renderer* renderer);
 
