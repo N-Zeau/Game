@@ -88,7 +88,7 @@ void Map:: drawMap(SDL_Renderer* renderer) {
 
 char **Map::importMap(int *nbL, int *nbC) {
     FILE *mapTxt = nullptr;
-    mapTxt = fopen("../../Ressources/Map/map.txt", "r");
+    mapTxt = fopen("../Ressources/Map/map.txt", "r");
     char cara;
     int nbLigne = 0; //Nombres de Lignes dans le .txt
     int nbColonneTemp = 0;
