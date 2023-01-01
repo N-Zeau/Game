@@ -1,4 +1,0 @@
-C:\Users\enzop\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\enzop\CLionProjects\Game -B C:\Users\enzop\CLionProjects\Game\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/enzop/CLionProjects/Game/cmake-build-debug

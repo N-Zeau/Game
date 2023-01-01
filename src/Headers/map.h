@@ -16,11 +16,10 @@ public:
     int WIDTH;
     int HEIGHT;
     int nbCase;
-    SDL_Renderer* rendererMap = nullptr;
 
     struct rectangle* mapCoordinate;
 
-    void drawMap(SDL_Renderer* renderer, char **map);
+    void drawMap(SDL_Renderer* renderer);
 
     SDL_Texture *chargerImage(const char *nomFichier, SDL_Renderer* renderer);
 

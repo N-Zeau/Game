@@ -22,7 +22,7 @@ SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer* renderer) {
 
 }
 
-void Map:: drawMap(SDL_Renderer* renderer, char **map) {
+void Map:: drawMap(SDL_Renderer* renderer) {
 
     int nbL;
     int nbC;
@@ -33,7 +33,7 @@ void Map:: drawMap(SDL_Renderer* renderer, char **map) {
     int sizeTextureOnScreenHeight = HEIGHT / nbL; //Taille de la hauteur de la texture affiché sur la fenêtre
 
     //Import du fichier Mur dans une texture
-    SDL_Texture *wall = chargerImage("../Map/Mur.bmp", renderer);
+    SDL_Texture *wall = chargerImage("../Map/Mur.bmp", renderer); //Mettre " ../Ressources/Map/Mur.bmp " pour le make sous Linux
 
     SDL_Rect rectSrc[nbC * nbL];  //Rectangle correspondant à la source du pavé (Celui affiché)
     SDL_Rect rect[nbC * nbL]; //Position et dimension du Rectangle qui va être affiché dans la fenêtre

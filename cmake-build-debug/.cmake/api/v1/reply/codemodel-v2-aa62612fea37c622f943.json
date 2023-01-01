@@ -55,7 +55,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "AimBoost::@145eef247bfb46b6828c",
-					"jsonFile" : "target-AimBoost-Debug-ed9ff22c6217073f9075.json",
+					"jsonFile" : "target-AimBoost-Debug-8bca8a6a02d16b568372.json",
 					"name" : "AimBoost",
 					"projectIndex" : 0
 				}
@@ -65,8 +65,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/enzop/CLionProjects/Game/cmake-build-debug",
-		"source" : "C:/Users/enzop/CLionProjects/Game"
+		"build" : "C:/Users/Peultier Enzo/CLionProjects/Game/cmake-build-debug",
+		"source" : "C:/Users/Peultier Enzo/CLionProjects/Game"
 	},
 	"version" : 
 	{
