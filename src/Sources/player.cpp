@@ -34,7 +34,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
             while (pointRect[0].type == 0) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
-                t += 5; // Plus le chiffre est bas, plus la qualité du Rendu augmente.
+                t += 3; // Plus le chiffre est bas, plus la qualité du Rendu augmente.
                 pointRect = rectHere(map, x, y);
                 SDL_RenderDrawPoint(renderer, x, y);
             }
@@ -85,8 +85,10 @@ void Player::initPlayer(SDL_Renderer *renderer, Map map) {
     //Valeur du joueur par défaut
     playerColor = {250, 128, 114, 255};
     playerSize = 10;
+    angle = 0;
     playerX = (map.WIDTH / 2) - playerSize / 2;
     playerY = (map.HEIGHT / 2) - playerSize / 2;
+    
 
     //LE JOUEUR
     SDL_SetRenderDrawColor(renderer, playerColor.r, playerColor.g, playerColor.b, playerColor.a);

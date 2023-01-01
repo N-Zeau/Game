@@ -95,10 +95,10 @@ void Game::handleEvents() {
                             player.playerX += speed;
                         break;
                     case SDLK_LEFT:
-                        player.angle -= 0.2;
+                        player.angle -= 0.1;
                         break;
                     case SDLK_RIGHT:
-                        player.angle += 0.2;
+                        player.angle += 0.1;
                         break;
                 }
                 break;

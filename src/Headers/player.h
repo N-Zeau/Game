@@ -8,9 +8,9 @@
 class Player {
 
 public:
-    float playerX{};
-    float playerY{};
-    float angle = 0;
+    float playerX;
+    float playerY;
+    float angle;
     int playerSize{};
     float Render3DSize;
     SDL_Color playerColor{};

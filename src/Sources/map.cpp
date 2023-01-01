@@ -1,6 +1,6 @@
 #include "../Headers/map.h"
 
-SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer* renderer) {
+SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
     SDL_Surface *wall = nullptr;
     wall = SDL_LoadBMP(nomFichier);
 
@@ -22,7 +22,7 @@ SDL_Texture *Map::chargerImage(const char *nomFichier, SDL_Renderer* renderer) {
 
 }
 
-void Map:: drawMap(SDL_Renderer* renderer) {
+void Map::drawMap(SDL_Renderer *renderer) {
 
     int nbL;
     int nbC;
@@ -33,12 +33,13 @@ void Map:: drawMap(SDL_Renderer* renderer) {
     int sizeTextureOnScreenHeight = HEIGHT / nbL; //Taille de la hauteur de la texture affiché sur la fenêtre
 
     //Import du fichier Mur dans une texture
-    SDL_Texture *wall = chargerImage("../Ressources/Map/Mur.bmp", renderer); //Mettre " ../Ressources/Map/Mur.bmp " pour le make sous Linux
+    SDL_Texture *wall = chargerImage("../Ressources/Map/Mur.bmp",
+                                     renderer); //Mettre " ../Ressources/Map/Mur.bmp " pour le make sous Linux
 
     SDL_Rect rectSrc[nbC * nbL];  //Rectangle correspondant à la source du pavé (Celui affiché)
     SDL_Rect rect[nbC * nbL]; //Position et dimension du Rectangle qui va être affiché dans la fenêtre
     int compteur = 0;
-    mapCoordinate = new rectangle[nbC*nbL];
+    mapCoordinate = new rectangle[nbC * nbL];
 
     //Affichage de la map
     for (int i = 0; i < nbC; i++) {
@@ -51,8 +52,8 @@ void Map:: drawMap(SDL_Renderer* renderer) {
             int h = rect[compteur].h = sizeTextureOnScreenHeight;
 
             switch (tabMap[j][i]) {
-                case'2':
-                    
+                case '2':
+
                     break;
                 case '1':
                     rectSrc[compteur].x = 0;
@@ -76,7 +77,7 @@ void Map:: drawMap(SDL_Renderer* renderer) {
                     y,
                     x + w,
                     y + h,
-                    type };
+                    type};
 
             compteur++;
         }
@@ -91,7 +92,7 @@ void Map:: drawMap(SDL_Renderer* renderer) {
 
 char **Map::importMap(int *nbL, int *nbC) {
     FILE *mapTxt = nullptr;
-    mapTxt = fopen("../Ressources/Map/map.txt", "r");
+    mapTxt = fopen("../Ressources/Map/map2.txt", "r");
     char cara;
     int nbLigne = 0; //Nombres de Lignes dans le .txt
     int nbColonneTemp = 0;
@@ -155,5 +156,25 @@ char **Map::importMap(int *nbL, int *nbC) {
 }
 
 
+bool Map::isEmpty(liste_t liste) {
+    return liste == nullptr;
+}
 
+liste_t Map::l_empty() {
+    return nullptr;
+}
 
+liste_t Map::cons(char nbPiece, liste_t L) {
+    liste_t M = l_empty();
+    M = static_cast<liste_t>(malloc(sizeof(struct s_liste)));
+    M->nbPiece = nbPiece;
+    M->next = L;
+    return M;
+}
+
+liste_t Map::next(liste_t L) {
+    liste_t Suivant = L->next;
+    free(L);
+    L = Suivant;
+    return L;
+}
