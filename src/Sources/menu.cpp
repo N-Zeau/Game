@@ -1,5 +1,8 @@
 #include "../Headers/menu.h"
 
+/*
+ * Cette fonction dessine le Menu
+ */
 void Menu::drawMenu() {
     //Affiche l'image du Menu en fonction de la position de la souris
     if (mouseInButton(buttonPlay)) {
@@ -15,7 +18,9 @@ void Menu::drawMenu() {
 
 }
 
-
+/*
+ * Cette fonction créer le Menu
+ */
 void Menu::create() {
     //Creation de la fenêtre et du renderer
     SDL_CreateWindowAndRenderer(menuWIDTH,
@@ -33,6 +38,9 @@ void Menu::create() {
 
 }
 
+/*
+ * Cette fonction gère le changement de fenêtre entre le menu et le Jeu ou les Settings
+ */
 void Menu::loop() {
     SDL_Event event;
     if (SDL_PollEvent(&event)) {
@@ -54,12 +62,20 @@ void Menu::loop() {
     }
 }
 
+/*
+ * Cette fonction supprime le renderer et la fneêtre utilisé pour créer le Menu
+ */
 void Menu::destroy() {
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
     SDL_Quit();
 }
 
+/*
+ * Cette fonction verifie si la souris est dans un rectangle
+ * @param SDL_Rect button, le rectangle à tester
+ * @return return si la souris est dans le rectangle
+ */
 bool Menu::mouseInButton(SDL_Rect button) {
     int mouseX, mouseY;
     SDL_GetMouseState(&mouseX, &mouseY);
@@ -74,6 +90,12 @@ bool Menu::mouseInButton(SDL_Rect button) {
     }
 }
 
+/*
+ * Cette fonction charge une image dans une texture et renvoie cette texture
+ * @param const char *nomfichier, chemin relatif du fichier
+ * @param SDL_Renderer le renderer de la fenêtre
+ * @return retourne la texture à partir de l'image
+ */
 SDL_Texture *Menu::chargerImage(const char *nomFichier, SDL_Renderer *renderer) {
     SDL_Surface *menu = nullptr;
     menu = SDL_LoadBMP(nomFichier);
