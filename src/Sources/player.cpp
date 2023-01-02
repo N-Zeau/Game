@@ -27,7 +27,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
         const float fov = 68 * M_PI / 180; //Champ de vision du joueur en Radians
 
         //Affiche chaques lignes qui compose le cône
-        for (int i = 0; i < (int) Render3DSize; i += 3) {
+        for (int i = 0; i < (int) Render3DSize; i ++) {
             float beta = angle - fov / 2. + i / Render3DSize * fov;
             int t = 0;
             float x = repereX + std::cos(beta) * t;
@@ -38,7 +38,7 @@ std::vector<double> Player::visionPlayer(SDL_Renderer *renderer, Map map) {
             while (pointRect[0].type == 0) {
                 x = repereX + std::cos(beta) * t;
                 y = repereY + std::sin(beta) * t;
-                t += 3; // Plus le chiffre est bas, plus la qualité du Rendu augmente.
+                t += 2; // Plus le chiffre est bas, plus la qualité du Rendu augmente.
                 pointRect = rectHere(map, x, y);
                 SDL_RenderDrawPoint(renderer, x, y);
             }
@@ -64,7 +64,7 @@ void Player::vision3DPlayer(SDL_Renderer *renderer, Map map) {
     auto view3D = visionPlayer(renderer, map);
 
     constexpr double wall_max = 720;
-    for (int i = 0; i < (int) Render3DSize; i += 3) {
+    for (int i = 0; i < (int) Render3DSize; i ++) {
         double wallSize = round(wall_max / (1 + view3D[i] / 100.) / 2);
         //trace le contour en haut et en bas du mur en noir
         for (int j = 0; j < 3; ++j) {

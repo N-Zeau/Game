@@ -1,4 +1,1 @@
-/home/peultier/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/peultier/CLionProjects/Game -B /home/peultier/CLionProjects/Game/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /home/peultier/CLionProjects/Game/cmake-build-debug
+CMakeLists.txt not found in /home/peultier/CLionProjects/Game Select CMakeLists.txt
